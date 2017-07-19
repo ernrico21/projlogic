@@ -1,4 +1,4 @@
-#function for building the matrix where every line is a clause
+#function for building the matrix where every line is a clause prova
 
 def findAnd(c,i):
     if (c[i+1]=='n'or c[i+1]=='N') and (c[i+2]=='d' or c[i+2]=='D'):
