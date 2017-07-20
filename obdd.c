@@ -289,10 +289,10 @@ int obdd_to_dot(int n, obdd_t* p, FILE *out)
 
 
 // Decompose bdd into satisfying assignments.
-static uintptr_t obdd_decompose_main(FILE *out, int n, obdd_t* p, uintptr_t (*func)(FILE *, int, int, int*))
+static uintptr_t obdd_decompose_main(FILE *out, int n, obdd_t* p, uintptr_t (*func)(FILE *, int, int, int*,char*),int* solutions)
 {
   uintptr_t total   = 0;  // total number of total solutions
-
+  solutions="";
   int *a = (int*)malloc(sizeof(int)*(n+1));
   ENSURE_TRUE_MSG(a != NULL, "memory allocation failed");
   for(int i = 0; i <= n; i++) a[i] = 0;
@@ -308,9 +308,10 @@ static uintptr_t obdd_decompose_main(FILE *out, int n, obdd_t* p, uintptr_t (*fu
       b[t++]  = p;
       a[s++]  = -(p->v);
       p       = p->lo;
+      printf("%d \n",a[s-1]);
     }
     if(p == obdd_top()) {
-        uintptr_t result = func(out, s, n, a);
+        uintptr_t result = func(out, s, n, a,solutions);
         if(total < UINTPTR_MAX - result)
             total += result;
         else
@@ -323,7 +324,6 @@ static uintptr_t obdd_decompose_main(FILE *out, int n, obdd_t* p, uintptr_t (*fu
     a[s] = abs(a[s]); s++;
     p = p->hi;
   }
-
   free(b); free(a);
   return total;
 }
@@ -335,22 +335,23 @@ static uintptr_t obdd_decompose_main(FILE *out, int n, obdd_t* p, uintptr_t (*fu
  * \param   n       the number of variables 
  * \return  the number of total assignments
  */
-static uintptr_t fprintf_partial(FILE *out, int s, int n, int *a)
+static uintptr_t fprintf_partial(FILE *out, int s, int n, int *a,int* solutions)
 {
     int prev = 0;
     uintptr_t sols = 1;
-    for(int j = 0; j < s; j++) {
+    for(int j = 0; j < s; j++) { 
         fprintf(out, "%d ", a[j]);
+      //  solutions=snprintf(solutions,"%d ", i);
         sols = my_mul_2exp(sols, abs(a[j])-prev-1);
         prev = abs(a[j]);
     }
     fprintf(out, "0\n");
-
+      
     return my_mul_2exp(sols, n-prev);
 }
 
 
-uintptr_t obdd_decompose(FILE *out, int n, obdd_t* p)
+uintptr_t obdd_decompose(FILE *out, int n, obdd_t* p,int* solutions)
 {
-    return obdd_decompose_main(out, n, p, fprintf_partial);
+    return obdd_decompose_main(out, n, p, fprintf_partial,solutions);
 }

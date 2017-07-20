@@ -241,6 +241,7 @@ int main(int argc, char** argv)
     s->stats.clk = clock();
 
     char *outfile = "out";
+    int *solutions;
     int  lim, span, maxnodes;
   
     /*** RECEIVE INPUTS ***/  
@@ -309,7 +310,7 @@ int main(int argc, char** argv)
 	}
 
     if (outfile != NULL)
-        obdd_decompose(out, s->size, s->root);
+        obdd_decompose(out, s->size, s->root,solutions);
 
 #ifdef REDUCTION
     if (s->stats.refreshes == 0) { // perform reduction if obdd has not been refreshed.
