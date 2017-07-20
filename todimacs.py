@@ -1,4 +1,5 @@
 #function for building the matrix where every line is a clause
+import subprocess
 
 def findAnd(c,i):
     if (c[i+1]=='n'or c[i+1]=='N') and (c[i+2]=='d' or c[i+2]=='D'):
@@ -16,9 +17,11 @@ def findNot(c,i):
     else:
         return -1
 
-def buildMatrix(c):
+def buildDimacsString(c,variables):
     first=1 #if is the first line
-    matrix=[[]]
+    #matrix=[[]]
+    cnfstring='';
+    nVar=0
     nRow=0 #number of clause
     buff=[]; #for buffering the letter for the variables
     end=0;
@@ -27,6 +30,8 @@ def buildMatrix(c):
     leng=len(c)
     operations=[] #operation's stack
     variable="";
+    indexvariable=1 #index for variables
+    minus=0 #ven writing variabile if is negated
 
     while i<leng:
         j=-1
@@ -53,11 +58,31 @@ def buildMatrix(c):
                 while k<lengbuff :
                     variable += buff.pop(0)
                     k+=1
-            if operations[-1] == 'Or':        
-                matrix[nRow].append(variable) #add the variable of the clause in the row
-                variable=""
+            if operations[-1] == 'Or':    
+                if variable[0]=='-':
+                    variable=variable[1:len(variable)]
+                    minus=1
+
+                if variable not in variables:
+                    variables.update({variable:indexvariable})                    
+                    variable=str(indexvariable)
+                    nVar+=1
+                    if minus == 1:
+                        variable='-'+variable
+                        minus=0
+                    indexvariable+=1
+                else:
+                    variable=str(variables[variable])
+		    if minus ==1:
+                        variable='-'+variable    
+                        minus=0                    
+                #matrix[nRow].append(variable) #add the variable of the clause in the row
+                cnfstring+=(variable+' ')
+                variable=''
+            
             elif operations[-1] == 'And':   #means that this clause is finished so i start another one
-                matrix.append([]) 
+                #matrix.append([])
+                cnfstring+='0\n' 
                 nRow+=1
                 #variable=""
         elif c[i] == ')':
@@ -71,22 +96,49 @@ def buildMatrix(c):
                 variable='-'+variable
                 operations.pop()
             elif operations[-1] == 'Or' :
-                matrix[nRow].append(variable) #add the variable of the clause in the row
-                variable=""   
+                if variable[0]=='-':
+                    variable=variable[1:len(variable)]
+                    minus=1
+
+                if variable not in variables:
+                    variables.update({variable:indexvariable})
+                    variable=str(indexvariable)
+                    nVar+=1
+                    if minus == 1:
+                        variable='-'+variable
+                        minus=0
+                    indexvariable+=1
+                else:
+                    variable=str(variables[variable])
+		    if minus ==1:
+                        variable='-'+variable    
+                        minus=0                    
+                #matrix[nRow].append(variable) #add the variable of the clause in the row
+                cnfstring+=(variable+' ')
+                variable=''
                 operations.pop()
-            # elif operations[-1]== 'And' :
+            elif operations[-1]== 'And' :
+                 cnfstring+='0\n'
         else:
             if c[i]!='('  and j== -1 and c[i]!=' ':
                 buff.append(c[i])
         i=i2
         i+=1    
-    return matrix
+    #matrix.append([nRow+1,len(variables)])
+    return (cnfstring,nVar,nRow)
         
 
-s='And(Or(Not(var1), var2), Or(Not(var2), var1), Or(var1, var2))'
-matrice = buildMatrix(s)  
-print(matrice)
-
+s='And(Or(Not(var1), var2, var3), Or(Not(var2), var1, var3), Or(var1, var2, var4))'
+variables={}
+nVar=0
+nClause=0
+t=()
+t = buildDimacsString(s,variables)  
+stringadimacs='p cnf '+str(t[1])+' '+str(t[2])+'\n'+t[0]
+print(stringadimacs)
+print(variables)
+args = ['./bdd_minisat_all',stringadimacs]
+subprocess.call(args)
 
 
 
