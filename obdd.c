@@ -342,7 +342,7 @@ static uintptr_t fprintf_partial(FILE *out, int s, int n, int *a)
         //solutions=snprintf(solutions,"%d ", i);
 	if(a[j]<0)
 	{
-        	printf("-1 ");
+        	printf("0 ");
 	}
 	else
 	{
@@ -352,7 +352,7 @@ static uintptr_t fprintf_partial(FILE *out, int s, int n, int *a)
         prev = abs(a[j]);
     }
     //fprintf(out, "0\n");
-    //printf("\n");  
+    printf("\n");  
     return my_mul_2exp(sols, n-prev);
 }
 

@@ -150,7 +150,7 @@ static lbool parse_DIMACS(char * in, solver* s) {
 void printStats(stats* stats, int cpu_time, bool interrupted)
 {
     double Time    = (float)(cpu_time)/(float)(CLOCKS_PER_SEC);
-    printf("restarts          : %12llu\n", stats->starts);
+    /*printf("restarts          : %12llu\n", stats->starts);
     printf("conflicts         : %12.0f           (%9.0f / sec      )\n",  (double)stats->conflicts   , (double)stats->conflicts   /Time);
     printf("decisions         : %12.0f           (%9.0f / sec      )\n",  (double)stats->decisions   , (double)stats->decisions   /Time);
     printf("propagations      : %12.0f           (%9.0f / sec      )\n",  (double)stats->propagations, (double)stats->propagations/Time);
@@ -211,6 +211,7 @@ void printStats(stats* stats, int cpu_time, bool interrupted)
         printf("+");
     printf("\n");
 #endif
+*/
 }
 
 volatile sig_atomic_t eflag = 0;
@@ -318,8 +319,8 @@ int main(int argc, char** argv)
         clock_t starttime_reduce = clock();
         bddp  f = bdd_reduce(s->root);
         clock_t endtime_reduce = clock();
-        printf("cpu time (reduce) : %12.2f sec\n", (float)(endtime_reduce - starttime_reduce)/(float)(CLOCKS_PER_SEC));
-        printf("|bdd|             : %12ju\n",  bdd_size(f));
+        //printf("cpu time (reduce) : %12.2f sec\n", (float)(endtime_reduce - starttime_reduce)/(float)(CLOCKS_PER_SEC));
+        //printf("|bdd|             : %12ju\n",  bdd_size(f));
     }
 #endif
 

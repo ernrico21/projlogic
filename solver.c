@@ -51,8 +51,8 @@ static inline void check(int expr) { assert(expr); }
 static void printlits(lit* begin, lit* end)
 {
     int i;
-    for (i = 0; i < end - begin; i++)
-        printf(L_LIT" ",L_lit(begin[i]));
+    //for (i = 0; i < end - begin; i++)
+      //  printf(L_LIT" ",L_lit(begin[i]));
 }
 
 //=================================================================================================
@@ -156,36 +156,37 @@ static void solver_printtrail(solver *s){
     int lev = -1;
     int sublev = s->root_level;
 
-    printf("--------------------------------------------------------------------------------");fflush(stdout);
+   // printf("--------------------------------------------------------------------------------");fflush(stdout);
     for (int i = 0; i <= s->qtail-1; i++) {
         lit t = s->trail[i];
         if (lev < s->levels[lit_var(t)]) {
             lev = s->levels[lit_var(t)];
-            printf("\n#%d ", lev); // newline for each level 
+       //     printf("\n#%d ", lev); // newline for each level 
         }
 #ifdef NONBLOCKING
         if (sublev < s->sublevels[lit_var(t)]) {
             sublev = s->sublevels[lit_var(t)];
-            printf("| "); // separator of sublevels
+       //     printf("| "); // separator of sublevels
         }
 #endif /*NONBLOCKING*/
-        printf(L_LIT"%s ", L_lit(t), s->reasons[lit_var(t)] == (clause*)0? "*":"");// "*" means having NULL antecedent.
+       // printf(L_LIT"%s ", L_lit(t), s->reasons[lit_var(t)] == (clause*)0? "*":"");// "*" means having NULL antecedent.
     }
-    printf("\n\n");
-    printf("\n--------------------------------------------------------------------------------\n");fflush(stdout);
+  //  printf("\n\n");
+    //printf("\n--------------------------------------------------------------------------------\n");fflush(stdout);
 }
 
 #ifdef NONBLOCKING
 static void solver_printgencls(solver *s) // for debug
 {
-    printf("#generated_clauses %d:\n", vecp_size(&s->generated_clauses));
+    //printf("#generated_clauses %d:\n", vecp_size(&s->generated_clauses));
     for (int i = 0; i < vecp_size(&s->generated_clauses); i++) {
         veci *v = (veci*)vecp_begin(&s->generated_clauses)[i];
-        for (int j = 0; j < veci_size(v); j++) 
-            printf(L_LIT" ", L_lit(veci_begin(v)[j]));
-        printf("\n");
+        //for (int j = 0; j < veci_size(v); j++) 
+           // printf(L_LIT" ", L_lit(veci_begin(v)[j]));
+       // printf("\n");
     }
-    printf("\n");fflush(stdout);
+  //  printf("\n");
+  fflush(stdout);
 }
 #endif /*NONBLOCKING*/
 
@@ -283,7 +284,7 @@ static inline void solver_printstatus(solver *s)
     //if (s->verbosity < 1) 
     return;
 
-    printf("%.1f", (float)(clock() - s->stats.clk)/(float)(CLOCKS_PER_SEC));
+    /*printf("%.1f", (float)(clock() - s->stats.clk)/(float)(CLOCKS_PER_SEC));
     printf("\t%ju", s->stats.conflicts);
     printf("\t%ju", s->stats.propagations);
 
@@ -298,7 +299,7 @@ static inline void solver_printstatus(solver *s)
     printf("\t\t%d", vecp_size(&s->clauses));
     printf("\t\t%d", vecp_size(&s->learnts));
     printf("\t\t%ju", obdd_nnodes());
-    printf("\n");
+    printf("\n");*/
 }
 
 //=================================================================================================
@@ -1348,8 +1349,8 @@ static void solver_analyze(solver* s, clause* c, veci* learnt, lit target_lit)
 #endif
 
 #ifdef VERBOSEDEBUG
-    printf(L_IND"Learnt {", L_ind);
-    for (i = 0; i < veci_size(learnt); i++) printf(" "L_LIT, L_lit(lits[i]));
+   // printf(L_IND"Learnt {", L_ind);
+    //for (i = 0; i < veci_size(learnt); i++) printf(" "L_LIT, L_lit(lits[i]));
 #endif
     if (veci_size(learnt) > 1){
         int max_i = 1;
@@ -1837,22 +1838,22 @@ static lbool solver_resolve_conflict(solver *s, clause *confl)
 {
 #if defined(BT)
 #ifdef VERBOSEDEBUG
-                printf(L_IND"**BT**\n", L_ind);
+             //   printf(L_IND"**BT**\n", L_ind);
 #endif
     return solver_resolve_conflict_bt(s, confl);
 #elif defined(BJ)
 #ifdef VERBOSEDEBUG
-                printf(L_IND"**BJ**\n", L_ind);
+             //   printf(L_IND"**BJ**\n", L_ind);
 #endif
     return solver_resolve_conflict_bj(s, confl);
 #elif defined(CBJ)
 #ifdef VERBOSEDEBUG
-                printf(L_IND"**CBJ**\n", L_ind);
+               // printf(L_IND"**CBJ**\n", L_ind);
 #endif
     return solver_resolve_conflict_cbj(s, confl);
 #else //BJ+CBJ
 #ifdef VERBOSEDEBUG
-                printf(L_IND"**BJ+CBJ**\n", L_ind);
+                //printf(L_IND"**BJ+CBJ**\n", L_ind);
 #endif
     return solver_resolve_conflict_bjcbj(s, confl);
 #endif
@@ -2010,7 +2011,7 @@ static lbool solver_search(solver* s, int nof_conflicts, int nof_learnts)
             // CONFLICT
             int blevel;
 #ifdef VERBOSEDEBUG
-            printf(L_IND"**CONFLICT**\n", L_ind);
+            //printf(L_IND"**CONFLICT**\n", L_ind);
 #endif
             s->stats.conflicts++; /*conflictC++;*/ 
             if (solver_dlevel(s) <= s->root_level){
@@ -2093,7 +2094,7 @@ static lbool solver_search(solver* s, int nof_conflicts, int nof_learnts)
 
             if (modelfound) {
 #ifdef VERBOSEDEBUG
-                printf(L_IND"**MODEL**\n", L_ind);
+              //  printf(L_IND"**MODEL**\n", L_ind);
 #endif
                 if (solver_dlevel(s) <= s->root_level){ // model found without any assumption
                     veci_delete(&learnt_clause);
@@ -2105,10 +2106,10 @@ static lbool solver_search(solver* s, int nof_conflicts, int nof_learnts)
                     veci_push(&learnt_clause, lit_neg(solver_assumedlit(s, i))); // set a blocking clause.
                 int blevel = solver_dlevel(s)-1;
 #ifdef VERBOSEDEBUG
-                printf(L_IND"Learnt {", L_ind);
+            //    printf(L_IND"Learnt {", L_ind);
                 for (int i = 0; i < veci_size(&learnt_clause); i++) 
-                    printf(" "L_LIT, L_lit(veci_begin(&learnt_clause)[i]));
-                printf(" } at level %d\n", blevel);
+              //      printf(" "L_LIT, L_lit(veci_begin(&learnt_clause)[i]));
+               // printf(" } at level %d\n", blevel);
 #endif
 
                 solver_insertcacheuntil(s, blevel);
@@ -2450,12 +2451,12 @@ bool   solver_solve(solver* s, lit* begin, lit* end)
         printf("==============================================================================\n");
     }*/
 
-    if (s->verbosity >= 1){
-        printf("==============================[MINISAT_ALL]==========================================\n");
+    /*if (s->verbosity >= 1){
+      /*  printf("==============================[MINISAT_ALL]==========================================\n");
         printf("| Time | Conflicts | Propagations | TOTAL       |            |   LEARNT  | OBDD     |\n");
         printf("|      |           |              | Solutions   | Clauses    |   Clauses | Nodes    |\n");
         printf("=====================================================================================\n");
-    }    
+    } */   
 
     while (status == l_Undef){
        /* double Ratio = (s->stats.learnts == 0)? 0.0 :
@@ -2478,9 +2479,9 @@ bool   solver_solve(solver* s, lit* begin, lit* end)
         //nof_learnts   *= 1.1;
     }
 
-    if (s->verbosity >= 1) {
+    /*if (s->verbosity >= 1) {
         printf("==============================================================================\n");
-    }
+    }*/
 
     totalup_stats(s);
     solver_canceluntil(s,0);
