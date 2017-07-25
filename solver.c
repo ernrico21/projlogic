@@ -822,10 +822,9 @@ static void solver_refreshobdd(solver *s)
     s->stats.refreshes++;
 
     totalup_stats(s);
-    int* solutions;
     if (s->out != NULL) {
         //printf("\tdecomposing bdd...");fflush(stdout);
-        obdd_decompose(s->out, s->size, s->root,solutions);
+        obdd_decompose(s->out, s->size, s->root);
     }
 
     obdd_delete_all(s->root);

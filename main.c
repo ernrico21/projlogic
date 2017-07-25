@@ -280,7 +280,7 @@ int main(int argc, char** argv)
 
 
     st = parse_DIMACS(in, s);
-    printf(in);
+    //printf(in);
     if (st == l_False){
         solver_delete(s);
         printf("Trivial problem\nUNSATISFIABLE\n");
@@ -310,7 +310,7 @@ int main(int argc, char** argv)
 	}
 
     if (outfile != NULL)
-        obdd_decompose(out, s->size, s->root,solutions);
+        obdd_decompose(out, s->size, s->root);
 
 #ifdef REDUCTION
     if (s->stats.refreshes == 0) { // perform reduction if obdd has not been refreshed.

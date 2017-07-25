@@ -1,4 +1,6 @@
 #function for building the matrix where every line is a clause
+
+
 import subprocess
 
 def findAnd(c,i):
@@ -21,6 +23,7 @@ def buildDimacsString(c,variables):
     first=1 #if is the first line
     #matrix=[[]]
     cnfstring='';
+    inv_variables={}
     nVar=0
     nRow=0 #number of clause
     buff=[]; #for buffering the letter for the variables
@@ -64,7 +67,8 @@ def buildDimacsString(c,variables):
                     minus=1
 
                 if variable not in variables:
-                    variables.update({variable:indexvariable})                    
+                    variables.update({variable:indexvariable})    
+		    inv_variables.update({indexvariable:variable})                
                     variable=str(indexvariable)
                     nVar+=1
                     if minus == 1:
@@ -102,6 +106,7 @@ def buildDimacsString(c,variables):
 
                 if variable not in variables:
                     variables.update({variable:indexvariable})
+		    inv_variables.update({indexvariable:variable})
                     variable=str(indexvariable)
                     nVar+=1
                     if minus == 1:
@@ -125,22 +130,43 @@ def buildDimacsString(c,variables):
         i=i2
         i+=1    
     #matrix.append([nRow+1,len(variables)])
-    return (cnfstring,nVar,nRow)
+    return (cnfstring,nVar,nRow,inv_variables)
         
 
-s='And(Or(Not(var1), var2, var3), Or(Not(var2), var1, var3), Or(var1, var2, var4))'
+#create matrix from the result string
+def buildMAtrix(str_results):
+    matrix=[]
+    i=0
+    j=0
+    z=0
+    splitted_str=str_results.split();
+    nlines=long(splitted_str[-1])
+    while(i<nlines):
+        matrix.append([])
+        z=0
+	while z<4:
+	    matrix[i].append(int(splitted_str[j]))
+            j+=1
+            z+=1
+        i+=1
+    print(matrix)
+
+s='And(Or(Not(var1), var3, var2), Or(Not(var2), var1, var3), Or(var1, var2, var4))'
 variables={}
-nVar=0
-nClause=0
 t=()
 t = buildDimacsString(s,variables)  
 stringadimacs='p cnf '+str(t[1])+' '+str(t[2])+'\n'+t[0]
-print(stringadimacs)
-print(variables)
+#print(stringadimacs)
+#print(t[3])
 args = ['./bdd_minisat_all',stringadimacs]
-subprocess.call(args)
-
-
+#subprocess.call(args)
+results=subprocess.check_output(args)#getting results from bdd_allsat
+i=1;
+#while i<=t[1]:
+#    print(t[3].get(i))
+#    i+=1
+print(t[3])
+buildMAtrix(results)
 
 
 

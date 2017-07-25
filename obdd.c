@@ -6,6 +6,7 @@
 #include <stdint.h>
 #include <assert.h>
 #include <math.h>
+#include <string.h> 
 
 #include "my_def.h"
 #include "obdd.h"
@@ -38,7 +39,7 @@ obdd_t* obdd_node(int v, obdd_t* lo, obdd_t* hi)
 
     obdd_t* new = freelist;
     freelist  = (obdd_t*)freelist->aux;
-
+    
     obdd_setlabel(v, new);
     new->lo  = lo;
     new->hi  = hi;
@@ -289,18 +290,16 @@ int obdd_to_dot(int n, obdd_t* p, FILE *out)
 
 
 // Decompose bdd into satisfying assignments.
-static uintptr_t obdd_decompose_main(FILE *out, int n, obdd_t* p, uintptr_t (*func)(FILE *, int, int, int*,char*),int* solutions)
+static uintptr_t obdd_decompose_main(FILE *out, int n, obdd_t* p, uintptr_t (*func)(FILE *, int, int, int*))
 {
   uintptr_t total   = 0;  // total number of total solutions
-  solutions="";
   int *a = (int*)malloc(sizeof(int)*(n+1));
   ENSURE_TRUE_MSG(a != NULL, "memory allocation failed");
   for(int i = 0; i <= n; i++) a[i] = 0;
-
   obdd_t** b = (obdd_t**)malloc(sizeof(obdd_t*)*(n+1));
   ENSURE_TRUE_MSG(b != NULL, "memory allocation failed");
   for(int i = 0; i <= n; i++) b[i] = NULL;
-
+  
   int s = 0; // index of a
   int t = 0; // index of b
   while(1) {
@@ -308,16 +307,14 @@ static uintptr_t obdd_decompose_main(FILE *out, int n, obdd_t* p, uintptr_t (*fu
       b[t++]  = p;
       a[s++]  = -(p->v);
       p       = p->lo;
-      printf("%d \n",a[s-1]);
     }
     if(p == obdd_top()) {
-        uintptr_t result = func(out, s, n, a,solutions);
+        uintptr_t result = func(out, s, n, a);
         if(total < UINTPTR_MAX - result)
             total += result;
         else
             total = UINTPTR_MAX;
     }
-
     if(t <= 0) break; // b is empty
     p = b[--t]; 
     while(a[--s] > 0) ;
@@ -325,6 +322,7 @@ static uintptr_t obdd_decompose_main(FILE *out, int n, obdd_t* p, uintptr_t (*fu
     p = p->hi;
   }
   free(b); free(a);
+  printf(" %lu",total);
   return total;
 }
 
@@ -335,23 +333,31 @@ static uintptr_t obdd_decompose_main(FILE *out, int n, obdd_t* p, uintptr_t (*fu
  * \param   n       the number of variables 
  * \return  the number of total assignments
  */
-static uintptr_t fprintf_partial(FILE *out, int s, int n, int *a,int* solutions)
+static uintptr_t fprintf_partial(FILE *out, int s, int n, int *a)
 {
     int prev = 0;
     uintptr_t sols = 1;
     for(int j = 0; j < s; j++) { 
-        fprintf(out, "%d ", a[j]);
-      //  solutions=snprintf(solutions,"%d ", i);
+        //fprintf(out, "%d ", a[j]);
+        //solutions=snprintf(solutions,"%d ", i);
+	if(a[j]<0)
+	{
+        	printf("-1 ");
+	}
+	else
+	{
+		printf("1 ");
+	}
         sols = my_mul_2exp(sols, abs(a[j])-prev-1);
         prev = abs(a[j]);
     }
-    fprintf(out, "0\n");
-      
+    //fprintf(out, "0\n");
+    //printf("\n");  
     return my_mul_2exp(sols, n-prev);
 }
 
 
-uintptr_t obdd_decompose(FILE *out, int n, obdd_t* p,int* solutions)
+uintptr_t obdd_decompose(FILE *out, int n, obdd_t* p)
 {
-    return obdd_decompose_main(out, n, p, fprintf_partial,solutions);
+    return obdd_decompose_main(out, n, p, fprintf_partial);
 }
