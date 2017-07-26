@@ -10,6 +10,7 @@
 
 #include "my_def.h"
 #include "obdd.h"
+#include "list.h"
 
 static const int    initlen   = 65536;
 static obdd_t*      freelist  = NULL;
@@ -290,7 +291,7 @@ int obdd_to_dot(int n, obdd_t* p, FILE *out)
 
 
 // Decompose bdd into satisfying assignments.
-static uintptr_t obdd_decompose_main(FILE *out, int n, obdd_t* p, uintptr_t (*func)(FILE *, int, int, int*))
+static uintptr_t obdd_decompose_main(FILE *out, int n, obdd_t* p, uintptr_t (*func)(FILE *, int, int, int*/*,struct list**/)/*,struct list* lsol*/)
 {
   uintptr_t total   = 0;  // total number of total solutions
   int *a = (int*)malloc(sizeof(int)*(n+1));
@@ -309,7 +310,12 @@ static uintptr_t obdd_decompose_main(FILE *out, int n, obdd_t* p, uintptr_t (*fu
       p       = p->lo;
     }
     if(p == obdd_top()) {
-        uintptr_t result = func(out, s, n, a);
+        uintptr_t result = func(out, s, n, a/*,lsol*/);
+	/*int *array = (int *)malloc((n +1) * sizeof(int*));
+	struct list* nextsol=new_list(array, NULL);
+	lsol->next=nextsol;
+	lsol=nextsol;*/
+	
         if(total < UINTPTR_MAX - result)
             total += result;
         else
@@ -333,7 +339,7 @@ static uintptr_t obdd_decompose_main(FILE *out, int n, obdd_t* p, uintptr_t (*fu
  * \param   n       the number of variables 
  * \return  the number of total assignments
  */
-static uintptr_t fprintf_partial(FILE *out, int s, int n, int *a)
+static uintptr_t fprintf_partial(FILE *out, int s, int n, int *a/*,struct list* lsol*/)
 {
     int prev = 0;
     uintptr_t sols = 1;
@@ -343,10 +349,12 @@ static uintptr_t fprintf_partial(FILE *out, int s, int n, int *a)
 	if(a[j]<0)
 	{
         	printf("0 ");
+		//lsol->value[j]=0;
 	}
 	else
 	{
 		printf("1 ");
+		//lsol->value[j]=1;
 	}
         sols = my_mul_2exp(sols, abs(a[j])-prev-1);
         prev = abs(a[j]);
@@ -357,7 +365,7 @@ static uintptr_t fprintf_partial(FILE *out, int s, int n, int *a)
 }
 
 
-uintptr_t obdd_decompose(FILE *out, int n, obdd_t* p)
+uintptr_t obdd_decompose(FILE *out, int n, obdd_t* p/*,struct list* lsol*/)
 {
-    return obdd_decompose_main(out, n, p, fprintf_partial);
+    return obdd_decompose_main(out, n, p, fprintf_partial/*,lsol*/);
 }

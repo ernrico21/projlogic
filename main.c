@@ -21,7 +21,7 @@ OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWA
 // Modified to implement bdd-based AllSAT solver on top of MiniSat by Takahisa Toda
 
 #include "solver.h"
-
+#include "list.h"
 #ifdef REDUCTION
 #include "bdd_interface.h"
 #include "bdd_reduce.h"
@@ -233,6 +233,22 @@ static inline void PRINT_USAGE(char *p)
 }
 
 
+void printmatrix (struct list* l,int n)
+{
+	
+	if(l->next!=NULL)
+	{
+		printf("\n");
+		for (int i=0;i<n;i++)
+		{
+			printf("%d ",l->value[i]);
+		}
+		printmatrix(l->next,n);
+	}
+	return;
+}
+
+
 int main(int argc, char** argv)
 {
     solver* s = solver_new();
@@ -240,9 +256,9 @@ int main(int argc, char** argv)
     char *  in;
     FILE *  out;
     s->stats.clk = clock();
-
     char *outfile = "out";
-    int *solutions;
+
+
     int  lim, span, maxnodes;
   
     /*** RECEIVE INPUTS ***/  
@@ -310,8 +326,11 @@ int main(int argc, char** argv)
     	//printStats(&s->stats, clock() - s->stats.clk, false);
 	}
 
-    if (outfile != NULL)
-        obdd_decompose(out, s->size, s->root);
+    //int *array = (int *)malloc((s->size) * sizeof(int*));
+  //  struct list* lsol=new_list(array, NULL);
+
+    obdd_decompose(out, s->size, s->root/*,lsol*/);
+//    printmatrix(lsol,s->size);
 
 #ifdef REDUCTION
     if (s->stats.refreshes == 0) { // perform reduction if obdd has not been refreshed.
@@ -323,7 +342,6 @@ int main(int argc, char** argv)
         //printf("|bdd|             : %12ju\n",  bdd_size(f));
     }
 #endif
-
     solver_delete(s);
     return 0;
 }

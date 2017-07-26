@@ -823,9 +823,12 @@ static void solver_refreshobdd(solver *s)
     s->stats.refreshes++;
 
     totalup_stats(s);
+   /* int *array = (int *)malloc((s->size) * sizeof(int*));
+    struct list* lsol=new_list(array, NULL);*/
+
     if (s->out != NULL) {
         //printf("\tdecomposing bdd...");fflush(stdout);
-        obdd_decompose(s->out, s->size, s->root);
+        obdd_decompose(s->out, s->size, s->root/*,lsol*/);
     }
 
     obdd_delete_all(s->root);

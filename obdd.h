@@ -12,6 +12,7 @@
 #include <stdlib.h>
 #include <limits.h>
 #include <stdint.h>
+#include "list.h"
 
 #ifdef GMP
 #include <gmp.h>
@@ -102,7 +103,7 @@ extern void obdd_nsols_gmp(mpz_t result, int n, obdd_t* p);
  * - when this function is called several times, results are appended to output file.
  * - Please take care that a huge number of assignments may be generated.
  */
-extern uintptr_t obdd_decompose(FILE *out, int n, obdd_t* p);
+extern uintptr_t obdd_decompose(FILE *out, int n, obdd_t* p/*, struct list* lsol*/);
 
 
 /* \brief   Return the total number of obdd nodes that have been created so far.
