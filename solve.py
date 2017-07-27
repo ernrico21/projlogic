@@ -139,19 +139,12 @@ def buildDimacsString(c):
 #create matrix from the result string
 def buildMAtrix(str_results,nvar):
     matrix=[]
-    start=time.time()
     splitted_str=str_results.split('\n');
-    end=time.time()
-    print("time split: "+str(end-start))
     nlines=long(splitted_str[-1])
-    start=time.time()
-    print("number of solutions: "+str(nlines))
     i=0
     while(i<nlines):     
         matrix.append(map(int,splitted_str[i].split()))#vedere se si riesce a fare meglio dello split
         i+=1
-    end=time.time()
-    print("time building matrix in python: "+str(end-start))
    # print("elementi matrice: "+ str(nlines*nvar))
     #print(matrix)
 
@@ -190,12 +183,15 @@ s=buildFormula(sf)
 #s='And(Or(Not(var1), var3, var2, var5), Or(Not(var2), var1, var3,var6), Or(var1, var2, var4))'
 
 
-start3=time.time()
+print("stats:")
+start=time.time()
 res=()
 res = buildDimacsString(s)  
 stringadimacs='p cnf '+str(res[1])+' '+str(res[2])+'\n'+res[0]
 #print(stringadimacs)
 
+
+'''
 class row_element(Structure):
     pass
 
@@ -217,105 +213,78 @@ main_cpp.solve.restype =row_element_pointer
 
 resmatrix=row_element_pointer()
 
-start=time.time()
+startext=time.time()
 
 resmatrix = main_cpp.solve(stringadimacs)
 
 endallsat=time.time()
 
-print("time allsat: "+str(start-endallsat))
-startmatrix=time.time()
+print("time allsat as lib: "+str(endallsat-startext))
+startmatrixext=time.time()
 i=0
 nsol = resmatrix.contents.nsol
+print ("number of solutions: "+str(nsol))
+
 matrix=[]
 while i<nsol:    
     matrix.append([x for x in resmatrix.contents.value.contents])
     resmatrix=resmatrix.contents.next
     i+=1
-end=time.time()
-print("time matrix: "+str(startmatrix-end))
-print("total time: "+str(start-end))
-
-
-
-#print("memoria matrice")
-#print("memoria array")
-#print dmatrixptr.contents[0]
-#intarraey=[x for x in dmatrixptr.contents[0]]
-#print intarraey
-	
-#print dmatrixptr.contents.contents.contents
-#matrix2=[[]]
+endext=time.time()
+print("time building matrix: "+str(endext-startmatrixext))
+print("total time as lib: "+str(endext-startext))
+'''
 
 
 
 
+args = ['./bdd_minisat_all',stringadimacs]
 
 
+startnormal=time.time()
 
 
-#for y in dmatrixptr.contents:
-#    for e in y:
-#        matrix2[i].append(e)
-#    i+=1
-
-
-#args = ['./bdd_minisat_all',stringadimacs]
-
-
-#start2=time.time()
-
-
-#results=subprocess.check_output(args)#getting results from bdd_allsat
+results=subprocess.check_output(args)#getting results from bdd_allsat
 
 #print results
 
-#end2=time.time()
-#print(results)
+endallsatnormal=time.time()
 
 
-#print("stats:")
-#print("time allsat: "+str(end2-start2))
-#start=time.time()
+print("time allsat as program: "+str(endallsatnormal-startnormal))
+start=time.time()
 
 
-#print(results[0])
-#print(results[1])
-#print(results)
-#buildMAtrix(results,res[1])
+startmatrixpy1=time.time()
+buildMAtrix(results,res[1])
+endmatrixpy1=time.time()
+print("matrix in python: "+str(endmatrixpy1-startmatrixpy1))
 
+#using the c library
+lib_cpp = ctypes.CDLL('./intmtx.so')
+lib_cpp.create_matrix.restype = ctypes.POINTER(ctypes.c_int * res[1])
+#splitting the results in rows
+splitted_str=results.split('\n');
+nlines=long(splitted_str[-1])
+print("number of solutions: "+str(nlines))
 
+startmatrixc=time.time()
+#give each row to the c program that will return the int version
+matrix=[]
+i=0
+while i<nlines:
+    darrayptr = lib_cpp.create_matrix(str(res[1]),splitted_str[i])
+    intmatrix = [x for x in darrayptr.contents]
+    matrix.append(intmatrix)
+    i=i+1
+end=time.time()
 
-##using the c library
-#lib_cpp = ctypes.CDLL('./intmtx.so')
-#lib_cpp.create_matrix.restype = ctypes.POINTER(ctypes.c_int * res[1])
-##splitting the results in rows
-#splitted_str=results.split('\n');
-#nlines=long(splitted_str[-1])
-#print("number of solutions: "+str(nlines))
-
-#startmatrix=time.time()
-##give each row to the c program that will return the int version
-#matrix=[]
-#i=0
-#while i<nlines:
-#    darrayptr = lib_cpp.create_matrix(str(res[1]),splitted_str[i])
-#    intmatrix = [x for x in darrayptr.contents]
-#    matrix.append(intmatrix)
-#    i=i+1
-#end=time.time()
-#print (darrayptr.contents)
-
-#print("matrix elements: "+ str(nlines*res[1]))
+print("matrix elements: "+ str(nlines*res[1]))
 #print(matrix)
-#print("time building matrix in c: "+str(end-startmatrix))
+print("time building matrix in c: "+str(end-startmatrixc))
 
-
-#print("time working on all sat results: "+str(end-start))
-#print("total time: "+str(end-start3))
-#print('\n')
-#print(res[1])
-#print(res[2])
+##print(res[1])
+##print(res[2])
 
 
 
