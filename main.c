@@ -325,7 +325,7 @@ int main(int argc, char** argv)
 	} else {
     	//printStats(&s->stats, clock() - s->stats.clk, false);
 	}
-
+     
     //int *array = (int *)malloc((s->size) * sizeof(int*));
   //  struct list* lsol=new_list(array, NULL);
 
@@ -343,5 +343,6 @@ int main(int argc, char** argv)
     }
 #endif
     solver_delete(s);
+    //int matrice [1][1]={{1}};
     return 0;
 }
