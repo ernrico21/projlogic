@@ -293,6 +293,8 @@ int obdd_to_dot(int n, obdd_t* p, FILE *out)
 // Decompose bdd into satisfying assignments.
 static uintptr_t obdd_decompose_main(FILE *out, int n, obdd_t* p, uintptr_t (*func)(FILE *, int, int, int*/*,struct list**/)/*,struct list* lsol*/)
 {
+  fprintf(out," %d\n",n);
+  printf(" %d\n",n);
   uintptr_t total   = 0;  // total number of total solutions
   int *a = (int*)malloc(sizeof(int)*(n+1));
   ENSURE_TRUE_MSG(a != NULL, "memory allocation failed");
@@ -328,7 +330,8 @@ static uintptr_t obdd_decompose_main(FILE *out, int n, obdd_t* p, uintptr_t (*fu
     p = p->hi;
   }
   free(b); free(a);
-  //fprintf(out," %lu",total);
+  fprintf(out," %lu\n",total);
+  fprintf(out," %d\n",n);
   //printf(" %lu",total);
   return total;
 }

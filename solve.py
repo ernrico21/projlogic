@@ -141,8 +141,9 @@ def buildFormula(s):
     #print(nvar)
     res='And('
     i=1
-    k=1
-    while k< nclause+1 :
+    #k=nclause/10
+    k=0
+    while k< 20:#(nclause+1)/10 :
         ri=s[i].split()
         if ri[0]!='0':
             temp="Or("
@@ -182,6 +183,7 @@ def getSolutions(s,stat=1,smatrix=0):
     #subprocess.call(args)
     endallsatnormal=time.time()
     print("time allsat to find the solutions: "+str(endallsatnormal-startnormal)+"\n")
+'''
     fout=open("out","r")
     #splitted_str=fout.readlines()   
 
@@ -207,7 +209,7 @@ def getSolutions(s,stat=1,smatrix=0):
         matrix.append(intmatrix)
         i=i+1
         line=fout.readline()
-    nlines=i;
+    nlines=i
     end=time.time()
     fout.close()
     #tottime=0
@@ -224,7 +226,7 @@ def getSolutions(s,stat=1,smatrix=0):
         #print("time spend converting in c: "+ str(tottime))
         f.write("total time: "+str(end-startnormal)+"\n\n")    
     return (matrix,res[3]) 
-    
+'''    
     
 
 f=open("prova","r")
@@ -238,12 +240,11 @@ while i>=0:
         i=-1
 
 s=buildFormula(sf)
+#print s
 getSolutions(s,1,0)
 
 #print(s)
 #s='And(Or(Not(var1), var3, var2, var5), Or(Not(var2), var1, var3,var6), Or(var1, var2, var4))'
-
-
 
 
 

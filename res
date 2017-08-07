@@ -195,3 +195,28 @@ number of solutions: 4076674
 time allsat to find the solutions: 29.0871329308
 total time: 241.409162998 //reading the file line by line made the process more or less 6 times slower
 
+file: uf100-06.cnf
+number of variables: 100 //first half memory error
+number of solutions: 0
+time allsat to find the solutions: 951.424637794
+total time: 953.756401777
+
+number of variables: 95 //first quarter memory error
+number of solutions: 0
+time allsat to find the solutions: 1543.44602513
+total time: 1545.50401902
+
+number of variables: 100 //second half no memory error but no solutions foud
+number of solutions: 0
+time allsat to find the solutions: 3931.40088296
+total time: 3936.78464389
+
+
+number of variables: 25 first 10 clause
+number of solutions: 9882516
+time allsat to find the solutions: 13.9529280663
+total time: 91.2458589077
+
+10 to 20 clause find 35294700 the python program take too much time to tranform in to matrix so i stopped it
+
+
