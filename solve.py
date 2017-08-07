@@ -1,10 +1,9 @@
 #function for building the matrix where every line is a clause
-from ctypes import *
 import ctypes
 import time
 import subprocess
-import random
 import sys
+import numpy
 
 def findAnd(c,i):
     if (c[i+1]=='n'or c[i+1]=='N') and (c[i+2]=='d' or c[i+2]=='D'):
@@ -135,160 +134,133 @@ def buildDimacsString(c):
         
 
 
-
-#create matrix from the result string
-def buildMAtrix(str_results,nvar):
-    matrix=[]
-    splitted_str=str_results.split('\n');
-    nlines=long(splitted_str[-1])
-    i=0
-    while(i<nlines):     
-        matrix.append(map(int,splitted_str[i].split()))#vedere se si riesce a fare meglio dello split
-        i+=1
-   # print("elementi matrice: "+ str(nlines*nvar))
-    #print(matrix)
-
-
-
 def buildFormula(s):
     rs=s[0].split()
     nvar=int(rs[2])
     nclause=int(rs[3])
     #print(nvar)
     res='And('
-    for i in range(1,nclause+1):
-        temp="Or("
+    i=1
+    k=1
+    while k< nclause+1 :
         ri=s[i].split()
-        for j in range (0,len(ri)):
-            if(int(ri[j])<0):
-                temp=temp+'Not(Var'+str(abs(int(ri[j])))+'),'
-            elif ri[j]!='0':
-                temp=temp+'Var'+ri[j]+','
-        temp=temp[0:-1]+'),'
-        res=res+temp
-        #print (temp)
+        if ri[0]!='0':
+            temp="Or("
+            for j in range (0,len(ri)):
+                if(int(ri[j])<0):
+                    temp=temp+'Not(Var'+str(abs(int(ri[j])))+'),'
+                elif ri[j]!='0':
+                    temp=temp+'Var'+ri[j]+','
+            temp=temp[0:-1]+'),'
+            res=res+temp
+            k+=1
+            #print (temp)
+        i+=1
     res=res[0:-1]+')'
     return res 
 
 
 
+def getSolutions(s,stat=1,smatrix=0):
+
+    start=time.time()
+    res=()
+    res = buildDimacsString(s)  
+    stringadimacs='p cnf '+str(res[1])+' '+str(res[2])+'\n'+res[0]
+    f=open("in","w")
+    f.write(stringadimacs)
+    f.close()
+    args = ['./bdd_minisat_all',"in"]
+    #print stringadimacs
+    
+    startnormal=time.time()
+
+####getting results from bdd_allsat
+    p=subprocess.call(args)#,stdout=subprocess.PIPE,stderr=subprocess.PIPE)
+    #results=subprocess.check_output(args)
+    #errcode = p.wait()
+    #subprocess.call(args)
+    endallsatnormal=time.time()
+    print("time allsat to find the solutions: "+str(endallsatnormal-startnormal)+"\n")
+    fout=open("out","r")
+    #splitted_str=fout.readlines()   
+
+    #print "risultato"
+    #print results
+####using the c library
+    lib_cpp = ctypes.CDLL('./intmtx.so')
+    lib_cpp.create_matrix.restype = ctypes.POINTER(ctypes.c_int * res[1])
+####splitting the results in rows
+    #splitted_str=results.split('\n');
+    #nlines=long(splitted_str[-1])
+
+    startmatrixc=time.time()
+
+####give each row to the c program that will return the int version
+    matrix=[]
+    i=0
+    #times=[]
+    line=fout.readline()
+    while line:
+        darrayptr = lib_cpp.create_matrix(str(res[1]),line)
+        intmatrix = [x for x in darrayptr.contents]
+        matrix.append(intmatrix)
+        i=i+1
+        line=fout.readline()
+    nlines=i;
+    end=time.time()
+    fout.close()
+    #tottime=0
+    
+    if smatrix==1:
+        print(numpy.matrix(matrix))
+    if stat==1:
+	f=open("res","a")
+        f.write("number of variables: "+str(res[1])+"\n")
+        f.write("number of solutions: "+str(nlines)+"\n")
+        #print("matrix elements: "+ str(nlines*res[1]))
+        f.write("time allsat to find the solutions: "+str(endallsatnormal-startnormal)+"\n")
+        #print("time building matrix: "+str(end-startmatrixc))
+        #print("time spend converting in c: "+ str(tottime))
+        f.write("total time: "+str(end-startnormal)+"\n\n")    
+    return (matrix,res[3]) 
+    
+    
 
 f=open("prova","r")
 sf=f.readlines()
-for i in range(0,7):
-    sf.pop(0)
+i=0
+while i>=0:
+    if sf[0][0]=='c':
+        sf.pop(0)
+        i+=1
+    else:
+        i=-1
+
 s=buildFormula(sf)
+getSolutions(s,1,0)
 
 #print(s)
 #s='And(Or(Not(var1), var3, var2, var5), Or(Not(var2), var1, var3,var6), Or(var1, var2, var4))'
 
 
-print("stats:")
-start=time.time()
-res=()
-res = buildDimacsString(s)  
-stringadimacs='p cnf '+str(res[1])+' '+str(res[2])+'\n'+res[0]
-#print(stringadimacs)
 
 
+
+
+
+'''
+    while i<nlines:
+        #start_conv=time.time()
+        darrayptr = lib_cpp.create_matrix(str(res[1]),splitted_str[i])
+        #end_conv=time.time()
+        #times.append(end_conv-start_conv)
+        intmatrix = [x for x in darrayptr.contents]
+        matrix.append(intmatrix)
+        i=i+1
+for i in range(0,len(times)):
+        tottime+=times[i]
 '''
-class row_element(Structure):
-    pass
-
-
-row_element._fields_=[("nsol",ctypes.c_long),("value",POINTER(ctypes.c_int *res[1])),("next",POINTER(row_element) )]
-
-
-row_element_pointer=POINTER(row_element)
-
-
-
-#INT=ctypes.c_int
-#ARRAY=ctypes.POINTER(INT*1)
-#MATRIX=ctypes.POINTER(POINTER(c_int))
-
-
-main_cpp = ctypes.CDLL('./dll/main.so')
-main_cpp.solve.restype =row_element_pointer
-
-resmatrix=row_element_pointer()
-
-startext=time.time()
-
-resmatrix = main_cpp.solve(stringadimacs)
-
-endallsat=time.time()
-
-print("time allsat as lib: "+str(endallsat-startext))
-startmatrixext=time.time()
-i=0
-nsol = resmatrix.contents.nsol
-print ("number of solutions: "+str(nsol))
-
-matrix=[]
-while i<nsol:    
-    matrix.append([x for x in resmatrix.contents.value.contents])
-    resmatrix=resmatrix.contents.next
-    i+=1
-endext=time.time()
-print("time building matrix: "+str(endext-startmatrixext))
-print("total time as lib: "+str(endext-startext))
-'''
-
-
-
-
-args = ['./bdd_minisat_all',stringadimacs]
-
-
-startnormal=time.time()
-
-
-results=subprocess.check_output(args)#getting results from bdd_allsat
-
-#print results
-
-endallsatnormal=time.time()
-
-
-print("time allsat as program: "+str(endallsatnormal-startnormal))
-start=time.time()
-
-
-startmatrixpy1=time.time()
-buildMAtrix(results,res[1])
-endmatrixpy1=time.time()
-print("matrix in python: "+str(endmatrixpy1-startmatrixpy1))
-
-#using the c library
-lib_cpp = ctypes.CDLL('./intmtx.so')
-lib_cpp.create_matrix.restype = ctypes.POINTER(ctypes.c_int * res[1])
-#splitting the results in rows
-splitted_str=results.split('\n');
-nlines=long(splitted_str[-1])
-print("number of solutions: "+str(nlines))
-
-startmatrixc=time.time()
-#give each row to the c program that will return the int version
-matrix=[]
-i=0
-while i<nlines:
-    darrayptr = lib_cpp.create_matrix(str(res[1]),splitted_str[i])
-    intmatrix = [x for x in darrayptr.contents]
-    matrix.append(intmatrix)
-    i=i+1
-end=time.time()
-
-print("matrix elements: "+ str(nlines*res[1]))
-#print(matrix)
-print("time building matrix in c: "+str(end-startmatrixc))
-
-##print(res[1])
-##print(res[2])
-
-
-
-
 
 
 

@@ -328,7 +328,8 @@ static uintptr_t obdd_decompose_main(FILE *out, int n, obdd_t* p, uintptr_t (*fu
     p = p->hi;
   }
   free(b); free(a);
-  printf(" %lu",total);
+  //fprintf(out," %lu",total);
+  //printf(" %lu",total);
   return total;
 }
 
@@ -344,23 +345,23 @@ static uintptr_t fprintf_partial(FILE *out, int s, int n, int *a/*,struct list* 
     int prev = 0;
     uintptr_t sols = 1;
     for(int j = 0; j < s; j++) { 
-        //fprintf(out, "%d ", a[j]);
+        //fprintf(out, "%d ", (a[j]/abs(a[j])));
         //solutions=snprintf(solutions,"%d ", i);
 	if(a[j]<0)
 	{
-        	printf("0 ");
+        	fprintf(out,"0 ");
 		//lsol->value[j]=0;
 	}
 	else
 	{
-		printf("1 ");
+		fprintf(out,"1 ");
 		//lsol->value[j]=1;
 	}
         sols = my_mul_2exp(sols, abs(a[j])-prev-1);
         prev = abs(a[j]);
     }
-    //fprintf(out, "0\n");
-    printf("\n");  
+    fprintf(out, "0\n");
+    //printf("\n");  
     return my_mul_2exp(sols, n-prev);
 }
 

@@ -138,9 +138,10 @@ static lbool parse_DIMACS_main(char* in, solver* s) {
 
 // Inserts problem into solver. Returns FALSE upon immediate conflict.
 //
-static lbool parse_DIMACS(char * in, solver* s) {
-    lbool ret  = parse_DIMACS_main(in, s);
-   
+static lbool parse_DIMACS(FILE * in, solver* s) {
+    char* text = readFile(in);
+    lbool ret  = parse_DIMACS_main(text, s);
+    free(text);
     return ret; }
 
 
@@ -253,15 +254,15 @@ int main(int argc, char** argv)
 {
     solver* s = solver_new();
     lbool   st;
-    char *  in;
+    FILE *  in;
     FILE *  out;
     s->stats.clk = clock();
     char *outfile = "out";
+    char *infile  = NULL;
 
 
     int  lim, span, maxnodes;
   
-    /*** RECEIVE INPUTS ***/  
     for (int i = 1; i < argc; i++) {
         if (argv[i][0] == '-') {
             switch (argv[i][1]) {
@@ -279,15 +280,25 @@ int main(int argc, char** argv)
                 case '?': case 'h': default:
                     PRINT_USAGE(argv[0]); return  0;  
             }   
-            
+        } else {
+            if (infile == NULL)
+                infile  = argv[i];
+            else if(outfile == NULL)
+                outfile = argv[i];
+            else
+                {PRINT_USAGE(argv[0]); return  0;} 
         }
     }
+    if (infile == NULL) 
+        {PRINT_USAGE(argv[0]); return  0;} 
 
-    in = argv[1];
+    in = fopen(infile, "rb");
+    if (in == NULL)
+        fprintf(stderr, "ERROR! Could not open file: %s\n", argc == 1 ? "<stdin>" : infile), exit(1);
     if (outfile != NULL) {
         out = fopen(outfile, "wb");
         if (out == NULL)
-            fprintf(stderr, "ERROR! Could not open file: %s\n", argc == 1 ? "<stdin>" : outfile), exit(1);
+            fprintf(stderr, "ERROR! Could not opend file: %s\n", argc == 1 ? "<stdin>" : outfile), exit(1);
 #ifdef NONBLOCKING
         else s->out = out;
 #endif
@@ -296,7 +307,10 @@ int main(int argc, char** argv)
     }
 
 
+
     st = parse_DIMACS(in, s);
+    fclose(in);
+    
     //printf(in);
     if (st == l_False){
         solver_delete(s);
@@ -318,13 +332,13 @@ int main(int argc, char** argv)
 #else
 //    printf("pathwidth         : %12d\n",   s->maxpathwidth);
 #endif
-	if (eflag == 1) {
-    	printf("\n"); printf("*** INTERRUPTED ***\n");
+	/*if (eflag == 1) {
+    	//printf("\n"); printf("*** INTERRUPTED ***\n");
     	//printStats(&s->stats, clock() - s->stats.clk, true);
-    	printf("\n"); printf("*** INTERRUPTED ***\n");
+    	//printf("\n"); printf("*** INTERRUPTED ***\n");
 	} else {
     	//printStats(&s->stats, clock() - s->stats.clk, false);
-	}
+	}*/
      
     //int *array = (int *)malloc((s->size) * sizeof(int*));
   //  struct list* lsol=new_list(array, NULL);
@@ -343,6 +357,5 @@ int main(int argc, char** argv)
     }
 #endif
     solver_delete(s);
-    //int matrice [1][1]={{1}};
-    return 0;
+    return 1;
 }

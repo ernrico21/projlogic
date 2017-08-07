@@ -823,21 +823,25 @@ static void solver_refreshobdd(solver *s)
     s->stats.refreshes++;
 
     totalup_stats(s);
+    printf("dentro qui");
    /* int *array = (int *)malloc((s->size) * sizeof(int*));
     struct list* lsol=new_list(array, NULL);*/
 
     if (s->out != NULL) {
-        //printf("\tdecomposing bdd...");fflush(stdout);
+        //printf("\tdecomposing bdd...");
+        printf("dentro\n");
+        fflush(stdout);
         obdd_decompose(s->out, s->size, s->root/*,lsol*/);
     }
-
+    
     obdd_delete_all(s->root);
     s->root = obdd_node(1, NULL, NULL);
 
     trie_initialize();
     vecp_resize(&s->obddpath, 0);
     veci_resize(&s->cachedvars, 0);
-    //printf("\tfin\n");fflush(stdout);
+    //printf("\tfin\n");
+    fflush(stdout);
 }
 #endif /*NONBLOCKING*/
 
