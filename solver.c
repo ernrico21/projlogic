@@ -823,13 +823,11 @@ static void solver_refreshobdd(solver *s)
     s->stats.refreshes++;
 
     totalup_stats(s);
-    printf("dentro qui");
    /* int *array = (int *)malloc((s->size) * sizeof(int*));
     struct list* lsol=new_list(array, NULL);*/
 
     if (s->out != NULL) {
         //printf("\tdecomposing bdd...");
-        printf("dentro\n");
         fflush(stdout);
         obdd_decompose(s->out, s->size, s->root/*,lsol*/);
     }
@@ -1478,7 +1476,7 @@ static void solver_analyze(solver* s, clause* c, veci* learnt)
 
 #ifdef VERBOSEDEBUG
     //printf(L_IND"Learnt {", L_ind);
-    for (i = 0; i < veci_size(learnt); i++) printf(" "L_LIT, L_lit(lits[i]));
+    //for (i = 0; i < veci_size(learnt); i++) printf(" "L_LIT, L_lit(lits[i]));
 #endif
     if (veci_size(learnt) > 1){
         int max_i = 1;

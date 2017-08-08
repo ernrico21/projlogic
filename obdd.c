@@ -293,8 +293,6 @@ int obdd_to_dot(int n, obdd_t* p, FILE *out)
 // Decompose bdd into satisfying assignments.
 static uintptr_t obdd_decompose_main(FILE *out, int n, obdd_t* p, uintptr_t (*func)(FILE *, int, int, int*/*,struct list**/)/*,struct list* lsol*/)
 {
-  fprintf(out," %d\n",n);
-  printf(" %d\n",n);
   uintptr_t total   = 0;  // total number of total solutions
   int *a = (int*)malloc(sizeof(int)*(n+1));
   ENSURE_TRUE_MSG(a != NULL, "memory allocation failed");
@@ -330,9 +328,7 @@ static uintptr_t obdd_decompose_main(FILE *out, int n, obdd_t* p, uintptr_t (*fu
     p = p->hi;
   }
   free(b); free(a);
-  fprintf(out," %lu\n",total);
-  fprintf(out," %d\n",n);
-  //printf(" %lu",total);
+  printf("\n%lu\n",total);
   return total;
 }
 
@@ -350,16 +346,16 @@ static uintptr_t fprintf_partial(FILE *out, int s, int n, int *a/*,struct list* 
     for(int j = 0; j < s; j++) { 
         //fprintf(out, "%d ", (a[j]/abs(a[j])));
         //solutions=snprintf(solutions,"%d ", i);
-	if(a[j]<0)
-	{
+	    if(a[j]<0)
+	    {
         	fprintf(out,"0 ");
-		//lsol->value[j]=0;
-	}
-	else
-	{
-		fprintf(out,"1 ");
+		    //lsol->value[j]=0;
+	    }
+	    else
+	    {
+		    fprintf(out,"1 ");
 		//lsol->value[j]=1;
-	}
+    	}
         sols = my_mul_2exp(sols, abs(a[j])-prev-1);
         prev = abs(a[j]);
     }

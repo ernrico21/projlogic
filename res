@@ -220,3 +220,18 @@ total time: 91.2458589077
 10 to 20 clause find 35294700 the python program take too much time to tranform in to matrix so i stopped it
 
 
+number of variables: 51
+number of solutions: 0
+time allsat to find the solutions: 0.00253796577454
+total time: 0.00306487083435
+
+number of variables: 50
+number of solutions: 0
+time allsat to find the solutions: 0.18200302124
+total time: 0.182602882385
+
+number of variables: 50
+number of solutions: 0
+time allsat to find the solutions: 0.145721912384
+total time: 0.146103858948
+
