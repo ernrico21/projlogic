@@ -328,7 +328,7 @@ static uintptr_t obdd_decompose_main(FILE *out, int n, obdd_t* p, uintptr_t (*fu
     p = p->hi;
   }
   free(b); free(a);
-  printf("\n%lu\n",total);
+  printf("number of solutions: %lu\n",total);
   return total;
 }
 
@@ -359,7 +359,7 @@ static uintptr_t fprintf_partial(FILE *out, int s, int n, int *a/*,struct list* 
         sols = my_mul_2exp(sols, abs(a[j])-prev-1);
         prev = abs(a[j]);
     }
-    fprintf(out, "0\n");
+    fprintf(out, "\n");
     //printf("\n");  
     return my_mul_2exp(sols, n-prev);
 }

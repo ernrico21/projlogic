@@ -1,0 +1,5970 @@
+uf100-07.cnf
+number of variables: 100
+number of solutions: 162418
+time allsat to find the solutions: 0.715627908707
+total time: 4.10626506805
+
+uf100-08.cnf
+number of variables: 100
+number of solutions: 32
+time allsat to find the solutions: 0.0405070781708
+total time: 0.0417809486389
+
+uf100-09.cnf
+number of variables: 100
+number of solutions: 360
+time allsat to find the solutions: 0.0237691402435
+total time: 0.0363349914551
+
+uf100-010.cnf
+number of variables: 100
+number of solutions: 1236
+time allsat to find the solutions: 0.0387079715729
+total time: 0.0710759162903
+
+uf100-011.cnf
+number of variables: 100
+number of solutions: 680
+time allsat to find the solutions: 0.0335321426392
+total time: 0.0609900951385
+
+uf100-012.cnf
+number of variables: 100
+number of solutions: 12503
+time allsat to find the solutions: 0.0808219909668
+total time: 0.351763963699
+
+uf100-013.cnf
+number of variables: 100
+number of solutions: 38080
+time allsat to find the solutions: 0.173533916473
+total time: 0.970210075378
+
+uf100-014.cnf
+number of variables: 100
+number of solutions: 1508
+time allsat to find the solutions: 0.0506520271301
+total time: 0.0913021564484
+
+uf100-015.cnf
+number of variables: 100
+number of solutions: 632
+time allsat to find the solutions: 0.0307669639587
+total time: 0.0481250286102
+
+uf100-016.cnf
+number of variables: 100
+number of solutions: 96
+time allsat to find the solutions: 0.0245461463928
+total time: 0.0282690525055
+
+uf100-017.cnf
+number of variables: 100
+number of solutions: 3548
+time allsat to find the solutions: 0.0470900535583
+total time: 0.128172159195
+
+uf100-018.cnf
+number of variables: 100
+number of solutions: 10612
+time allsat to find the solutions: 0.0853641033173
+total time: 0.311450004578
+
+uf100-019.cnf
+number of variables: 100
+number of solutions: 416492
+time allsat to find the solutions: 2.72587585449
+total time: 12.1328840256
+
+uf100-020.cnf
+number of variables: 100
+number of solutions: 3212
+time allsat to find the solutions: 0.0674328804016
+total time: 0.144428014755
+
+uf100-021.cnf
+number of variables: 100
+number of solutions: 16
+time allsat to find the solutions: 0.0284659862518
+total time: 0.0294530391693
+
+uf100-022.cnf
+number of variables: 100
+number of solutions: 240
+time allsat to find the solutions: 0.0354759693146
+total time: 0.0436561107635
+
+uf100-023.cnf
+number of variables: 100
+number of solutions: 2304
+time allsat to find the solutions: 0.0578207969666
+total time: 0.112761974335
+
+uf100-024.cnf
+number of variables: 100
+number of solutions: 17633
+time allsat to find the solutions: 0.127325057983
+total time: 0.49703001976
+
+uf100-025.cnf
+number of variables: 100
+number of solutions: 14292
+time allsat to find the solutions: 0.110076189041
+total time: 0.416081190109
+
+uf100-026.cnf
+number of variables: 100
+number of solutions: 124
+time allsat to find the solutions: 0.0320670604706
+total time: 0.0366508960724
+
+uf100-027.cnf
+number of variables: 100
+number of solutions: 38515
+time allsat to find the solutions: 0.243370056152
+total time: 1.05009794235
+
+uf100-028.cnf
+number of variables: 100
+number of solutions: 18258
+time allsat to find the solutions: 0.149338006973
+total time: 0.536581039429
+
+uf100-029.cnf
+number of variables: 100
+number of solutions: 58744
+time allsat to find the solutions: 0.33126616478
+total time: 1.59575414658
+
+uf100-030.cnf
+number of variables: 100
+number of solutions: 3486
+time allsat to find the solutions: 0.05055809021
+total time: 0.133025169373
+
+uf100-031.cnf
+number of variables: 100
+number of solutions: 985
+time allsat to find the solutions: 0.050931930542
+total time: 0.0756349563599
+
+uf100-032.cnf
+number of variables: 100
+number of solutions: 60
+time allsat to find the solutions: 0.0352869033813
+total time: 0.0377740859985
+
+uf100-033.cnf
+number of variables: 100
+number of solutions: 96
+time allsat to find the solutions: 0.0329868793488
+total time: 0.0366990566254
+
+uf100-034.cnf
+number of variables: 100
+number of solutions: 39272
+time allsat to find the solutions: 0.274579048157
+total time: 1.11303901672
+
+uf100-035.cnf
+number of variables: 100
+number of solutions: 454
+time allsat to find the solutions: 0.0404810905457
+total time: 0.0564520359039
+
+uf100-036.cnf
+number of variables: 100
+number of solutions: 36
+time allsat to find the solutions: 0.032830953598
+total time: 0.0342750549316
+
+uf100-037.cnf
+number of variables: 100
+number of solutions: 4080
+time allsat to find the solutions: 0.0524189472198
+total time: 0.147902965546
+
+uf100-038.cnf
+number of variables: 100
+number of solutions: 7402
+time allsat to find the solutions: 0.0646970272064
+total time: 0.231172084808
+
+uf100-039.cnf
+number of variables: 100
+number of solutions: 124834
+time allsat to find the solutions: 0.647250890732
+total time: 3.39860391617
+
+uf100-040.cnf
+number of variables: 100
+number of solutions: 126
+time allsat to find the solutions: 0.0455729961395
+total time: 0.0492990016937
+
+uf100-041.cnf
+number of variables: 100
+number of solutions: 39210
+time allsat to find the solutions: 0.227994203568
+total time: 1.0820991993
+
+uf100-042.cnf
+number of variables: 100
+number of solutions: 828
+time allsat to find the solutions: 0.0414900779724
+total time: 0.0633790493011
+
+uf100-043.cnf
+number of variables: 100
+number of solutions: 43012
+time allsat to find the solutions: 0.203665018082
+total time: 1.18337082863
+
+uf100-044.cnf
+number of variables: 100
+number of solutions: 5568
+time allsat to find the solutions: 0.0555491447449
+total time: 0.184854030609
+
+uf100-045.cnf
+number of variables: 100
+number of solutions: 72
+time allsat to find the solutions: 0.0419499874115
+total time: 0.0440580844879
+
+uf100-046.cnf
+number of variables: 100
+number of solutions: 27
+time allsat to find the solutions: 0.0368909835815
+total time: 0.0383410453796
+
+uf100-047.cnf
+number of variables: 100
+number of solutions: 64
+time allsat to find the solutions: 0.0333170890808
+total time: 0.0362958908081
+
+uf100-048.cnf
+number of variables: 100
+number of solutions: 2024
+time allsat to find the solutions: 0.0492980480194
+total time: 0.102200984955
+
+uf100-049.cnf
+number of variables: 100
+number of solutions: 68
+time allsat to find the solutions: 0.0334448814392
+total time: 0.0364499092102
+
+uf100-050.cnf
+number of variables: 100
+number of solutions: 6384
+time allsat to find the solutions: 0.0724709033966
+total time: 0.225907087326
+
+uf100-051.cnf
+number of variables: 100
+number of solutions: 7640
+time allsat to find the solutions: 0.105350971222
+total time: 0.279941082001
+
+uf100-052.cnf
+number of variables: 100
+number of solutions: 112
+time allsat to find the solutions: 0.0603930950165
+total time: 0.0642340183258
+
+uf100-053.cnf
+number of variables: 100
+number of solutions: 144
+time allsat to find the solutions: 0.0319480895996
+total time: 0.03542304039
+
+uf100-054.cnf
+number of variables: 100
+number of solutions: 688
+time allsat to find the solutions: 0.0389270782471
+total time: 0.0603001117706
+
+uf100-055.cnf
+number of variables: 100
+number of solutions: 4428
+time allsat to find the solutions: 0.0551741123199
+total time: 0.155670881271
+
+uf100-056.cnf
+number of variables: 100
+number of solutions: 848
+time allsat to find the solutions: 0.0424268245697
+total time: 0.0669770240784
+
+uf100-057.cnf
+number of variables: 100
+number of solutions: 1696
+time allsat to find the solutions: 0.0488550662994
+total time: 0.0939471721649
+
+uf100-058.cnf
+number of variables: 100
+number of solutions: 918
+time allsat to find the solutions: 0.0581729412079
+total time: 0.0818519592285
+
+uf100-059.cnf
+number of variables: 100
+number of solutions: 8
+time allsat to find the solutions: 0.0571148395538
+total time: 0.0576808452606
+
+uf100-060.cnf
+number of variables: 100
+number of solutions: 234
+time allsat to find the solutions: 0.0403349399567
+total time: 0.0506978034973
+
+uf100-061.cnf
+number of variables: 100
+number of solutions: 313
+time allsat to find the solutions: 0.0299520492554
+total time: 0.0392339229584
+
+uf100-062.cnf
+number of variables: 100
+number of solutions: 192
+time allsat to find the solutions: 0.0413370132446
+total time: 0.0496518611908
+
+uf100-063.cnf
+number of variables: 100
+number of solutions: 440
+time allsat to find the solutions: 0.0376930236816
+total time: 0.0573959350586
+
+uf100-064.cnf
+number of variables: 100
+number of solutions: 142403
+time allsat to find the solutions: 0.737658023834
+total time: 3.70834612846
+
+uf100-065.cnf
+number of variables: 100
+number of solutions: 352
+time allsat to find the solutions: 0.0502991676331
+total time: 0.0610380172729
+
+uf100-066.cnf
+number of variables: 100
+number of solutions: 1261
+time allsat to find the solutions: 0.0560688972473
+total time: 0.0903069972992
+
+uf100-067.cnf
+number of variables: 100
+number of solutions: 675
+time allsat to find the solutions: 0.0587980747223
+total time: 0.082878112793
+
+uf100-068.cnf
+number of variables: 100
+number of solutions: 293
+time allsat to find the solutions: 0.0442938804626
+total time: 0.0532598495483
+
+uf100-069.cnf
+number of variables: 100
+number of solutions: 629
+time allsat to find the solutions: 0.0405309200287
+total time: 0.0601418018341
+
+uf100-071.cnf
+number of variables: 100
+number of solutions: 200648
+time allsat to find the solutions: 0.923332929611
+total time: 5.70629882812
+
+uf100-072.cnf
+number of variables: 100
+number of solutions: 68
+time allsat to find the solutions: 0.0440099239349
+total time: 0.046355009079
+
+uf100-073.cnf
+number of variables: 100
+number of solutions: 3780
+time allsat to find the solutions: 0.0431830883026
+total time: 0.125267028809
+
+uf100-074.cnf
+number of variables: 100
+number of solutions: 262672
+time allsat to find the solutions: 1.24670886993
+total time: 7.02387690544
+
+uf100-075.cnf
+number of variables: 100
+number of solutions: 10432
+time allsat to find the solutions: 0.107522010803
+total time: 0.356229066849
+
+uf100-076.cnf
+number of variables: 100
+number of solutions: 512
+time allsat to find the solutions: 0.0286839008331
+total time: 0.0392849445343
+
+uf100-077.cnf
+number of variables: 100
+number of solutions: 498490
+time allsat to find the solutions: 2.80129504204
+total time: 13.9461081028
+
+uf100-078.cnf
+number of variables: 100
+number of solutions: 300
+time allsat to find the solutions: 0.0564551353455
+total time: 0.067764043808
+
+uf100-079.cnf
+number of variables: 100
+number of solutions: 100388
+time allsat to find the solutions: 0.53887295723
+total time: 2.62887811661
+
+uf100-080.cnf
+number of variables: 100
+number of solutions: 1040
+time allsat to find the solutions: 0.0466718673706
+total time: 0.0691847801208
+
+uf100-081.cnf
+number of variables: 100
+number of solutions: 24
+time allsat to find the solutions: 0.0415391921997
+total time: 0.0428340435028
+
+uf100-082.cnf
+number of variables: 100
+number of solutions: 42
+time allsat to find the solutions: 0.0453550815582
+total time: 0.0470960140228
+
+uf100-083.cnf
+number of variables: 100
+number of solutions: 3288
+time allsat to find the solutions: 0.0618131160736
+total time: 0.136184930801
+
+uf100-084.cnf
+number of variables: 100
+number of solutions: 1216
+time allsat to find the solutions: 0.0513350963593
+total time: 0.0864949226379
+
+uf100-085.cnf
+number of variables: 100
+number of solutions: 368
+time allsat to find the solutions: 0.0370421409607
+total time: 0.0481169223785
+
+uf100-086.cnf
+number of variables: 100
+number of solutions: 48408
+time allsat to find the solutions: 0.283959150314
+total time: 1.3263001442
+
+uf100-087.cnf
+number of variables: 100
+number of solutions: 24394
+time allsat to find the solutions: 0.156313896179
+total time: 0.666124820709
+
+uf100-088.cnf
+number of variables: 100
+number of solutions: 752
+time allsat to find the solutions: 0.0535171031952
+total time: 0.0724639892578
+
+uf100-089.cnf
+number of variables: 100
+number of solutions: 45012
+time allsat to find the solutions: 0.235960960388
+total time: 1.19845986366
+
+uf100-090.cnf
+number of variables: 100
+number of solutions: 41836
+time allsat to find the solutions: 0.217437028885
+total time: 1.11653280258
+
+uf100-091.cnf
+number of variables: 100
+number of solutions: 256
+time allsat to find the solutions: 0.0455451011658
+total time: 0.0539360046387
+
+uf100-092.cnf
+number of variables: 100
+number of solutions: 168
+time allsat to find the solutions: 0.0371279716492
+total time: 0.0454330444336
+
+uf100-093.cnf
+number of variables: 100
+number of solutions: 51632
+time allsat to find the solutions: 0.266912937164
+total time: 1.37119603157
+
+uf100-094.cnf
+number of variables: 100
+number of solutions: 827174
+time allsat to find the solutions: 4.11537909508
+total time: 23.0424289703
+
+uf100-095.cnf
+number of variables: 100
+number of solutions: 708
+time allsat to find the solutions: 0.10527586937
+total time: 0.124189853668
+
+uf100-096.cnf
+number of variables: 100
+number of solutions: 510927
+time allsat to find the solutions: 2.38675308228
+total time: 13.7935471535
+
+uf100-097.cnf
+number of variables: 100
+number of solutions: 17726
+time allsat to find the solutions: 0.145165920258
+total time: 0.53047990799
+
+uf100-098.cnf
+number of variables: 100
+number of solutions: 1470554
+time allsat to find the solutions: 11.5129640102
+total time: 45.2799010277
+
+uf100-099.cnf
+number of variables: 100
+number of solutions: 2024
+time allsat to find the solutions: 0.17178106308
+total time: 0.218194961548
+
+uf100-0100.cnf
+number of variables: 100
+number of solutions: 120433
+time allsat to find the solutions: 0.667320966721
+total time: 3.13735389709
+
+uf100-0101.cnf
+number of variables: 100
+number of solutions: 19816
+time allsat to find the solutions: 0.199184179306
+total time: 0.617660045624
+
+uf100-0102.cnf
+number of variables: 100
+number of solutions: 1718
+time allsat to find the solutions: 0.101134061813
+total time: 0.141170024872
+
+uf100-0103.cnf
+number of variables: 100
+number of solutions: 984
+time allsat to find the solutions: 0.108946800232
+total time: 0.133507966995
+
+uf100-0104.cnf
+number of variables: 100
+number of solutions: 42
+time allsat to find the solutions: 0.0980758666992
+total time: 0.0996329784393
+
+uf100-0105.cnf
+number of variables: 100
+number of solutions: 16934
+time allsat to find the solutions: 0.168155908585
+total time: 0.536264896393
+
+uf100-0106.cnf
+number of variables: 100
+number of solutions: 7612
+time allsat to find the solutions: 0.155055999756
+total time: 0.317040920258
+
+uf100-0107.cnf
+number of variables: 100
+number of solutions: 180
+time allsat to find the solutions: 0.110604047775
+total time: 0.116571187973
+
+uf100-0108.cnf
+number of variables: 100
+number of solutions: 2740
+time allsat to find the solutions: 0.103726863861
+total time: 0.167277812958
+
+uf100-0109.cnf
+number of variables: 100
+number of solutions: 28
+time allsat to find the solutions: 0.101130962372
+total time: 0.102272987366
+
+uf100-0110.cnf
+number of variables: 100
+number of solutions: 800
+time allsat to find the solutions: 0.0972571372986
+total time: 0.119817018509
+
+uf100-0111.cnf
+number of variables: 100
+number of solutions: 12540
+time allsat to find the solutions: 0.148636102676
+total time: 0.408441066742
+
+uf100-0112.cnf
+number of variables: 100
+number of solutions: 352
+time allsat to find the solutions: 0.104438781738
+total time: 0.119294881821
+
+uf100-0113.cnf
+number of variables: 100
+number of solutions: 32
+time allsat to find the solutions: 0.10773396492
+total time: 0.109174966812
+
+uf100-0114.cnf
+number of variables: 100
+number of solutions: 48
+time allsat to find the solutions: 0.132333993912
+total time: 0.134343147278
+
+uf100-0115.cnf
+number of variables: 100
+number of solutions: 45916
+time allsat to find the solutions: 0.30970788002
+total time: 1.26561880112
+
+uf100-0116.cnf
+number of variables: 100
+number of solutions: 2160
+time allsat to find the solutions: 0.106003046036
+total time: 0.158093929291
+
+uf100-0117.cnf
+number of variables: 100
+number of solutions: 10496
+time allsat to find the solutions: 0.156327962875
+total time: 0.377113819122
+
+uf100-0118.cnf
+number of variables: 100
+number of solutions: 15620
+time allsat to find the solutions: 0.17489695549
+total time: 0.515827894211
+
+uf100-0119.cnf
+number of variables: 100
+number of solutions: 105244
+time allsat to find the solutions: 0.629437923431
+total time: 2.8731880188
+
+uf100-0120.cnf
+number of variables: 100
+number of solutions: 1616
+time allsat to find the solutions: 0.100564956665
+total time: 0.141479969025
+
+uf100-0121.cnf
+number of variables: 100
+number of solutions: 304
+time allsat to find the solutions: 0.111325979233
+total time: 0.122097015381
+
+uf100-0122.cnf
+number of variables: 100
+number of solutions: 40
+time allsat to find the solutions: 0.100435018539
+total time: 0.101931095123
+
+uf100-0123.cnf
+number of variables: 100
+number of solutions: 64
+time allsat to find the solutions: 0.0956411361694
+total time: 0.0979871749878
+
+uf100-0124.cnf
+number of variables: 100
+number of solutions: 4332
+time allsat to find the solutions: 0.128077983856
+total time: 0.22206401825
+
+uf100-0125.cnf
+number of variables: 100
+number of solutions: 1600
+time allsat to find the solutions: 0.11652803421
+total time: 0.156723976135
+
+uf100-0126.cnf
+number of variables: 100
+number of solutions: 248
+time allsat to find the solutions: 0.0948219299316
+total time: 0.102484941483
+
+uf100-0127.cnf
+number of variables: 100
+number of solutions: 120
+time allsat to find the solutions: 0.0936081409454
+total time: 0.0976679325104
+
+uf100-0128.cnf
+number of variables: 100
+number of solutions: 844
+time allsat to find the solutions: 0.10284781456
+total time: 0.125
+
+uf100-0129.cnf
+number of variables: 100
+number of solutions: 60
+time allsat to find the solutions: 0.0857119560242
+total time: 0.087963104248
+
+uf100-0130.cnf
+number of variables: 100
+number of solutions: 172
+time allsat to find the solutions: 0.0974910259247
+total time: 0.102928161621
+
+uf100-0131.cnf
+number of variables: 100
+number of solutions: 1068
+time allsat to find the solutions: 0.112813949585
+total time: 0.142256975174
+
+uf100-0132.cnf
+number of variables: 100
+number of solutions: 2094
+time allsat to find the solutions: 0.11012005806
+total time: 0.162367105484
+
+uf100-0133.cnf
+number of variables: 100
+number of solutions: 144
+time allsat to find the solutions: 0.0994639396667
+total time: 0.104080915451
+
+uf100-0134.cnf
+number of variables: 100
+number of solutions: 2256
+time allsat to find the solutions: 0.128074169159
+total time: 0.184828042984
+
+uf100-0135.cnf
+number of variables: 100
+number of solutions: 1736
+time allsat to find the solutions: 0.0980830192566
+total time: 0.139459133148
+136 proglemi
+uf100-0137.cnf
+number of variables: 100
+number of solutions: 3960
+time allsat to find the solutions: 0.0936291217804
+total time: 0.187742948532
+
+uf100-0138.cnf
+number of variables: 100
+number of solutions: 33350
+time allsat to find the solutions: 0.171651124954
+total time: 0.883369207382
+
+uf100-0139.cnf
+number of variables: 100
+number of solutions: 3080
+time allsat to find the solutions: 0.0370810031891
+total time: 0.119686126709
+
+uf100-0140.cnf
+number of variables: 100
+number of solutions: 10008
+time allsat to find the solutions: 0.103132009506
+total time: 0.322957992554
+
+uf100-0141.cnf
+number of variables: 100
+number of solutions: 14
+time allsat to find the solutions: 0.0293309688568
+total time: 0.0301270484924
+
+uf100-0142.cnf
+number of variables: 100
+number of solutions: 2320
+time allsat to find the solutions: 0.0368161201477
+total time: 0.0915279388428
+
+uf100-0143.cnf
+number of variables: 100
+number of solutions: 192
+time allsat to find the solutions: 0.0352261066437
+total time: 0.0424721240997
+
+uf100-0144.cnf
+number of variables: 100
+number of solutions: 13064
+time allsat to find the solutions: 0.0867509841919
+total time: 0.378791093826
+
+uf100-0145.cnf
+number of variables: 100
+number of solutions: 3802
+time allsat to find the solutions: 0.0644180774689
+total time: 0.158637046814
+
+uf100-0146.cnf
+number of variables: 100
+number of solutions: 256
+time allsat to find the solutions: 0.0163857936859
+total time: 0.0261008739471
+
+uf100-0147.cnf
+number of variables: 100
+number of solutions: 355944
+time allsat to find the solutions: 2.0918109417
+total time: 9.95178794861
+
+uf100-0148.cnf
+number of variables: 100
+number of solutions: 252
+time allsat to find the solutions: 0.0441989898682
+total time: 0.0522849559784
+
+uf100-0149.cnf
+number of variables: 100
+number of solutions: 1051361
+time allsat to find the solutions: 5.26106405258
+total time: 30.5900609493
+
+uf100-0150.cnf
+number of variables: 100
+number of solutions: 127243
+time allsat to find the solutions: 0.605669975281
+total time: 3.25892996788
+
+uf100-0151.cnf
+number of variables: 100
+number of solutions: 768048
+time allsat to find the solutions: 3.44960212708
+total time: 21.2712700367
+
+uf100-0152.cnf
+number of variables: 100
+number of solutions: 60
+time allsat to find the solutions: 0.0817019939423
+total time: 0.0837841033936
+
+uf100-0153.cnf
+number of variables: 100
+number of solutions: 21863
+time allsat to find the solutions: 0.19248008728
+total time: 0.645739078522
+
+uf100-0154.cnf
+number of variables: 100
+number of solutions: 192
+time allsat to find the solutions: 0.0738689899445
+total time: 0.0823140144348
+
+uf100-0155.cnf
+number of variables: 100
+number of solutions: 29070
+time allsat to find the solutions: 0.230375051498
+total time: 0.840924024582
+
+uf100-0156.cnf
+number of variables: 100
+number of solutions: 5612
+time allsat to find the solutions: 0.105544090271
+total time: 0.226359128952
+
+uf100-0157.cnf
+number of variables: 100
+number of solutions: 37816
+time allsat to find the solutions: 0.25178694725
+total time: 1.04739403725
+
+uf100-0158.cnf
+number of variables: 100
+number of solutions: 7840
+time allsat to find the solutions: 0.0974547863007
+total time: 0.263018846512
+
+uf100-0159.cnf
+number of variables: 100
+number of solutions: 577
+time allsat to find the solutions: 0.0684461593628
+total time: 0.083838224411
+
+uf100-0160.cnf
+number of variables: 100
+number of solutions: 28
+time allsat to find the solutions: 0.0652620792389
+total time: 0.0667481422424
+
+uf100-0161.cnf
+number of variables: 100
+number of solutions: 397466
+time allsat to find the solutions: 1.61811304092
+total time: 10.4980990887
+
+uf100-0162.cnf
+number of variables: 100
+number of solutions: 162
+time allsat to find the solutions: 0.0749309062958
+total time: 0.0804629325867
+
+uf100-0163.cnf
+number of variables: 100
+number of solutions: 3864
+time allsat to find the solutions: 0.0970709323883
+total time: 0.190876960754
+
+uf100-0164.cnf
+number of variables: 100
+number of solutions: 1835135
+time allsat to find the solutions: 12.4513859749
+total time: 54.5756649971
+
+uf100-0165.cnf
+number of variables: 100
+number of solutions: 40960
+time allsat to find the solutions: 0.408804893494
+total time: 1.26624083519
+
+uf100-0166.cnf
+number of variables: 100
+number of solutions: 20052
+time allsat to find the solutions: 0.266340970993
+total time: 0.688784837723
+
+uf100-0167.cnf
+number of variables: 100
+number of solutions: 117624
+time allsat to find the solutions: 0.55234503746
+total time: 3.03753900528
+
+uf100-0168.cnf
+number of variables: 100
+number of solutions: 976
+time allsat to find the solutions: 0.112971067429
+total time: 0.138091087341
+
+uf100-0169.cnf
+number of variables: 100
+number of solutions: 3988
+time allsat to find the solutions: 0.134816169739
+total time: 0.223110198975
+
+uf100-0170.cnf
+number of variables: 100
+number of solutions: 2809
+time allsat to find the solutions: 0.130211830139
+total time: 0.196502923965
+
+uf100-0171.cnf
+number of variables: 100
+number of solutions: 72
+time allsat to find the solutions: 0.11661696434
+total time: 0.119592905045
+
+uf100-0172.cnf
+number of variables: 100
+number of solutions: 28718
+time allsat to find the solutions: 0.247512102127
+total time: 0.853349924088
+
+uf100-0173.cnf
+number of variables: 100
+number of solutions: 3452
+time allsat to find the solutions: 0.142544984818
+total time: 0.221490859985
+
+uf100-0174.cnf
+number of variables: 100
+number of solutions: 29142
+time allsat to find the solutions: 0.266998052597
+total time: 0.892358064651
+
+uf100-0175.cnf
+number of variables: 100
+number of solutions: 8678
+time allsat to find the solutions: 0.145916938782
+total time: 0.332757949829
+
+uf100-0176.cnf
+number of variables: 100
+number of solutions: 96912
+time allsat to find the solutions: 0.479758024216
+total time: 2.52611899376
+
+uf100-0177.cnf
+number of variables: 100
+number of solutions: 79428
+time allsat to find the solutions: 0.468707084656
+total time: 2.15773916245
+
+uf100-0178.cnf
+number of variables: 100
+number of solutions: 624
+time allsat to find the solutions: 0.121242046356
+total time: 0.140439987183
+
+uf100-0179.cnf
+number of variables: 100
+number of solutions: 11740
+time allsat to find the solutions: 0.166933059692
+total time: 0.423808097839
+
+uf100-0180.cnf
+number of variables: 100
+number of solutions: 186
+time allsat to find the solutions: 0.13338303566
+total time: 0.140934944153
+
+uf100-0181.cnf
+number of variables: 100
+number of solutions: 7460
+time allsat to find the solutions: 0.13968205452
+total time: 0.301707983017
+
+uf100-0182.cnf
+number of variables: 100
+number of solutions: 372224
+time allsat to find the solutions: 1.40293288231
+total time: 9.70071387291
+
+uf100-0183.cnf
+number of variables: 100
+number of solutions: 144
+time allsat to find the solutions: 0.11808681488
+total time: 0.124116897583
+
+uf100-0184.cnf
+number of variables: 100
+number of solutions: 16332
+time allsat to find the solutions: 0.172008037567
+total time: 0.534946918488
+
+uf100-0185.cnf
+number of variables: 100
+number of solutions: 827410
+time allsat to find the solutions: 3.71531486511
+total time: 23.0181379318
+
+uf100-0186.cnf
+number of variables: 100
+number of solutions: 5696
+time allsat to find the solutions: 0.174864053726
+total time: 0.301939964294
+
+uf100-0187.cnf
+number of variables: 100
+number of solutions: 44036
+time allsat to find the solutions: 0.524083137512
+total time: 1.48257517815
+
+uf100-0188.cnf
+number of variables: 100
+number of solutions: 470795
+time allsat to find the solutions: 2.09822392464
+total time: 12.7053198814
+
+uf100-0189.cnf
+number of variables: 100
+number of solutions: 2186073
+time allsat to find the solutions: 14.8886120319
+total time: 65.8161690235
+
+uf100-0190.cnf
+number of variables: 100
+number of solutions: 59422
+time allsat to find the solutions: 0.363842964172
+total time: 1.58729910851
+
+uf100-0191.cnf
+number of variables: 100
+number of solutions: 70
+time allsat to find the solutions: 0.0301070213318
+total time: 0.0337240695953
+
+uf100-0192.cnf
+number of variables: 100
+number of solutions: 1254
+time allsat to find the solutions: 0.0315310955048
+total time: 0.0629670619965
+
+uf100-0193.cnf
+number of variables: 100
+number of solutions: 11268
+time allsat to find the solutions: 0.0804240703583
+total time: 0.321998119354
+
+uf100-0194.cnf
+number of variables: 100
+number of solutions: 990
+time allsat to find the solutions: 0.0294079780579
+total time: 0.0586271286011
+
+uf100-0195.cnf
+number of variables: 100
+number of solutions: 9856
+time allsat to find the solutions: 0.0942859649658
+total time: 0.313404798508
+
+uf100-0196.cnf
+number of variables: 100
+number of solutions: 584
+time allsat to find the solutions: 0.0350689888
+total time: 0.0550220012665
+
+uf100-0197.cnf
+number of variables: 100
+number of solutions: 64536
+time allsat to find the solutions: 0.340213060379
+total time: 1.72123289108
+
+uf100-0198.cnf
+number of variables: 100
+number of solutions: 42656
+time allsat to find the solutions: 0.250427007675
+total time: 1.21535301208
+
+uf100-0199.cnf
+number of variables: 100
+number of solutions: 1748
+time allsat to find the solutions: 0.0333161354065
+total time: 0.077358007431
+
+uf100-0200.cnf
+number of variables: 100
+number of solutions: 21487
+time allsat to find the solutions: 0.146317005157
+total time: 0.648977994919
+
+uf100-0201.cnf
+number of variables: 100
+number of solutions: 13338
+time allsat to find the solutions: 0.0920050144196
+total time: 0.43999505043
+
+uf100-0202.cnf
+number of variables: 100
+number of solutions: 2998
+time allsat to find the solutions: 0.0514969825745
+total time: 0.127909898758
+
+uf100-0203.cnf
+number of variables: 100
+number of solutions: 104092
+time allsat to find the solutions: 0.457148075104
+total time: 2.74701404572
+
+uf100-0204.cnf
+number of variables: 100
+number of solutions: 31403
+time allsat to find the solutions: 0.233639001846
+total time: 0.881025075912
+
+uf100-0205.cnf
+number of variables: 100
+number of solutions: 53666
+time allsat to find the solutions: 0.30161190033
+total time: 1.45184397697
+
+uf100-0206.cnf
+number of variables: 100
+number of solutions: 7552
+time allsat to find the solutions: 0.086895942688
+total time: 0.244017124176
+
+uf100-0207.cnf
+number of variables: 100
+number of solutions: 36672
+time allsat to find the solutions: 0.205235004425
+total time: 0.981235027313
+
+uf100-0208.cnf
+number of variables: 100
+number of solutions: 48430
+time allsat to find the solutions: 0.281123876572
+total time: 1.3372938633
+
+uf100-0209.cnf
+number of variables: 100
+number of solutions: 588
+time allsat to find the solutions: 0.0276169776917
+total time: 0.0416288375854
+
+uf100-0210.cnf
+number of variables: 100
+number of solutions: 2616
+time allsat to find the solutions: 0.069846868515
+total time: 0.130091905594
+
+uf100-0211.cnf
+number of variables: 100
+number of solutions: 1208
+time allsat to find the solutions: 0.0555720329285
+total time: 0.0874540805817
+
+uf100-0212.cnf
+number of variables: 100
+number of solutions: 456
+time allsat to find the solutions: 0.0289618968964
+total time: 0.0447850227356
+
+uf100-0213.cnf
+number of variables: 100
+number of solutions: 2528
+time allsat to find the solutions: 0.0444009304047
+total time: 0.107933998108
+
+uf100-0214.cnf
+number of variables: 100
+number of solutions: 2760
+time allsat to find the solutions: 0.0578198432922
+total time: 0.125326871872
+
+uf100-0215.cnf
+number of variables: 100
+number of solutions: 51541
+time allsat to find the solutions: 0.286029815674
+total time: 1.40406298637
+
+uf100-0216.cnf
+number of variables: 100
+number of solutions: 91064
+time allsat to find the solutions: 0.552989006042
+total time: 2.79266905785
+
+uf100-0217.cnf
+number of variables: 100
+number of solutions: 212
+time allsat to find the solutions: 0.040461063385
+total time: 0.047492980957
+
+uf100-0218.cnf
+number of variables: 100
+number of solutions: 41676
+time allsat to find the solutions: 0.22079706192
+total time: 1.12520909309
+
+uf100-0219.cnf
+number of variables: 100
+number of solutions: 280
+time allsat to find the solutions: 0.0330090522766
+total time: 0.0460250377655
+
+uf100-0220.cnf
+number of variables: 100
+number of solutions: 304
+time allsat to find the solutions: 0.0350699424744
+total time: 0.049309015274
+
+uf100-0221.cnf
+number of variables: 100
+number of solutions: 184
+time allsat to find the solutions: 0.0540928840637
+total time: 0.0623180866241
+
+uf100-0222.cnf
+number of variables: 100
+number of solutions: 872
+time allsat to find the solutions: 0.0336890220642
+total time: 0.0582900047302
+
+uf100-0223.cnf
+number of variables: 100
+number of solutions: 4046
+time allsat to find the solutions: 0.0513880252838
+total time: 0.14808011055
+
+uf100-0224.cnf
+number of variables: 100
+number of solutions: 24
+time allsat to find the solutions: 0.0277729034424
+total time: 0.0289449691772
+
+uf100-0225.cnf
+number of variables: 100
+number of solutions: 5400
+time allsat to find the solutions: 0.0471980571747
+total time: 0.167301177979
+
+uf100-0226.cnf
+number of variables: 100
+number of solutions: 72
+time allsat to find the solutions: 0.0296909809113
+total time: 0.0325050354004
+
+uf100-0227.cnf
+number of variables: 100
+number of solutions: 844
+time allsat to find the solutions: 0.0348839759827
+total time: 0.0612649917603
+
+uf100-0228.cnf
+number of variables: 100
+number of solutions: 62380
+time allsat to find the solutions: 0.298665046692
+total time: 1.61287903786
+
+uf100-0229.cnf
+number of variables: 100
+number of solutions: 1292
+time allsat to find the solutions: 0.0514957904816
+total time: 0.0866799354553
+
+uf100-0230.cnf
+number of variables: 100
+number of solutions: 59652
+time allsat to find the solutions: 0.277855873108
+total time: 1.55372691154
+
+uf100-0231.cnf
+number of variables: 100
+number of solutions: 494
+time allsat to find the solutions: 0.052453994751
+total time: 0.0710561275482
+
+uf100-0232.cnf
+number of variables: 100
+number of solutions: 118882
+time allsat to find the solutions: 0.636126041412
+total time: 3.11095118523
+
+uf100-0233.cnf
+number of variables: 100
+number of solutions: 1730
+time allsat to find the solutions: 0.0428690910339
+total time: 0.0851531028748
+
+uf100-0234.cnf
+number of variables: 100
+number of solutions: 118
+time allsat to find the solutions: 0.0546190738678
+total time: 0.0588271617889
+
+uf100-0235.cnf
+number of variables: 100
+number of solutions: 43536
+time allsat to find the solutions: 0.215399026871
+total time: 1.14345002174
+
+uf100-0236.cnf
+number of variables: 100
+number of solutions: 982
+time allsat to find the solutions: 0.0632390975952
+total time: 0.0913078784943
+
+uf100-0237.cnf
+number of variables: 100
+number of solutions: 2744
+time allsat to find the solutions: 0.0583779811859
+total time: 0.121790885925
+
+uf100-0238.cnf
+number of variables: 100
+number of solutions: 1376
+time allsat to find the solutions: 0.0658531188965
+total time: 0.102895021439
+
+uf100-0239.cnf
+number of variables: 100
+number of solutions: 50
+time allsat to find the solutions: 0.0373258590698
+total time: 0.0394508838654
+
+uf100-0240.cnf
+number of variables: 100
+number of solutions: 5500
+time allsat to find the solutions: 0.0945539474487
+total time: 0.222723960876
+
+uf100-0241.cnf
+number of variables: 100
+number of solutions: 368
+time allsat to find the solutions: 0.0753009319305
+total time: 0.086483001709
+
+uf100-0242.cnf
+number of variables: 100
+number of solutions: 19800
+time allsat to find the solutions: 0.132373809814
+total time: 0.568044900894
+
+uf100-0243.cnf
+number of variables: 100
+number of solutions: 690
+time allsat to find the solutions: 0.0375418663025
+total time: 0.0631668567657
+
+uf100-0244.cnf
+number of variables: 100
+number of solutions: 32
+time allsat to find the solutions: 0.0344049930573
+total time: 0.0358018875122
+
+uf100-0245.cnf
+number of variables: 100
+number of solutions: 155660
+time allsat to find the solutions: 0.638281106949
+total time: 3.96859502792
+
+uf100-0246.cnf
+number of variables: 100
+number of solutions: 1584
+time allsat to find the solutions: 0.050931930542
+total time: 0.0911090373993
+
+uf100-0247.cnf
+number of variables: 100
+number of solutions: 124
+time allsat to find the solutions: 0.0382318496704
+total time: 0.0424888134003
+
+uf100-0248.cnf
+number of variables: 100
+number of solutions: 23355
+time allsat to find the solutions: 0.150367975235
+total time: 0.638336896896
+
+uf100-0249.cnf
+number of variables: 100
+number of solutions: 3320
+time allsat to find the solutions: 0.0740258693695
+total time: 0.155178070068
+
+uf100-0250.cnf
+number of variables: 100
+number of solutions: 61
+time allsat to find the solutions: 0.0526359081268
+total time: 0.0547728538513
+
+uf100-0251.cnf
+number of variables: 100
+number of solutions: 2340
+time allsat to find the solutions: 0.0710339546204
+total time: 0.125230789185
+
+uf100-0252.cnf
+number of variables: 100
+number of solutions: 12632
+time allsat to find the solutions: 0.0981800556183
+total time: 0.366789102554
+
+uf100-0253.cnf
+number of variables: 100
+number of solutions: 3240
+time allsat to find the solutions: 0.0536999702454
+total time: 0.128653049469
+
+uf100-0254.cnf
+number of variables: 100
+number of solutions: 932
+time allsat to find the solutions: 0.0534369945526
+total time: 0.0792598724365
+
+uf100-0255.cnf
+number of variables: 100
+number of solutions: 546
+time allsat to find the solutions: 0.0468699932098
+total time: 0.0645577907562
+
+uf100-0256.cnf
+number of variables: 100
+number of solutions: 29732
+time allsat to find the solutions: 0.179315090179
+total time: 0.843563079834
+
+uf100-0257.cnf
+number of variables: 100
+number of solutions: 15832
+time allsat to find the solutions: 0.128308057785
+total time: 0.474078178406
+
+uf100-0258.cnf
+number of variables: 100
+number of solutions: 12363
+time allsat to find the solutions: 0.103675127029
+total time: 0.373810052872
+
+uf100-0259.cnf
+number of variables: 100
+number of solutions: 1217
+time allsat to find the solutions: 0.0504720211029
+total time: 0.0866658687592
+
+uf100-0260.cnf
+number of variables: 100
+number of solutions: 79192
+time allsat to find the solutions: 0.400369882584
+total time: 2.12241292
+
+uf100-0261.cnf
+number of variables: 100
+number of solutions: 336
+time allsat to find the solutions: 0.0472319126129
+total time: 0.0589458942413
+
+uf100-0262.cnf
+number of variables: 100
+number of solutions: 136
+time allsat to find the solutions: 0.0421531200409
+total time: 0.0479071140289
+
+uf100-0263.cnf
+number of variables: 100
+number of solutions: 151
+time allsat to find the solutions: 0.0390729904175
+total time: 0.0452392101288
+
+uf100-0264.cnf
+number of variables: 100
+number of solutions: 11554
+time allsat to find the solutions: 0.0995109081268
+total time: 0.350205898285
+
+uf100-0265.cnf
+number of variables: 100
+number of solutions: 481658
+time allsat to find the solutions: 2.42217111588
+total time: 13.147108078
+
+uf100-0266.cnf
+number of variables: 100
+number of solutions: 112
+time allsat to find the solutions: 0.0688531398773
+total time: 0.0729451179504
+
+uf100-0267.cnf
+number of variables: 100
+number of solutions: 2356
+time allsat to find the solutions: 0.0626530647278
+total time: 0.115066051483
+
+uf100-0268.cnf
+number of variables: 100
+number of solutions: 4128
+time allsat to find the solutions: 0.070140838623
+total time: 0.162280797958
+
+uf100-0269.cnf
+number of variables: 100
+number of solutions: 45972
+time allsat to find the solutions: 0.255066871643
+total time: 1.2116959095
+
+uf100-0270.cnf
+number of variables: 100
+number of solutions: 159
+time allsat to find the solutions: 0.0625009536743
+total time: 0.0688598155975
+
+uf100-0271.cnf
+number of variables: 100
+number of solutions: 144
+time allsat to find the solutions: 0.0643949508667
+total time: 0.0694270133972
+
+uf100-0272.cnf
+number of variables: 100
+number of solutions: 3456
+time allsat to find the solutions: 0.0699079036713
+total time: 0.14839887619
+
+uf100-0273.cnf
+number of variables: 100
+number of solutions: 224
+time allsat to find the solutions: 0.0645949840546
+total time: 0.0715410709381
+
+uf100-0274.cnf
+number of variables: 100
+number of solutions: 21
+time allsat to find the solutions: 0.0639979839325
+total time: 0.064738035202
+
+uf100-0275.cnf
+number of variables: 100
+number of solutions: 5352
+time allsat to find the solutions: 0.0814299583435
+total time: 0.194752931595
+
+uf100-0276.cnf
+number of variables: 100
+number of solutions: 8
+time allsat to find the solutions: 0.0468981266022
+total time: 0.047455072403
+
+uf100-0277.cnf
+number of variables: 100
+number of solutions: 23694
+time allsat to find the solutions: 0.163107872009
+total time: 0.659173965454
+
+uf100-0278.cnf
+number of variables: 100
+number of solutions: 62142
+time allsat to find the solutions: 0.290474891663
+total time: 1.58360385895
+
+uf100-0279.cnf
+number of variables: 100
+number of solutions: 30126
+time allsat to find the solutions: 0.191469907761
+total time: 0.817565917969
+
+uf100-0280.cnf
+number of variables: 100
+number of solutions: 17072
+time allsat to find the solutions: 0.125181913376
+total time: 0.492394924164
+
+uf100-0281.cnf
+number of variables: 100
+number of solutions: 700
+time allsat to find the solutions: 0.0587170124054
+total time: 0.078794002533
+
+uf100-0282.cnf
+number of variables: 100
+number of solutions: 11118
+time allsat to find the solutions: 0.111105203629
+total time: 0.352735042572
+
+uf100-0283.cnf
+number of variables: 100
+number of solutions: 16
+time allsat to find the solutions: 0.0571970939636
+total time: 0.0582101345062
+
+uf100-0284.cnf
+number of variables: 100
+number of solutions: 418360
+time allsat to find the solutions: 1.78261399269
+total time: 10.9589419365
+
+uf100-0285.cnf
+number of variables: 100
+number of solutions: 4
+time allsat to find the solutions: 0.0690448284149
+total time: 0.0695707798004
+
+uf100-0286.cnf
+number of variables: 100
+number of solutions: 6776
+time allsat to find the solutions: 0.0939679145813
+total time: 0.241427898407
+
+uf100-0287.cnf
+number of variables: 100
+number of solutions: 560
+time allsat to find the solutions: 0.0756628513336
+total time: 0.0943419933319
+
+uf100-0288.cnf
+number of variables: 100
+number of solutions: 32
+time allsat to find the solutions: 0.084459066391
+total time: 0.0857899188995
+
+uf100-0290.cnf
+number of variables: 100
+number of solutions: 768
+time allsat to find the solutions: 0.0190870761871
+total time: 0.0428960323334
+
+uf100-0291.cnf
+number of variables: 100
+number of solutions: 36470
+time allsat to find the solutions: 0.169361114502
+total time: 0.937694072723
+
+uf100-0292.cnf
+number of variables: 100
+number of solutions: 24144
+time allsat to find the solutions: 0.161261081696
+total time: 0.688403844833
+
+uf100-0293.cnf
+number of variables: 100
+number of solutions: 4322
+time allsat to find the solutions: 0.0525410175323
+total time: 0.157413959503
+
+uf100-0294.cnf
+number of variables: 100
+number of solutions: 38698
+time allsat to find the solutions: 0.194082975388
+total time: 1.0943338871
+
+uf100-0295.cnf
+number of variables: 100
+number of solutions: 5648
+time allsat to find the solutions: 0.0631029605865
+total time: 0.19118309021
+
+uf100-0296.cnf
+number of variables: 100
+number of solutions: 29036
+time allsat to find the solutions: 0.157330989838
+total time: 0.783767938614
+
+uf100-0297.cnf
+number of variables: 100
+number of solutions: 13924
+time allsat to find the solutions: 0.100018024445
+total time: 0.412601947784
+
+uf100-0298.cnf
+number of variables: 100
+number of solutions: 44992
+time allsat to find the solutions: 0.256682872772
+total time: 1.25618481636
+
+uf100-0299.cnf
+number of variables: 100
+number of solutions: 932
+time allsat to find the solutions: 0.03764295578
+total time: 0.066878080368
+
+uf100-0300.cnf
+number of variables: 100
+number of solutions: 46112
+time allsat to find the solutions: 0.225571870804
+total time: 1.19190096855
+
+uf100-0301.cnf
+number of variables: 100
+number of solutions: 58256
+time allsat to find the solutions: 0.251147985458
+total time: 1.48507785797
+
+uf100-0302.cnf
+number of variables: 100
+number of solutions: 4864
+time allsat to find the solutions: 0.0447709560394
+total time: 0.155349969864
+
+uf100-0303.cnf
+number of variables: 100
+number of solutions: 54
+time allsat to find the solutions: 0.0264279842377
+total time: 0.0288619995117
+
+uf100-0304.cnf
+number of variables: 100
+number of solutions: 8248
+time allsat to find the solutions: 0.0753769874573
+total time: 0.248672962189
+
+uf100-0305.cnf
+number of variables: 100
+number of solutions: 204235
+time allsat to find the solutions: 0.900908946991
+total time: 5.22276997566
+
+uf100-0306.cnf
+number of variables: 100
+number of solutions: 112006
+time allsat to find the solutions: 0.585402011871
+total time: 2.92816901207
+
+uf100-0307.cnf
+number of variables: 100
+number of solutions: 26328
+time allsat to find the solutions: 0.179354906082
+total time: 0.750173807144
+
+uf100-0308.cnf
+number of variables: 100
+number of solutions: 1848
+time allsat to find the solutions: 0.0520720481873
+total time: 0.0964529514313
+
+uf100-0309.cnf
+number of variables: 100
+number of solutions: 200
+time allsat to find the solutions: 0.0337960720062
+total time: 0.0420181751251
+
+uf100-0310.cnf
+number of variables: 100
+number of solutions: 79366
+time allsat to find the solutions: 0.384618997574
+total time: 2.10605597496
+
+uf100-0311.cnf
+number of variables: 100
+number of solutions: 4920
+time allsat to find the solutions: 0.0578398704529
+total time: 0.168081045151
+
+uf100-0312.cnf
+number of variables: 100
+number of solutions: 17536
+time allsat to find the solutions: 0.107818126678
+total time: 0.485460042953
+
+uf100-0313.cnf
+number of variables: 100
+number of solutions: 1232
+time allsat to find the solutions: 0.0513641834259
+total time: 0.0884881019592
+
+uf100-0314.cnf
+number of variables: 100
+number of solutions: 2648
+time allsat to find the solutions: 0.0505228042603
+total time: 0.115072965622
+
+uf100-0315.cnf
+number of variables: 100
+number of solutions: 5636
+time allsat to find the solutions: 0.0906882286072
+total time: 0.228632211685
+
+uf100-0316.cnf
+number of variables: 100
+number of solutions: 776
+time allsat to find the solutions: 0.0482959747314
+total time: 0.0724351406097
+
+uf100-0317.cnf
+number of variables: 100
+number of solutions: 240
+time allsat to find the solutions: 0.042573928833
+total time: 0.0509638786316
+
+uf100-0318.cnf
+number of variables: 100
+number of solutions: 33468
+time allsat to find the solutions: 0.173470020294
+total time: 0.892772912979
+
+uf100-0319.cnf
+number of variables: 100
+number of solutions: 2016
+time allsat to find the solutions: 0.0525369644165
+total time: 0.0968589782715
+
+uf100-0320.cnf
+number of variables: 100
+number of solutions: 11862
+time allsat to find the solutions: 0.112622976303
+total time: 0.375552892685
+
+uf100-0321.cnf
+number of variables: 100
+number of solutions: 767795
+time allsat to find the solutions: 3.02926516533
+total time: 20.5826511383
+
+uf100-0322.cnf
+number of variables: 100
+number of solutions: 1068
+time allsat to find the solutions: 0.0780649185181
+total time: 0.109779834747
+
+uf100-0323.cnf
+number of variables: 100
+number of solutions: 11848
+time allsat to find the solutions: 0.0976929664612
+total time: 0.353232145309
+
+uf100-0324.cnf
+number of variables: 100
+number of solutions: 54380
+time allsat to find the solutions: 0.294835090637
+total time: 1.43667197227
+
+uf100-0325.cnf
+number of variables: 100
+number of solutions: 96
+time allsat to find the solutions: 0.0611400604248
+total time: 0.0671632289886
+
+uf100-0326.cnf
+number of variables: 100
+number of solutions: 8
+time allsat to find the solutions: 0.0574989318848
+total time: 0.0581030845642
+
+uf100-0327.cnf
+number of variables: 100
+number of solutions: 8576
+time allsat to find the solutions: 0.114829063416
+total time: 0.30316400528
+
+uf100-0328.cnf
+number of variables: 100
+number of solutions: 3576
+time allsat to find the solutions: 0.0681550502777
+total time: 0.144179105759
+
+uf100-0329.cnf
+number of variables: 100
+number of solutions: 56714
+time allsat to find the solutions: 0.331060171127
+total time: 1.50910615921
+
+uf100-0330.cnf
+number of variables: 100
+number of solutions: 186
+time allsat to find the solutions: 0.0580101013184
+total time: 0.0643861293793
+
+uf100-0331.cnf
+number of variables: 100
+number of solutions: 512
+time allsat to find the solutions: 0.0677421092987
+total time: 0.0838041305542
+
+uf100-0332.cnf
+number of variables: 100
+number of solutions: 447899
+time allsat to find the solutions: 1.69164800644
+total time: 11.5756428242
+
+uf100-0333.cnf
+number of variables: 100
+number of solutions: 2474
+time allsat to find the solutions: 0.0909140110016
+total time: 0.155330896378
+
+uf100-0334.cnf
+number of variables: 100
+number of solutions: 35720
+time allsat to find the solutions: 0.260964155197
+total time: 1.01284098625
+
+uf100-0335.cnf
+number of variables: 100
+number of solutions: 104
+time allsat to find the solutions: 0.0558679103851
+total time: 0.0602009296417
+
+uf100-0336.cnf
+number of variables: 100
+number of solutions: 2304
+time allsat to find the solutions: 0.0636560916901
+total time: 0.118463993073
+
+uf100-0337.cnf
+number of variables: 100
+number of solutions: 60736
+time allsat to find the solutions: 0.283459186554
+total time: 1.57481598854
+
+uf100-0338.cnf
+number of variables: 100
+number of solutions: 16272
+time allsat to find the solutions: 0.160014867783
+total time: 0.528780937195
+
+uf100-0339.cnf
+number of variables: 100
+number of solutions: 384
+time allsat to find the solutions: 0.0624489784241
+total time: 0.0741910934448
+
+uf100-0340.cnf
+number of variables: 100
+number of solutions: 9012
+time allsat to find the solutions: 0.119334936142
+total time: 0.328139066696
+
+uf100-0341.cnf
+number of variables: 100
+number of solutions: 11496
+time allsat to find the solutions: 0.116766929626
+total time: 0.370532035828
+
+uf100-0342.cnf
+number of variables: 100
+number of solutions: 4238456
+time allsat to find the solutions: 22.0654509068
+total time: 206.107333899
+
+uf100-0343.cnf
+number of variables: 100
+number of solutions: 420
+time allsat to find the solutions: 0.142122030258
+total time: 0.155630111694
+
+uf100-0344.cnf
+number of variables: 100
+number of solutions: 1966
+time allsat to find the solutions: 0.025890827179
+total time: 0.0702970027924
+
+uf100-0345.cnf
+number of variables: 100
+number of solutions: 16470
+time allsat to find the solutions: 0.102253913879
+total time: 0.454324007034
+
+uf100-0346.cnf
+number of variables: 100
+number of solutions: 4856
+time allsat to find the solutions: 0.0577890872955
+total time: 0.175031900406
+
+uf100-0347.cnf
+number of variables: 100
+number of solutions: 704
+time allsat to find the solutions: 0.0166709423065
+total time: 0.0367789268494
+
+uf100-0348.cnf
+number of variables: 100
+number of solutions: 8448
+time allsat to find the solutions: 0.0559749603271
+total time: 0.242744922638
+
+uf100-0349.cnf
+number of variables: 100
+number of solutions: 96
+time allsat to find the solutions: 0.0186450481415
+total time: 0.0211629867554
+
+uf100-0350.cnf
+number of variables: 100
+number of solutions: 52
+time allsat to find the solutions: 0.0205562114716
+total time: 0.0228450298309
+
+uf100-0351.cnf
+number of variables: 100
+number of solutions: 33386
+time allsat to find the solutions: 0.196676969528
+total time: 0.891218900681
+
+uf100-0352.cnf
+number of variables: 100
+number of solutions: 774
+time allsat to find the solutions: 0.0378201007843
+total time: 0.0649139881134
+
+uf100-0353.cnf
+number of variables: 100
+number of solutions: 1656
+time allsat to find the solutions: 0.0272610187531
+total time: 0.0676219463348
+
+uf100-0354.cnf
+number of variables: 100
+number of solutions: 107652
+time allsat to find the solutions: 0.48246884346
+total time: 2.79760098457
+
+uf100-0355.cnf
+number of variables: 100
+number of solutions: 108
+time allsat to find the solutions: 0.0259771347046
+total time: 0.0296199321747
+
+uf100-0356.cnf
+number of variables: 100
+number of solutions: 100628
+time allsat to find the solutions: 0.529907941818
+total time: 2.67975497246
+
+uf100-0357.cnf
+number of variables: 100
+number of solutions: 2564
+time allsat to find the solutions: 0.0422229766846
+total time: 0.0992178916931
+
+uf100-0358.cnf
+number of variables: 100
+number of solutions: 39678
+time allsat to find the solutions: 0.184875965118
+total time: 1.01628494263
+
+uf100-0359.cnf
+number of variables: 100
+number of solutions: 120
+time allsat to find the solutions: 0.0422298908234
+total time: 0.0464279651642
+
+uf100-0360.cnf
+number of variables: 100
+number of solutions: 3096
+time allsat to find the solutions: 0.0451850891113
+total time: 0.118165016174
+
+uf100-0361.cnf
+number of variables: 100
+number of solutions: 11688
+time allsat to find the solutions: 0.0843131542206
+total time: 0.33685708046
+
+uf100-0362.cnf
+number of variables: 100
+number of solutions: 3502
+time allsat to find the solutions: 0.0383050441742
+total time: 0.127945899963
+
+uf100-0363.cnf
+number of variables: 100
+number of solutions: 13884
+time allsat to find the solutions: 0.107415914536
+total time: 0.416227817535
+
+uf100-0364.cnf
+number of variables: 100
+number of solutions: 34441
+time allsat to find the solutions: 0.172405004501
+total time: 0.907809972763
+
+uf100-0365.cnf
+number of variables: 100
+number of solutions: 1028
+time allsat to find the solutions: 0.0366170406342
+total time: 0.0714349746704
+
+uf100-0366.cnf
+number of variables: 100
+number of solutions: 1952
+time allsat to find the solutions: 0.0295300483704
+total time: 0.0757291316986
+
+uf100-0367.cnf
+number of variables: 100
+number of solutions: 1880
+time allsat to find the solutions: 0.0350430011749
+total time: 0.0778090953827
+
+uf100-0368.cnf
+number of variables: 100
+number of solutions: 456
+time allsat to find the solutions: 0.02818608284
+total time: 0.046236038208
+
+uf100-0369.cnf
+number of variables: 100
+number of solutions: 15338
+time allsat to find the solutions: 0.106822013855
+total time: 0.444681167603
+
+uf100-0370.cnf
+number of variables: 100
+number of solutions: 432
+time allsat to find the solutions: 0.0274839401245
+total time: 0.0447211265564
+
+uf100-0371.cnf
+number of variables: 100
+number of solutions: 384
+time allsat to find the solutions: 0.0339949131012
+total time: 0.0459818840027
+
+uf100-0372.cnf
+number of variables: 100
+number of solutions: 16632
+time allsat to find the solutions: 0.100463151932
+total time: 0.459944009781
+
+uf100-0373.cnf
+number of variables: 100
+number of solutions: 1032
+time allsat to find the solutions: 0.0403208732605
+total time: 0.0667638778687
+
+uf100-0374.cnf
+number of variables: 100
+number of solutions: 1964
+time allsat to find the solutions: 0.0381641387939
+total time: 0.0849361419678
+
+uf100-0375.cnf
+number of variables: 100
+number of solutions: 436114
+time allsat to find the solutions: 1.78578782082
+total time: 11.6489419937
+
+uf100-0376.cnf
+number of variables: 100
+number of solutions: 1002023
+time allsat to find the solutions: 6.06282091141
+total time: 29.1502099037
+
+uf100-0377.cnf
+number of variables: 100
+number of solutions: 1036
+time allsat to find the solutions: 0.0899291038513
+total time: 0.12029004097
+
+uf100-0378.cnf
+number of variables: 100
+number of solutions: 29164
+time allsat to find the solutions: 0.180204868317
+total time: 0.784991979599
+
+uf100-0379.cnf
+number of variables: 100
+number of solutions: 104
+time allsat to find the solutions: 0.0604929924011
+total time: 0.0640919208527
+
+uf100-0380.cnf
+number of variables: 100
+number of solutions: 162
+time allsat to find the solutions: 0.0724339485168
+total time: 0.0776591300964
+
+uf100-0381.cnf
+number of variables: 100
+number of solutions: 5248
+time allsat to find the solutions: 0.0825169086456
+total time: 0.199322938919
+
+uf100-0382.cnf
+number of variables: 100
+number of solutions: 624
+time allsat to find the solutions: 0.0597808361053
+total time: 0.0804708003998
+
+uf100-0383.cnf
+number of variables: 100
+number of solutions: 872
+time allsat to find the solutions: 0.0605058670044
+total time: 0.0838940143585
+
+uf100-0384.cnf
+number of variables: 100
+number of solutions: 4650
+time allsat to find the solutions: 0.074784040451
+total time: 0.17555308342
+
+uf100-0385.cnf
+number of variables: 100
+number of solutions: 3096
+time allsat to find the solutions: 0.0848610401154
+total time: 0.154925107956
+
+uf100-0386.cnf
+number of variables: 100
+number of solutions: 1220
+time allsat to find the solutions: 0.0682158470154
+total time: 0.101454973221
+
+uf100-0387.cnf
+number of variables: 100
+number of solutions: 36
+time allsat to find the solutions: 0.0747270584106
+total time: 0.076131105423
+
+uf100-0388.cnf
+number of variables: 100
+number of solutions: 10160
+time allsat to find the solutions: 0.103775024414
+total time: 0.332987070084
+
+uf100-0389.cnf
+number of variables: 100
+number of solutions: 15280
+time allsat to find the solutions: 0.170547962189
+total time: 0.495894908905
+
+uf100-0390.cnf
+number of variables: 100
+number of solutions: 384
+time allsat to find the solutions: 0.0770001411438
+total time: 0.0907509326935
+
+uf100-0391.cnf
+number of variables: 100
+number of solutions: 200
+time allsat to find the solutions: 0.0639629364014
+total time: 0.0719239711761
+
+uf100-0392.cnf
+number of variables: 100
+number of solutions: 136
+time allsat to find the solutions: 0.0694770812988
+total time: 0.0770111083984
+
+uf100-0393.cnf
+number of variables: 100
+number of solutions: 720
+time allsat to find the solutions: 0.0704870223999
+total time: 0.0903990268707
+
+uf100-0394.cnf
+number of variables: 100
+number of solutions: 2592
+time allsat to find the solutions: 0.0617661476135
+total time: 0.120454072952
+
+uf100-0395.cnf
+number of variables: 100
+number of solutions: 64
+time allsat to find the solutions: 0.0758368968964
+total time: 0.0780780315399
+
+uf100-0396.cnf
+number of variables: 100
+number of solutions: 20386
+time allsat to find the solutions: 0.175221920013
+total time: 0.618811845779
+
+uf100-0397.cnf
+number of variables: 100
+number of solutions: 1344
+time allsat to find the solutions: 0.0621831417084
+total time: 0.0957140922546
+
+uf100-0398.cnf
+number of variables: 100
+number of solutions: 1408
+time allsat to find the solutions: 0.066367149353
+total time: 0.10374712944
+
+uf100-0399.cnf
+number of variables: 100
+number of solutions: 2352
+time allsat to find the solutions: 0.0784919261932
+total time: 0.137804985046
+
+uf100-0400.cnf
+number of variables: 100
+number of solutions: 356
+time allsat to find the solutions: 0.0589230060577
+total time: 0.0694658756256
+
+uf100-0401.cnf
+number of variables: 100
+number of solutions: 901585
+time allsat to find the solutions: 4.22927498817
+total time: 25.1859579086
+
+uf100-0402.cnf
+number of variables: 100
+number of solutions: 1872
+time allsat to find the solutions: 0.0898530483246
+total time: 0.138935089111
+
+uf100-0403.cnf
+number of variables: 100
+number of solutions: 600
+time allsat to find the solutions: 0.0737161636353
+total time: 0.0897660255432
+
+uf100-0404.cnf
+number of variables: 100
+number of solutions: 6016
+time allsat to find the solutions: 0.108623981476
+total time: 0.243137121201
+
+uf100-0405.cnf
+number of variables: 100
+number of solutions: 84
+time allsat to find the solutions: 0.0839829444885
+total time: 0.0869679450989
+
+uf100-0406.cnf
+number of variables: 100
+number of solutions: 8965
+time allsat to find the solutions: 0.127470016479
+total time: 0.326938152313
+
+uf100-0407.cnf
+number of variables: 100
+number of solutions: 16
+time allsat to find the solutions: 0.0658099651337
+total time: 0.0666370391846
+
+uf100-0408.cnf
+number of variables: 100
+number of solutions: 16300
+time allsat to find the solutions: 0.155001878738
+total time: 0.511821985245
+
+uf100-0409.cnf
+number of variables: 100
+number of solutions: 2088
+time allsat to find the solutions: 0.115159034729
+total time: 0.165311098099
+
+uf100-0410.cnf
+number of variables: 100
+number of solutions: 18196
+time allsat to find the solutions: 0.150345087051
+total time: 0.540971040726
+
+uf100-0411.cnf
+number of variables: 100
+number of solutions: 1642
+time allsat to find the solutions: 0.0909399986267
+total time: 0.130764007568
+
+uf100-0412.cnf
+number of variables: 100
+number of solutions: 117480
+time allsat to find the solutions: 0.673266887665
+total time: 3.09123802185
+
+uf100-0413.cnf
+number of variables: 100
+number of solutions: 1602
+time allsat to find the solutions: 0.0829210281372
+total time: 0.119898796082
+
+uf100-0414.cnf
+number of variables: 100
+number of solutions: 4480
+time allsat to find the solutions: 0.0969631671906
+total time: 0.20189499855
+
+uf100-0415.cnf
+number of variables: 100
+number of solutions: 288
+time allsat to find the solutions: 0.0714931488037
+total time: 0.0795910358429
+
+uf100-0416.cnf
+number of variables: 100
+number of solutions: 176
+time allsat to find the solutions: 0.0725870132446
+total time: 0.0784800052643
+
+uf100-0417.cnf
+number of variables: 100
+number of solutions: 28
+time allsat to find the solutions: 0.0680611133575
+total time: 0.0691690444946
+
+uf100-0418.cnf
+number of variables: 100
+number of solutions: 93518
+time allsat to find the solutions: 0.57067990303
+total time: 2.60158109665
+
+uf100-0419.cnf
+number of variables: 100
+number of solutions: 1158
+time allsat to find the solutions: 0.0788469314575
+total time: 0.111670017242
+
+uf100-0420.cnf
+number of variables: 100
+number of solutions: 17064
+time allsat to find the solutions: 0.166325092316
+total time: 0.549513101578
+
+uf100-0421.cnf
+number of variables: 100
+number of solutions: 20
+time allsat to find the solutions: 0.0706470012665
+total time: 0.0715889930725
+
+uf100-0422.cnf
+number of variables: 100
+number of solutions: 7356
+time allsat to find the solutions: 0.1107878685
+total time: 0.276944875717
+
+uf100-0423.cnf
+number of variables: 100
+number of solutions: 1132
+time allsat to find the solutions: 0.0896081924438
+total time: 0.124215126038
+
+uf100-0424.cnf
+number of variables: 100
+number of solutions: 3240
+time allsat to find the solutions: 0.105257034302
+total time: 0.183854103088
+
+uf100-0425.cnf
+number of variables: 100
+number of solutions: 667
+time allsat to find the solutions: 0.0843291282654
+total time: 0.0996971130371
+
+uf100-0426.cnf
+number of variables: 100
+number of solutions: 22334
+time allsat to find the solutions: 0.175901174545
+total time: 0.681814193726
+
+uf100-0427.cnf
+number of variables: 100
+number of solutions: 940
+time allsat to find the solutions: 0.0687310695648
+total time: 0.097293138504
+
+uf100-0428.cnf
+number of variables: 100
+number of solutions: 192
+time allsat to find the solutions: 0.077672958374
+total time: 0.084254026413
+
+uf100-0429.cnf
+number of variables: 100
+number of solutions: 60
+time allsat to find the solutions: 0.0707139968872
+total time: 0.0729060173035
+
+uf100-0430.cnf
+number of variables: 100
+number of solutions: 312
+time allsat to find the solutions: 0.0844948291779
+total time: 0.0965638160706
+
+uf100-0431.cnf
+number of variables: 100
+number of solutions: 4846
+time allsat to find the solutions: 0.162252902985
+total time: 0.273917913437
+
+uf100-0432.cnf
+number of variables: 100
+number of solutions: 2676
+time allsat to find the solutions: 0.106706857681
+total time: 0.169960975647
+
+uf100-0433.cnf
+number of variables: 100
+number of solutions: 696
+time allsat to find the solutions: 0.0864160060883
+total time: 0.109760046005
+
+uf100-0434.cnf
+number of variables: 100
+number of solutions: 67334
+time allsat to find the solutions: 0.486878871918
+total time: 1.95052790642
+
+uf100-0435.cnf
+number of variables: 100
+number of solutions: 18688
+time allsat to find the solutions: 0.198787927628
+total time: 0.602998018265
+
+uf100-0436.cnf
+number of variables: 100
+number of solutions: 952
+time allsat to find the solutions: 0.0896480083466
+total time: 0.118279933929
+
+uf100-0437.cnf
+number of variables: 100
+number of solutions: 15264
+time allsat to find the solutions: 0.171780109406
+total time: 0.495018959045
+
+uf100-0438.cnf
+number of variables: 100
+number of solutions: 381434
+time allsat to find the solutions: 1.52867293358
+total time: 10.2105329037
+
+uf100-0439.cnf
+number of variables: 100
+number of solutions: 234
+time allsat to find the solutions: 0.0977048873901
+total time: 0.104767799377
+
+uf100-0440.cnf
+number of variables: 100
+number of solutions: 5794
+time allsat to find the solutions: 0.113893985748
+total time: 0.239389896393
+
+uf100-0441.cnf
+number of variables: 100
+number of solutions: 4
+time allsat to find the solutions: 0.0709638595581
+total time: 0.07137799263
+
+uf100-0442.cnf
+number of variables: 100
+number of solutions: 576
+time allsat to find the solutions: 0.0829849243164
+total time: 0.100668907166
+
+uf100-0444.cnf
+number of variables: 100
+number of solutions: 165
+time allsat to find the solutions: 0.0208239555359
+total time: 0.0275571346283
+
+uf100-0445.cnf
+number of variables: 100
+number of solutions: 2745240
+time allsat to find the solutions: 16.6550579071
+total time: 79.8468639851
+
+uf100-0446.cnf
+number of variables: 100
+number of solutions: 2242
+time allsat to find the solutions: 0.195689916611
+total time: 0.24976682663
+
+uf100-0447.cnf
+number of variables: 100
+number of solutions: 190413
+time allsat to find the solutions: 0.925985097885
+total time: 5.01605796814
+
+uf100-0448.cnf
+number of variables: 100
+number of solutions: 952
+time allsat to find the solutions: 0.0980319976807
+total time: 0.124583959579
+
+uf100-0449.cnf
+number of variables: 100
+number of solutions: 12428
+time allsat to find the solutions: 0.140690088272
+total time: 0.404501199722
+
+uf100-0450.cnf
+number of variables: 100
+number of solutions: 272198
+time allsat to find the solutions: 1.25229597092
+total time: 7.14848995209
+
+uf100-0451.cnf
+number of variables: 100
+number of solutions: 1042
+time allsat to find the solutions: 0.109011888504
+total time: 0.135311841965
+
+uf100-0452.cnf
+number of variables: 100
+number of solutions: 366
+time allsat to find the solutions: 0.0983719825745
+total time: 0.109961986542
+
+uf100-0453.cnf
+number of variables: 100
+number of solutions: 28512
+time allsat to find the solutions: 0.230239152908
+total time: 0.825571060181
+
+uf100-0454.cnf
+number of variables: 100
+number of solutions: 6108
+time allsat to find the solutions: 0.14221906662
+total time: 0.273612976074
+
+uf100-0455.cnf
+number of variables: 100
+number of solutions: 96
+time allsat to find the solutions: 0.0987870693207
+total time: 0.101968050003
+
+uf100-0456.cnf
+number of variables: 100
+number of solutions: 154008
+time allsat to find the solutions: 0.766103982925
+total time: 4.04054307938
+
+uf100-0457.cnf
+number of variables: 100
+number of solutions: 8586
+time allsat to find the solutions: 0.14822101593
+total time: 0.334766149521
+
+uf100-0458.cnf
+number of variables: 100
+number of solutions: 23685
+time allsat to find the solutions: 0.225947141647
+total time: 0.716608047485
+
+uf100-0459.cnf
+number of variables: 100
+number of solutions: 14344
+time allsat to find the solutions: 0.178414821625
+total time: 0.484017848969
+
+uf100-0460.cnf
+number of variables: 100
+number of solutions: 26590
+time allsat to find the solutions: 0.255685091019
+total time: 0.818768978119
+
+uf100-0461.cnf
+number of variables: 100
+number of solutions: 4106
+time allsat to find the solutions: 0.123104095459
+total time: 0.2134308815
+
+uf100-0462.cnf
+number of variables: 100
+number of solutions: 48
+time allsat to find the solutions: 0.112825155258
+total time: 0.114547014236
+
+uf100-0463.cnf
+number of variables: 100
+number of solutions: 38
+time allsat to find the solutions: 0.0852010250092
+total time: 0.086699962616
+
+uf100-0464.cnf
+number of variables: 100
+number of solutions: 23072
+time allsat to find the solutions: 0.206111907959
+total time: 0.696179866791
+
+uf100-0465.cnf
+number of variables: 100
+number of solutions: 182584
+time allsat to find the solutions: 1.10654377937
+total time: 5.00288176537
+
+uf100-0466.cnf
+number of variables: 100
+number of solutions: 26650
+time allsat to find the solutions: 0.240331172943
+total time: 0.802240133286
+
+uf100-0467.cnf
+number of variables: 100
+number of solutions: 24076
+time allsat to find the solutions: 0.189827919006
+total time: 0.715617895126
+
+uf100-0468.cnf
+number of variables: 100
+number of solutions: 31
+time allsat to find the solutions: 0.0917210578918
+total time: 0.0929000377655
+
+uf100-0469.cnf
+number of variables: 100
+number of solutions: 21458
+time allsat to find the solutions: 0.171690940857
+total time: 0.624863147736
+
+uf100-0470.cnf
+number of variables: 100
+number of solutions: 305812
+time allsat to find the solutions: 1.59333586693
+total time: 8.22785997391
+
+uf100-0471.cnf
+number of variables: 100
+number of solutions: 68
+time allsat to find the solutions: 0.0999898910522
+total time: 0.10257101059
+
+uf100-0472.cnf
+number of variables: 100
+number of solutions: 12
+time allsat to find the solutions: 0.0985939502716
+total time: 0.0992519855499
+
+uf100-0473.cnf
+number of variables: 100
+number of solutions: 292
+time allsat to find the solutions: 0.11990404129
+total time: 0.131242990494
+
+uf100-0474.cnf
+number of variables: 100
+number of solutions: 225
+time allsat to find the solutions: 0.0952439308167
+total time: 0.104032993317
+
+uf100-0475.cnf
+number of variables: 100
+number of solutions: 4538
+time allsat to find the solutions: 0.122174978256
+total time: 0.222488164902
+
+uf100-0476.cnf
+number of variables: 100
+number of solutions: 2418
+time allsat to find the solutions: 0.111969947815
+total time: 0.170291900635
+
+uf100-0477.cnf
+number of variables: 100
+number of solutions: 330
+time allsat to find the solutions: 0.115520954132
+total time: 0.125548124313
+
+uf100-0478.cnf
+number of variables: 100
+number of solutions: 216
+time allsat to find the solutions: 0.101967096329
+total time: 0.110183954239
+
+uf100-0479.cnf
+number of variables: 100
+number of solutions: 5573
+time allsat to find the solutions: 0.12597990036
+total time: 0.252314805984
+
+uf100-0480.cnf
+number of variables: 100
+number of solutions: 240
+time allsat to find the solutions: 0.0896830558777
+total time: 0.0977389812469
+
+uf100-0481.cnf
+number of variables: 100
+number of solutions: 3007
+time allsat to find the solutions: 0.109733104706
+total time: 0.181944131851
+
+uf100-0482.cnf
+number of variables: 100
+number of solutions: 2924
+time allsat to find the solutions: 0.111166000366
+total time: 0.178192853928
+
+uf100-0483.cnf
+number of variables: 100
+number of solutions: 3122
+time allsat to find the solutions: 0.120212078094
+total time: 0.191031932831
+
+uf100-0484.cnf
+number of variables: 100
+number of solutions: 29024
+time allsat to find the solutions: 0.224399089813
+total time: 0.859769105911
+
+uf100-0485.cnf
+number of variables: 100
+number of solutions: 24986
+time allsat to find the solutions: 0.25438117981
+total time: 0.792675018311
+
+uf100-0486.cnf
+number of variables: 100
+number of solutions: 850925
+time allsat to find the solutions: 4.33391690254
+total time: 24.2669670582
+
+uf100-0487.cnf
+number of variables: 100
+number of solutions: 5192
+time allsat to find the solutions: 0.163050889969
+total time: 0.280335903168
+
+uf100-0488.cnf
+number of variables: 100
+number of solutions: 84
+time allsat to find the solutions: 0.104791879654
+total time: 0.108093976974
+
+uf100-0489.cnf
+number of variables: 100
+number of solutions: 42276
+time allsat to find the solutions: 0.351526021957
+total time: 1.24521589279
+
+uf100-0490.cnf
+number of variables: 100
+number of solutions: 1728
+time allsat to find the solutions: 0.108264923096
+total time: 0.148861885071
+
+uf100-0491.cnf
+number of variables: 100
+number of solutions: 22483
+time allsat to find the solutions: 0.227977991104
+total time: 0.695235013962
+
+uf100-0492.cnf
+number of variables: 100
+number of solutions: 128
+time allsat to find the solutions: 0.107657194138
+total time: 0.111802101135
+
+uf100-0493.cnf
+number of variables: 100
+number of solutions: 16
+time allsat to find the solutions: 0.103327989578
+total time: 0.104166030884
+
+uf100-0494.cnf
+number of variables: 100
+number of solutions: 2713322
+time allsat to find the solutions: 17.2896602154
+total time: 79.4928481579
+
+uf100-0495.cnf
+number of variables: 100
+number of solutions: 1288
+time allsat to find the solutions: 0.153105974197
+total time: 0.186822891235
+
+uf100-0496.cnf
+number of variables: 100
+number of solutions: 6121
+time allsat to find the solutions: 0.139665126801
+total time: 0.26747918129
+
+uf100-0497.cnf
+number of variables: 100
+number of solutions: 339956
+time allsat to find the solutions: 1.35264801979
+total time: 8.76593708992
+
+uf100-0498.cnf
+number of variables: 100
+number of solutions: 648
+time allsat to find the solutions: 0.124002933502
+total time: 0.143191099167
+
+uf100-0499.cnf
+number of variables: 100
+number of solutions: 16
+time allsat to find the solutions: 0.0858061313629
+total time: 0.0864419937134
+
+uf100-0500.cnf
+number of variables: 100
+number of solutions: 376
+time allsat to find the solutions: 0.0999841690063
+total time: 0.114056110382
+
+uf100-0501.cnf
+number of variables: 100
+number of solutions: 716
+time allsat to find the solutions: 0.101003885269
+total time: 0.119380950928
+
+uf100-0502.cnf
+number of variables: 100
+number of solutions: 24
+time allsat to find the solutions: 0.0884020328522
+total time: 0.0895760059357
+
+uf100-0503.cnf
+number of variables: 100
+number of solutions: 288
+time allsat to find the solutions: 0.0894150733948
+total time: 0.0987200737
+
+uf100-0504.cnf
+number of variables: 100
+number of solutions: 4408
+time allsat to find the solutions: 0.11899805069
+total time: 0.222353935242
+
+uf100-0505.cnf
+number of variables: 100
+number of solutions: 9532
+time allsat to find the solutions: 0.154682159424
+total time: 0.360316991806
+
+uf100-0506.cnf
+number of variables: 100
+number of solutions: 25638
+time allsat to find the solutions: 0.1923828125
+total time: 0.750331878662
+
+uf100-0507.cnf
+number of variables: 100
+number of solutions: 7022
+time allsat to find the solutions: 0.136325120926
+total time: 0.284945964813
+
+uf100-0508.cnf
+number of variables: 100
+number of solutions: 49044
+time allsat to find the solutions: 0.296820163727
+total time: 1.30494308472
+
+uf100-0509.cnf
+number of variables: 100
+number of solutions: 24
+time allsat to find the solutions: 0.093829870224
+total time: 0.0949549674988
+
+uf100-0510.cnf
+number of variables: 100
+number of solutions: 10170
+time allsat to find the solutions: 0.150673866272
+total time: 0.365690946579
+
+uf100-0511.cnf
+number of variables: 100
+number of solutions: 7390
+time allsat to find the solutions: 0.128852128983
+total time: 0.283737182617
+
+uf100-0512.cnf
+number of variables: 100
+number of solutions: 4882
+time allsat to find the solutions: 0.11634016037
+total time: 0.223479986191
+
+uf100-0513.cnf
+number of variables: 100
+number of solutions: 2774
+time allsat to find the solutions: 0.0996198654175
+total time: 0.162538051605
+
+uf100-0514.cnf
+number of variables: 100
+number of solutions: 5480
+time allsat to find the solutions: 0.12061882019
+total time: 0.241014957428
+
+uf100-0515.cnf
+number of variables: 100
+number of solutions: 5964
+time allsat to find the solutions: 0.130573987961
+total time: 0.256752967834
+
+uf100-0517.cnf
+number of variables: 100
+number of solutions: 3552
+time allsat to find the solutions: 0.296399116516
+total time: 0.379770040512
+
+uf100-0518.cnf
+number of variables: 100
+number of solutions: 24088
+time allsat to find the solutions: 0.145238876343
+total time: 0.666704893112
+
+uf100-0519.cnf
+number of variables: 100
+number of solutions: 56
+time allsat to find the solutions: 0.0376620292664
+total time: 0.0398080348969
+
+uf100-0520.cnf
+number of variables: 100
+number of solutions: 9808
+time allsat to find the solutions: 0.062793970108
+total time: 0.290205955505
+
+uf100-0521.cnf
+number of variables: 100
+number of solutions: 1320467
+time allsat to find the solutions: 7.37222790718
+total time: 38.5396769047
+
+uf100-0522.cnf
+number of variables: 100
+number of solutions: 155940
+time allsat to find the solutions: 1.07483100891
+total time: 4.35136604309
+
+uf100-0523.cnf
+number of variables: 100
+number of solutions: 160
+time allsat to find the solutions: 0.0588431358337
+total time: 0.0650579929352
+
+uf100-0524.cnf
+number of variables: 100
+number of solutions: 360
+time allsat to find the solutions: 0.0661120414734
+total time: 0.076975107193
+
+uf100-0525.cnf
+number of variables: 100
+number of solutions: 374404
+time allsat to find the solutions: 1.73218011856
+total time: 10.1042721272
+
+uf100-0526.cnf
+number of variables: 100
+number of solutions: 388472
+time allsat to find the solutions: 1.66078805923
+total time: 10.5159208775
+
+uf100-0527.cnf
+number of variables: 100
+number of solutions: 830
+time allsat to find the solutions: 0.0681490898132
+total time: 0.0932369232178
+
+uf100-0528.cnf
+number of variables: 100
+number of solutions: 2952
+time allsat to find the solutions: 0.0785980224609
+total time: 0.150187969208
+
+uf100-0529.cnf
+number of variables: 100
+number of solutions: 264820
+time allsat to find the solutions: 1.1114552021
+total time: 7.14277911186
+
+uf100-0530.cnf
+number of variables: 100
+number of solutions: 22740
+time allsat to find the solutions: 0.187225103378
+total time: 0.673629999161
+
+uf100-0531.cnf
+number of variables: 100
+number of solutions: 626
+time allsat to find the solutions: 0.0682690143585
+total time: 0.0872809886932
+
+uf100-0532.cnf
+number of variables: 100
+number of solutions: 109632
+time allsat to find the solutions: 0.477535963058
+total time: 2.9145219326
+
+uf100-0533.cnf
+number of variables: 100
+number of solutions: 942
+time allsat to find the solutions: 0.0773038864136
+total time: 0.100932836533
+
+uf100-0534.cnf
+number of variables: 100
+number of solutions: 192
+time allsat to find the solutions: 0.0533800125122
+total time: 0.0604610443115
+
+uf100-0535.cnf
+number of variables: 100
+number of solutions: 15622
+time allsat to find the solutions: 0.153699874878
+total time: 0.502111911774
+
+uf100-0536.cnf
+number of variables: 100
+number of solutions: 7852
+time allsat to find the solutions: 0.107571840286
+total time: 0.280871868134
+
+uf100-0537.cnf
+number of variables: 100
+number of solutions: 2718
+time allsat to find the solutions: 0.0780341625214
+total time: 0.146749973297
+
+uf100-0538.cnf
+number of variables: 100
+number of solutions: 31292
+time allsat to find the solutions: 0.192212104797
+total time: 0.892068147659
+
+uf100-0539.cnf
+number of variables: 100
+number of solutions: 240
+time allsat to find the solutions: 0.0717689990997
+total time: 0.0791409015656
+
+uf100-0540.cnf
+number of variables: 100
+number of solutions: 973273
+time allsat to find the solutions: 4.69500398636
+total time: 27.1660010815
+
+uf100-0541.cnf
+number of variables: 100
+number of solutions: 10926
+time allsat to find the solutions: 0.163475036621
+total time: 0.39676618576
+
+uf100-0542.cnf
+number of variables: 100
+number of solutions: 32
+time allsat to find the solutions: 0.0917780399323
+total time: 0.0931119918823
+
+uf100-0543.cnf
+number of variables: 100
+number of solutions: 44
+time allsat to find the solutions: 0.0903189182281
+total time: 0.0919599533081
+
+uf100-0544.cnf
+number of variables: 100
+number of solutions: 1152
+time allsat to find the solutions: 0.105844020844
+total time: 0.135076999664
+
+uf100-0545.cnf
+number of variables: 100
+number of solutions: 149978
+time allsat to find the solutions: 0.739757061005
+total time: 3.9725420475
+
+uf100-0546.cnf
+number of variables: 100
+number of solutions: 1508
+time allsat to find the solutions: 0.11400103569
+total time: 0.154842853546
+
+uf100-0547.cnf
+number of variables: 100
+number of solutions: 1330
+time allsat to find the solutions: 0.0931918621063
+total time: 0.127938985825
+
+uf100-0548.cnf
+number of variables: 100
+number of solutions: 1872
+time allsat to find the solutions: 0.101376771927
+total time: 0.148652791977
+
+uf100-0549.cnf
+number of variables: 100
+number of solutions: 72548
+time allsat to find the solutions: 0.432299137115
+total time: 2.00918912888
+
+uf100-0551.cnf
+number of variables: 100
+number of solutions: 764
+time allsat to find the solutions: 0.0252451896667
+total time: 0.0471320152283
+
+uf100-0552.cnf
+number of variables: 100
+number of solutions: 660
+time allsat to find the solutions: 0.0277919769287
+total time: 0.0454559326172
+
+uf100-0553.cnf
+number of variables: 100
+number of solutions: 34834
+time allsat to find the solutions: 0.206642866135
+total time: 0.968873023987
+
+uf100-0554.cnf
+number of variables: 100
+number of solutions: 46796
+time allsat to find the solutions: 0.279680967331
+total time: 1.32322096825
+
+uf100-0555.cnf
+number of variables: 100
+number of solutions: 10650
+time allsat to find the solutions: 0.0932240486145
+total time: 0.323199033737
+
+uf100-0556.cnf
+number of variables: 100
+number of solutions: 3108
+time allsat to find the solutions: 0.0443379878998
+total time: 0.117708921432
+
+uf100-0557.cnf
+number of variables: 100
+number of solutions: 24
+time allsat to find the solutions: 0.0209350585938
+total time: 0.0221040248871
+
+uf100-0558.cnf
+number of variables: 100
+number of solutions: 6
+time allsat to find the solutions: 0.0260138511658
+total time: 0.0269289016724
+
+uf100-0559.cnf
+number of variables: 100
+number of solutions: 9512
+time allsat to find the solutions: 0.0661940574646
+total time: 0.293376207352
+
+uf100-0560.cnf
+number of variables: 100
+number of solutions: 512
+time allsat to find the solutions: 0.0801830291748
+total time: 0.0953040122986
+
+uf100-0561.cnf
+number of variables: 100
+number of solutions: 1226
+time allsat to find the solutions: 0.0372002124786
+total time: 0.0732381343842
+
+uf100-0562.cnf
+number of variables: 100
+number of solutions: 142386
+time allsat to find the solutions: 0.688488006592
+total time: 3.66269612312
+
+uf100-0563.cnf
+number of variables: 100
+number of solutions: 6330
+time allsat to find the solutions: 0.0693418979645
+total time: 0.206555843353
+
+uf100-0564.cnf
+number of variables: 100
+number of solutions: 2036
+time allsat to find the solutions: 0.0681591033936
+total time: 0.116216182709
+
+uf100-0565.cnf
+number of variables: 100
+number of solutions: 312
+time allsat to find the solutions: 0.0407319068909
+total time: 0.0526888370514
+
+uf100-0566.cnf
+number of variables: 100
+number of solutions: 30
+time allsat to find the solutions: 0.0319128036499
+total time: 0.0334858894348
+
+uf100-0567.cnf
+number of variables: 100
+number of solutions: 720
+time allsat to find the solutions: 0.034196138382
+total time: 0.0555009841919
+
+uf100-0568.cnf
+number of variables: 100
+number of solutions: 77
+time allsat to find the solutions: 0.0303540229797
+total time: 0.0347788333893
+
+uf100-0569.cnf
+number of variables: 100
+number of solutions: 600
+time allsat to find the solutions: 0.0294198989868
+total time: 0.046215057373
+
+uf100-0570.cnf
+number of variables: 100
+number of solutions: 17041
+time allsat to find the solutions: 0.123160123825
+total time: 0.498168945312
+
+uf100-0571.cnf
+number of variables: 100
+number of solutions: 30948
+time allsat to find the solutions: 0.174035787582
+total time: 0.818718910217
+
+uf100-0572.cnf
+number of variables: 100
+number of solutions: 1420
+time allsat to find the solutions: 0.0605919361115
+total time: 0.0973091125488
+
+uf100-0573.cnf
+number of variables: 100
+number of solutions: 69008
+time allsat to find the solutions: 0.296817064285
+total time: 1.78375315666
+
+uf100-0574.cnf
+number of variables: 100
+number of solutions: 3408
+time allsat to find the solutions: 0.036926984787
+total time: 0.116853952408
+
+uf100-0575.cnf
+number of variables: 100
+number of solutions: 40
+time allsat to find the solutions: 0.0364391803741
+total time: 0.0386581420898
+
+uf100-0576.cnf
+number of variables: 100
+number of solutions: 7072
+time allsat to find the solutions: 0.0788700580597
+total time: 0.229732036591
+
+uf100-0577.cnf
+number of variables: 100
+number of solutions: 2010
+time allsat to find the solutions: 0.0424098968506
+total time: 0.0895059108734
+
+uf100-0578.cnf
+number of variables: 100
+number of solutions: 5688
+time allsat to find the solutions: 0.0577600002289
+total time: 0.188776016235
+
+uf100-0579.cnf
+number of variables: 100
+number of solutions: 9072
+time allsat to find the solutions: 0.0720980167389
+total time: 0.278609037399
+
+uf100-0580.cnf
+number of variables: 100
+number of solutions: 1119
+time allsat to find the solutions: 0.0499830245972
+total time: 0.0841679573059
+
+uf100-0581.cnf
+number of variables: 100
+number of solutions: 270890
+time allsat to find the solutions: 1.03506588936
+total time: 6.91627287865
+
+uf100-0582.cnf
+number of variables: 100
+number of solutions: 3726
+time allsat to find the solutions: 0.0652878284454
+total time: 0.154374837875
+
+uf100-0583.cnf
+number of variables: 100
+number of solutions: 9744
+time allsat to find the solutions: 0.0788021087646
+total time: 0.288192987442
+
+uf100-0584.cnf
+number of variables: 100
+number of solutions: 1422
+time allsat to find the solutions: 0.0462458133698
+total time: 0.0821769237518
+
+uf100-0585.cnf
+number of variables: 100
+number of solutions: 768
+time allsat to find the solutions: 0.0399041175842
+total time: 0.061252117157
+
+uf100-0586.cnf
+number of variables: 100
+number of solutions: 2528
+time allsat to find the solutions: 0.0564839839935
+total time: 0.114141941071
+
+uf100-0587.cnf
+number of variables: 100
+number of solutions: 14832
+time allsat to find the solutions: 0.129372119904
+total time: 0.448834180832
+
+uf100-0588.cnf
+number of variables: 100
+number of solutions: 14270
+time allsat to find the solutions: 0.105722904205
+total time: 0.402407884598
+
+uf100-0589.cnf
+number of variables: 100
+number of solutions: 60328
+time allsat to find the solutions: 0.313948154449
+total time: 1.57808899879
+
+uf100-0590.cnf
+number of variables: 100
+number of solutions: 204
+time allsat to find the solutions: 0.0485699176788
+total time: 0.0546329021454
+
+uf100-0591.cnf
+number of variables: 100
+number of solutions: 576
+time allsat to find the solutions: 0.0624301433563
+total time: 0.0799889564514
+
+uf100-0592.cnf
+number of variables: 100
+number of solutions: 42
+time allsat to find the solutions: 0.0603890419006
+total time: 0.062343120575
+
+uf100-0593.cnf
+number of variables: 100
+number of solutions: 29008
+time allsat to find the solutions: 0.168382167816
+total time: 0.802139997482
+
+uf100-0594.cnf
+number of variables: 100
+number of solutions: 130434
+time allsat to find the solutions: 0.657164096832
+total time: 3.46361112595
+
+uf100-0595.cnf
+number of variables: 100
+number of solutions: 2080
+time allsat to find the solutions: 0.0746340751648
+total time: 0.128046035767
+
+uf100-0596.cnf
+number of variables: 100
+number of solutions: 8
+time allsat to find the solutions: 0.037477016449
+total time: 0.0381419658661
+
+uf100-0597.cnf
+number of variables: 100
+number of solutions: 15340
+time allsat to find the solutions: 0.121459007263
+total time: 0.445616006851
+
+uf100-0598.cnf
+number of variables: 100
+number of solutions: 176
+time allsat to find the solutions: 0.0418248176575
+total time: 0.0485939979553
+
+uf100-0599.cnf
+number of variables: 100
+number of solutions: 6436
+time allsat to find the solutions: 0.085667848587
+total time: 0.227646827698
+
+uf100-0600.cnf
+number of variables: 100
+number of solutions: 128
+time allsat to find the solutions: 0.0245649814606
+total time: 0.0290989875793
+
+uf100-0601.cnf
+number of variables: 100
+number of solutions: 33531
+time allsat to find the solutions: 0.187170028687
+total time: 0.902142047882
+
+uf100-0602.cnf
+number of variables: 100
+number of solutions: 6
+time allsat to find the solutions: 0.022873878479
+total time: 0.0233290195465
+
+uf100-0603.cnf
+number of variables: 100
+number of solutions: 4432
+time allsat to find the solutions: 0.0498099327087
+total time: 0.148720026016
+
+uf100-0604.cnf
+number of variables: 100
+number of solutions: 6864
+time allsat to find the solutions: 0.0618410110474
+total time: 0.210458040237
+
+uf100-0605.cnf
+number of variables: 100
+number of solutions: 143
+time allsat to find the solutions: 0.0317289829254
+total time: 0.0369257926941
+
+uf100-0606.cnf
+number of variables: 100
+number of solutions: 2648
+time allsat to find the solutions: 0.0456719398499
+total time: 0.105636835098
+
+uf100-0607.cnf
+number of variables: 100
+number of solutions: 5424
+time allsat to find the solutions: 0.0519921779633
+total time: 0.179205179214
+
+uf100-0608.cnf
+number of variables: 100
+number of solutions: 240
+time allsat to find the solutions: 0.0468349456787
+total time: 0.0539591312408
+
+uf100-0609.cnf
+number of variables: 100
+number of solutions: 49186
+time allsat to find the solutions: 0.290555953979
+total time: 1.3356180191
+
+uf100-0610.cnf
+number of variables: 100
+number of solutions: 4928
+time allsat to find the solutions: 0.088093996048
+total time: 0.200039148331
+
+uf100-0611.cnf
+number of variables: 100
+number of solutions: 332
+time allsat to find the solutions: 0.029228925705
+total time: 0.0383059978485
+
+uf100-0612.cnf
+number of variables: 100
+number of solutions: 164644
+time allsat to find the solutions: 0.859317064285
+total time: 4.38562607765
+
+uf100-0613.cnf
+number of variables: 100
+number of solutions: 18504
+time allsat to find the solutions: 0.102526903152
+total time: 0.500896930695
+
+uf100-0614.cnf
+number of variables: 100
+number of solutions: 2280
+time allsat to find the solutions: 0.0508470535278
+total time: 0.107794046402
+
+uf100-0615.cnf
+number of variables: 100
+number of solutions: 4416
+time allsat to find the solutions: 0.0571899414062
+total time: 0.157762050629
+
+uf100-0616.cnf
+number of variables: 100
+number of solutions: 5412
+time allsat to find the solutions: 0.0756108760834
+total time: 0.190999984741
+
+uf100-0617.cnf
+number of variables: 100
+number of solutions: 8384
+time allsat to find the solutions: 0.0762600898743
+total time: 0.25265288353
+
+uf100-0618.cnf
+number of variables: 100
+number of solutions: 5124
+time allsat to find the solutions: 0.0615029335022
+total time: 0.172167062759
+
+uf100-0619.cnf
+number of variables: 100
+number of solutions: 304
+time allsat to find the solutions: 0.0248568058014
+total time: 0.0358769893646
+
+uf100-0620.cnf
+number of variables: 100
+number of solutions: 5240
+time allsat to find the solutions: 0.0621409416199
+total time: 0.176765918732
+
+uf100-0621.cnf
+number of variables: 100
+number of solutions: 1280
+time allsat to find the solutions: 0.0374720096588
+total time: 0.0754940509796
+
+uf100-0622.cnf
+number of variables: 100
+number of solutions: 6312
+time allsat to find the solutions: 0.0610218048096
+total time: 0.197659015656
+
+uf100-0623.cnf
+number of variables: 100
+number of solutions: 154
+time allsat to find the solutions: 0.0412058830261
+total time: 0.0467948913574
+
+uf100-0624.cnf
+number of variables: 100
+number of solutions: 817
+time allsat to find the solutions: 0.0361301898956
+total time: 0.062509059906
+
+uf100-0625.cnf
+number of variables: 100
+number of solutions: 1562
+time allsat to find the solutions: 0.0399808883667
+total time: 0.0831170082092
+
+uf100-0626.cnf
+number of variables: 100
+number of solutions: 432
+time allsat to find the solutions: 0.0272009372711
+total time: 0.0428397655487
+
+uf100-0627.cnf
+number of variables: 100
+number of solutions: 284
+time allsat to find the solutions: 0.0322580337524
+total time: 0.0458381175995
+
+uf100-0628.cnf
+number of variables: 100
+number of solutions: 892
+time allsat to find the solutions: 0.0301480293274
+total time: 0.0558888912201
+
+uf100-0629.cnf
+number of variables: 100
+number of solutions: 24
+time allsat to find the solutions: 0.040323972702
+total time: 0.0416288375854
+
+uf100-0630.cnf
+number of variables: 100
+number of solutions: 85833
+time allsat to find the solutions: 0.478554964066
+total time: 2.30069088936
+
+uf100-0631.cnf
+number of variables: 100
+number of solutions: 1399
+time allsat to find the solutions: 0.0605309009552
+total time: 0.096442937851
+
+uf100-0632.cnf
+number of variables: 100
+number of solutions: 1632
+time allsat to find the solutions: 0.0515570640564
+total time: 0.0910189151764
+
+uf100-0633.cnf
+number of variables: 100
+number of solutions: 7312
+time allsat to find the solutions: 0.0608320236206
+total time: 0.22076010704
+
+uf100-0634.cnf
+number of variables: 100
+number of solutions: 960
+time allsat to find the solutions: 0.039675951004
+total time: 0.0659029483795
+
+uf100-0635.cnf
+number of variables: 100
+number of solutions: 10620
+time allsat to find the solutions: 0.096508026123
+total time: 0.334048032761
+
+uf100-0636.cnf
+number of variables: 100
+number of solutions: 3296
+time allsat to find the solutions: 0.0496120452881
+total time: 0.131733894348
+
+uf100-0637.cnf
+number of variables: 100
+number of solutions: 378
+time allsat to find the solutions: 0.0363359451294
+total time: 0.0506129264832
+
+uf100-0638.cnf
+number of variables: 100
+number of solutions: 9958
+time allsat to find the solutions: 0.128874063492
+total time: 0.371320009232
+
+uf100-0639.cnf
+number of variables: 100
+number of solutions: 1760
+time allsat to find the solutions: 0.0411469936371
+total time: 0.0879518985748
+
+uf100-0640.cnf
+number of variables: 100
+number of solutions: 141696
+time allsat to find the solutions: 0.605712890625
+total time: 3.61911296844
+
+uf100-0641.cnf
+number of variables: 100
+number of solutions: 134732
+time allsat to find the solutions: 0.573343038559
+total time: 3.40694403648
+
+uf100-0642.cnf
+number of variables: 100
+number of solutions: 32
+time allsat to find the solutions: 0.0470540523529
+total time: 0.0483300685883
+
+uf100-0643.cnf
+number of variables: 100
+number of solutions: 197
+time allsat to find the solutions: 0.0361490249634
+total time: 0.0437829494476
+
+uf100-0644.cnf
+number of variables: 100
+number of solutions: 88
+time allsat to find the solutions: 0.0403301715851
+total time: 0.0439939498901
+
+uf100-0645.cnf
+number of variables: 100
+number of solutions: 198891
+time allsat to find the solutions: 1.0926630497
+total time: 5.42059707642
+
+uf100-0646.cnf
+number of variables: 100
+number of solutions: 580
+time allsat to find the solutions: 0.0502030849457
+total time: 0.0697910785675
+
+uf100-0647.cnf
+number of variables: 100
+number of solutions: 6688
+time allsat to find the solutions: 0.0714650154114
+total time: 0.220144987106
+
+uf100-0648.cnf
+number of variables: 100
+number of solutions: 1212
+time allsat to find the solutions: 0.0602309703827
+total time: 0.0929379463196
+
+uf100-0649.cnf
+number of variables: 100
+number of solutions: 25742
+time allsat to find the solutions: 0.204929828644
+total time: 0.746052980423
+
+uf100-0650.cnf
+number of variables: 100
+number of solutions: 5734
+time allsat to find the solutions: 0.112529039383
+total time: 0.237053155899
+
+uf100-0651.cnf
+number of variables: 100
+number of solutions: 11054
+time allsat to find the solutions: 0.0960149765015
+total time: 0.336338043213
+
+uf100-0652.cnf
+number of variables: 100
+number of solutions: 2512
+time allsat to find the solutions: 0.0322299003601
+total time: 0.094850063324
+
+uf100-0653.cnf
+number of variables: 100
+number of solutions: 15088
+time allsat to find the solutions: 0.0738921165466
+total time: 0.403394937515
+
+uf100-0654.cnf
+number of variables: 100
+number of solutions: 432
+time allsat to find the solutions: 0.0294117927551
+total time: 0.0415458679199
+
+uf100-0655.cnf
+number of variables: 100
+number of solutions: 896
+time allsat to find the solutions: 0.0358228683472
+total time: 0.0607128143311
+
+uf100-0656.cnf
+number of variables: 100
+number of solutions: 192
+time allsat to find the solutions: 0.0154058933258
+total time: 0.0200939178467
+
+uf100-0657.cnf
+number of variables: 100
+number of solutions: 1162
+time allsat to find the solutions: 0.039745092392
+total time: 0.080146074295
+
+uf100-0658.cnf
+number of variables: 100
+number of solutions: 211
+time allsat to find the solutions: 0.0307281017303
+total time: 0.0405731201172
+
+uf100-0659.cnf
+number of variables: 100
+number of solutions: 384
+time allsat to find the solutions: 0.035413980484
+total time: 0.0484578609467
+
+uf100-0660.cnf
+number of variables: 100
+number of solutions: 480
+time allsat to find the solutions: 0.0251789093018
+total time: 0.0418329238892
+
+uf100-0661.cnf
+number of variables: 100
+number of solutions: 216452
+time allsat to find the solutions: 0.913293838501
+total time: 5.49793982506
+
+uf100-0662.cnf
+number of variables: 100
+number of solutions: 29514
+time allsat to find the solutions: 0.157499074936
+total time: 0.790374994278
+
+uf100-0663.cnf
+number of variables: 100
+number of solutions: 16184
+time allsat to find the solutions: 0.104074954987
+total time: 0.459062099457
+
+uf100-0664.cnf
+number of variables: 100
+number of solutions: 74689
+time allsat to find the solutions: 0.501040935516
+total time: 2.10965204239
+
+uf100-0665.cnf
+number of variables: 100
+number of solutions: 493580
+time allsat to find the solutions: 2.3960750103
+total time: 13.5187349319
+
+uf100-0666.cnf
+number of variables: 100
+number of solutions: 56
+time allsat to find the solutions: 0.0516519546509
+total time: 0.0538549423218
+
+uf100-0667.cnf
+number of variables: 100
+number of solutions: 96
+time allsat to find the solutions: 0.0475749969482
+total time: 0.0503749847412
+
+uf100-0668.cnf
+number of variables: 100
+number of solutions: 166
+time allsat to find the solutions: 0.04611992836
+total time: 0.051656961441
+
+uf100-0669.cnf
+number of variables: 100
+number of solutions: 17288
+time allsat to find the solutions: 0.111309051514
+total time: 0.487575054169
+
+uf100-0670.cnf
+number of variables: 100
+number of solutions: 720
+time allsat to find the solutions: 0.0432121753693
+total time: 0.0645110607147
+
+uf100-0671.cnf
+number of variables: 100
+number of solutions: 792
+time allsat to find the solutions: 0.0565011501312
+total time: 0.0804851055145
+
+uf100-0672.cnf
+number of variables: 100
+number of solutions: 5427
+time allsat to find the solutions: 0.0709710121155
+total time: 0.192255973816
+
+uf100-0673.cnf
+number of variables: 100
+number of solutions: 352
+time allsat to find the solutions: 0.0683190822601
+total time: 0.0795819759369
+
+uf100-0674.cnf
+number of variables: 100
+number of solutions: 768
+time allsat to find the solutions: 0.0446500778198
+total time: 0.0658030509949
+
+uf100-0675.cnf
+number of variables: 100
+number of solutions: 312
+time allsat to find the solutions: 0.0417912006378
+total time: 0.0516772270203
+
+uf100-0676.cnf
+number of variables: 100
+number of solutions: 18240
+time allsat to find the solutions: 0.160622119904
+total time: 0.554911136627
+
+uf100-0677.cnf
+number of variables: 100
+number of solutions: 69316
+time allsat to find the solutions: 0.303112983704
+total time: 1.77796506882
+
+uf100-0678.cnf
+number of variables: 100
+number of solutions: 4
+time allsat to find the solutions: 0.0465919971466
+total time: 0.0470168590546
+
+uf100-0679.cnf
+number of variables: 100
+number of solutions: 28776
+time allsat to find the solutions: 0.185277938843
+total time: 0.796723127365
+
+uf100-0680.cnf
+number of variables: 100
+number of solutions: 10936
+time allsat to find the solutions: 0.0944890975952
+total time: 0.327856063843
+
+uf100-0681.cnf
+number of variables: 100
+number of solutions: 80
+time allsat to find the solutions: 0.0452439785004
+total time: 0.0479629039764
+
+uf100-0682.cnf
+number of variables: 100
+number of solutions: 9502
+time allsat to find the solutions: 0.0860090255737
+total time: 0.302675008774
+
+uf100-0683.cnf
+number of variables: 100
+number of solutions: 1818
+time allsat to find the solutions: 0.0666210651398
+total time: 0.107428073883
+
+uf100-0684.cnf
+number of variables: 100
+number of solutions: 1122
+time allsat to find the solutions: 0.0542049407959
+total time: 0.0837879180908
+
+uf100-0685.cnf
+number of variables: 100
+number of solutions: 3704
+time allsat to find the solutions: 0.0675439834595
+total time: 0.148078918457
+
+uf100-0686.cnf
+number of variables: 100
+number of solutions: 416
+time allsat to find the solutions: 0.0421051979065
+total time: 0.0548570156097
+
+uf100-0687.cnf
+number of variables: 100
+number of solutions: 24988
+time allsat to find the solutions: 0.156822919846
+total time: 0.702707767487
+
+uf100-0688.cnf
+number of variables: 100
+number of solutions: 14156
+time allsat to find the solutions: 0.125163078308
+total time: 0.430687904358
+
+uf100-0689.cnf
+number of variables: 100
+number of solutions: 576
+time allsat to find the solutions: 0.0687758922577
+total time: 0.0848619937897
+
+uf100-0690.cnf
+number of variables: 100
+number of solutions: 128
+time allsat to find the solutions: 0.0447249412537
+total time: 0.0488629341125
+
+uf100-0691.cnf
+number of variables: 100
+number of solutions: 14196
+time allsat to find the solutions: 0.140502929688
+total time: 0.446796894073
+
+uf100-0692.cnf
+number of variables: 100
+number of solutions: 25132
+time allsat to find the solutions: 0.171378135681
+total time: 0.728554010391
+
+uf100-0693.cnf
+number of variables: 100
+number of solutions: 2528
+time allsat to find the solutions: 0.0539691448212
+total time: 0.118965148926
+
+uf100-0694.cnf
+number of variables: 100
+number of solutions: 144
+time allsat to find the solutions: 0.0514509677887
+total time: 0.0561189651489
+
+uf100-0695.cnf
+number of variables: 100
+number of solutions: 968
+time allsat to find the solutions: 0.0583012104034
+total time: 0.0857012271881
+
+uf100-0696.cnf
+number of variables: 100
+number of solutions: 400
+time allsat to find the solutions: 0.0556519031525
+total time: 0.0696988105774
+
+uf100-0697.cnf
+number of variables: 100
+number of solutions: 1247
+time allsat to find the solutions: 0.0485079288483
+total time: 0.0823149681091
+
+uf100-0698.cnf
+number of variables: 100
+number of solutions: 25336
+time allsat to find the solutions: 0.153172969818
+total time: 0.723759889603
+
+uf100-0699.cnf
+number of variables: 100
+number of solutions: 56
+time allsat to find the solutions: 0.0418820381165
+total time: 0.0441019535065
+
+uf100-0700.cnf
+number of variables: 100
+number of solutions: 94123
+time allsat to find the solutions: 0.568969011307
+total time: 2.66856908798
+
+uf100-0701.cnf
+number of variables: 100
+number of solutions: 73970
+time allsat to find the solutions: 0.505536794662
+total time: 2.09972500801
+
+uf100-0702.cnf
+number of variables: 100
+number of solutions: 160
+time allsat to find the solutions: 0.0335550308228
+total time: 0.0406930446625
+
+uf100-0703.cnf
+number of variables: 100
+number of solutions: 1508
+time allsat to find the solutions: 0.0362749099731
+total time: 0.0731770992279
+
+uf100-0705.cnf
+number of variables: 100
+number of solutions: 8743
+time allsat to find the solutions: 0.414432048798
+total time: 0.606137037277
+
+uf100-0706.cnf
+number of variables: 100
+number of solutions: 84470
+time allsat to find the solutions: 0.633056879044
+total time: 2.48065495491
+
+uf100-0707.cnf
+number of variables: 100
+number of solutions: 968
+time allsat to find the solutions: 0.0270550251007
+total time: 0.0520811080933
+
+uf100-0708.cnf
+number of variables: 100
+number of solutions: 5584
+time allsat to find the solutions: 0.0610821247101
+total time: 0.191430091858
+
+uf100-0709.cnf
+number of variables: 100
+number of solutions: 36598
+time allsat to find the solutions: 0.27509188652
+total time: 1.07778000832
+
+uf100-0710.cnf
+number of variables: 100
+number of solutions: 1075833
+time allsat to find the solutions: 5.7718360424
+total time: 31.3096849918
+
+uf100-0711.cnf
+number of variables: 100
+number of solutions: 2153675
+time allsat to find the solutions: 13.4994249344
+total time: 63.8010528088
+
+uf100-0712.cnf
+number of variables: 100
+number of solutions: 392
+time allsat to find the solutions: 0.153882980347
+total time: 0.165344953537
+
+uf100-0713.cnf
+number of variables: 100
+number of solutions: 6784
+time allsat to find the solutions: 0.130785942078
+total time: 0.281605958939
+
+uf100-0714.cnf
+number of variables: 100
+number of solutions: 36
+time allsat to find the solutions: 0.0918729305267
+total time: 0.0932600498199
+
+uf100-0715.cnf
+number of variables: 100
+number of solutions: 152
+time allsat to find the solutions: 0.0977039337158
+total time: 0.102833032608
+
+uf100-0716.cnf
+number of variables: 100
+number of solutions: 8000
+time allsat to find the solutions: 0.129645109177
+total time: 0.316010951996
+
+uf100-0718.cnf
+number of variables: 100
+number of solutions: 249060
+time allsat to find the solutions: 1.48178815842
+total time: 7.53760910034
+
+uf100-0719.cnf
+number of variables: 100
+number of solutions: 702
+time allsat to find the solutions: 0.03866314888
+total time: 0.0610511302948
+
+uf100-0720.cnf
+number of variables: 100
+number of solutions: 2936
+time allsat to find the solutions: 0.0441520214081
+total time: 0.112782001495
+
+uf100-0721.cnf
+number of variables: 100
+number of solutions: 213200
+time allsat to find the solutions: 1.41375494003
+total time: 6.1254940033
+
+uf100-0722.cnf
+number of variables: 100
+number of solutions: 272
+time allsat to find the solutions: 0.0412878990173
+total time: 0.0523610115051
+
+uf100-0723.cnf
+number of variables: 100
+number of solutions: 924
+time allsat to find the solutions: 0.057853937149
+total time: 0.0807590484619
+
+uf100-0724.cnf
+number of variables: 100
+number of solutions: 1380
+time allsat to find the solutions: 0.0779631137848
+total time: 0.111063957214
+
+uf100-0725.cnf
+number of variables: 100
+number of solutions: 760
+time allsat to find the solutions: 0.0493850708008
+total time: 0.0664339065552
+
+uf100-0726.cnf
+number of variables: 100
+number of solutions: 7010
+time allsat to find the solutions: 0.0755088329315
+total time: 0.228202819824
+
+uf100-0727.cnf
+number of variables: 100
+number of solutions: 285462
+time allsat to find the solutions: 1.26079297066
+total time: 7.52240586281
+
+uf100-0728.cnf
+number of variables: 100
+number of solutions: 153772
+time allsat to find the solutions: 0.746574163437
+total time: 4.11572217941
+
+uf100-0729.cnf
+number of variables: 100
+number of solutions: 312
+time allsat to find the solutions: 0.0364091396332
+total time: 0.0497360229492
+
+uf100-0730.cnf
+number of variables: 100
+number of solutions: 48622
+time allsat to find the solutions: 0.291549921036
+total time: 1.34254407883
+
+uf100-0731.cnf
+number of variables: 100
+number of solutions: 44
+time allsat to find the solutions: 0.0469799041748
+total time: 0.0494868755341
+
+uf100-0732.cnf
+number of variables: 100
+number of solutions: 1728
+time allsat to find the solutions: 0.0471150875092
+total time: 0.0885241031647
+
+uf100-0733.cnf
+number of variables: 100
+number of solutions: 18
+time allsat to find the solutions: 0.0873820781708
+total time: 0.0880498886108
+
+uf100-0734.cnf
+number of variables: 100
+number of solutions: 530690
+time allsat to find the solutions: 2.67241096497
+total time: 14.7717568874
+
+uf100-0735.cnf
+number of variables: 100
+number of solutions: 107434
+time allsat to find the solutions: 0.507654905319
+total time: 2.74936389923
+
+uf100-0736.cnf
+number of variables: 100
+number of solutions: 848
+time allsat to find the solutions: 0.077810049057
+total time: 0.1024081707
+
+uf100-0737.cnf
+number of variables: 100
+number of solutions: 32532
+time allsat to find the solutions: 0.21621799469
+total time: 0.922730922699
+
+uf100-0738.cnf
+number of variables: 100
+number of solutions: 50252
+time allsat to find the solutions: 0.283020973206
+total time: 1.32812905312
+
+uf100-0739.cnf
+number of variables: 100
+number of solutions: 2332
+time allsat to find the solutions: 0.0783131122589
+total time: 0.131565093994
+
+uf100-0740.cnf
+number of variables: 100
+number of solutions: 5614
+time allsat to find the solutions: 0.0862691402435
+total time: 0.211670160294
+
+uf100-0741.cnf
+number of variables: 100
+number of solutions: 2432
+time allsat to find the solutions: 0.0732808113098
+total time: 0.132606983185
+
+uf100-0742.cnf
+number of variables: 100
+number of solutions: 256
+time allsat to find the solutions: 0.256507158279
+total time: 0.262989997864
+
+uf100-0743.cnf
+number of variables: 100
+number of solutions: 27073
+time allsat to find the solutions: 0.194028139114
+total time: 0.776166915894
+
+uf100-0744.cnf
+number of variables: 100
+number of solutions: 2592
+time allsat to find the solutions: 0.0670959949493
+total time: 0.13326716423
+
+uf100-0745.cnf
+number of variables: 100
+number of solutions: 124
+time allsat to find the solutions: 0.055125951767
+total time: 0.0591650009155
+
+uf100-0746.cnf
+number of variables: 100
+number of solutions: 413271
+time allsat to find the solutions: 1.75175786018
+total time: 11.1164309978
+
+uf100-0747.cnf
+number of variables: 100
+number of solutions: 516
+time allsat to find the solutions: 0.0886969566345
+total time: 0.107392072678
+
+uf100-0748.cnf
+number of variables: 100
+number of solutions: 3278
+time allsat to find the solutions: 0.0820550918579
+total time: 0.158799171448
+
+uf100-0749.cnf
+number of variables: 100
+number of solutions: 4114
+time allsat to find the solutions: 0.0779929161072
+total time: 0.167608976364
+
+uf100-0750.cnf
+number of variables: 100
+number of solutions: 980
+time allsat to find the solutions: 0.0594220161438
+total time: 0.0884299278259
+
+uf100-0751.cnf
+number of variables: 100
+number of solutions: 832
+time allsat to find the solutions: 0.0255439281464
+total time: 0.0500938892365
+
+uf100-0752.cnf
+number of variables: 100
+number of solutions: 3528
+time allsat to find the solutions: 0.0339560508728
+total time: 0.116531848907
+
+uf100-0753.cnf
+number of variables: 100
+number of solutions: 2304
+time allsat to find the solutions: 0.0373570919037
+total time: 0.0928781032562
+
+uf100-0754.cnf
+number of variables: 100
+number of solutions: 43484
+time allsat to find the solutions: 0.237446069717
+total time: 1.13594007492
+
+uf100-0755.cnf
+number of variables: 100
+number of solutions: 7580
+time allsat to find the solutions: 0.0815439224243
+total time: 0.246337890625
+
+uf100-0756.cnf
+number of variables: 100
+number of solutions: 51819
+time allsat to find the solutions: 0.258876085281
+total time: 1.35127592087
+
+uf100-0757.cnf
+number of variables: 100
+number of solutions: 189996
+time allsat to find the solutions: 1.18092608452
+total time: 5.32278013229
+
+uf100-0758.cnf
+number of variables: 100
+number of solutions: 391884
+time allsat to find the solutions: 1.76982903481
+total time: 10.3331758976
+
+uf100-0759.cnf
+number of variables: 100
+number of solutions: 10320
+time allsat to find the solutions: 0.0932130813599
+total time: 0.321766138077
+
+uf100-0760.cnf
+number of variables: 100
+number of solutions: 220
+time allsat to find the solutions: 0.0657150745392
+total time: 0.0738689899445
+
+uf100-0761.cnf
+number of variables: 100
+number of solutions: 450326
+time allsat to find the solutions: 2.50755095482
+total time: 12.5966451168
+
+uf100-0762.cnf
+number of variables: 100
+number of solutions: 900
+time allsat to find the solutions: 0.0954239368439
+total time: 0.120876073837
+
+uf100-0763.cnf
+number of variables: 100
+number of solutions: 77769
+time allsat to find the solutions: 0.470834970474
+total time: 2.14405107498
+
+uf100-0764.cnf
+number of variables: 100
+number of solutions: 9692
+time allsat to find the solutions: 0.0995168685913
+total time: 0.311142921448
+
+uf100-0765.cnf
+number of variables: 100
+number of solutions: 80723
+time allsat to find the solutions: 0.474881887436
+total time: 2.23819804192
+
+uf100-0767.cnf
+number of variables: 100
+number of solutions: 104568
+time allsat to find the solutions: 0.864144086838
+total time: 3.06410908699
+
+uf100-0768.cnf
+number of variables: 100
+number of solutions: 6840
+time allsat to find the solutions: 0.0668671131134
+total time: 0.213977098465
+
+uf100-0769.cnf
+number of variables: 100
+number of solutions: 18132
+time allsat to find the solutions: 0.121467113495
+total time: 0.508635044098
+
+uf100-0770.cnf
+number of variables: 100
+number of solutions: 330798
+time allsat to find the solutions: 1.6075129509
+total time: 9.32545304298
+
+uf100-0771.cnf
+number of variables: 100
+number of solutions: 1668
+time allsat to find the solutions: 0.045755147934
+total time: 0.0861001014709
+
+uf100-0772.cnf
+number of variables: 100
+number of solutions: 35584
+time allsat to find the solutions: 0.166411876678
+total time: 0.91020989418
+
+uf100-0773.cnf
+number of variables: 100
+number of solutions: 65036
+time allsat to find the solutions: 0.288717985153
+total time: 1.6533498764
+
+uf100-0774.cnf
+number of variables: 100
+number of solutions: 130
+time allsat to find the solutions: 0.0428600311279
+total time: 0.0479509830475
+
+uf100-0775.cnf
+number of variables: 100
+number of solutions: 245428
+time allsat to find the solutions: 1.46458292007
+total time: 6.8926050663
+
+uf100-0776.cnf
+number of variables: 100
+number of solutions: 4136352
+time allsat to find the solutions: 24.4448740482
+total time: 156.305424213
+
+uf100-0777.cnf
+number of variables: 100
+number of solutions: 214956
+time allsat to find the solutions: 1.01452589035
+total time: 6.10651993752
+
+uf100-0778.cnf
+number of variables: 100
+number of solutions: 91400
+time allsat to find the solutions: 0.624274969101
+total time: 2.61697793007
+
+uf100-0779.cnf
+number of variables: 100
+number of solutions: 788546
+time allsat to find the solutions: 4.0897321701
+total time: 23.2205290794
+
+uf100-0780.cnf
+number of variables: 100
+number of solutions: 21
+time allsat to find the solutions: 0.0803120136261
+total time: 0.0814788341522
+
+uf100-0781.cnf
+number of variables: 100
+number of solutions: 29748
+time allsat to find the solutions: 0.216942071915
+total time: 0.841423988342
+
+uf100-0782.cnf
+number of variables: 100
+number of solutions: 84280
+time allsat to find the solutions: 0.419299125671
+total time: 2.2037961483
+
+uf100-0783.cnf
+number of variables: 100
+number of solutions: 88242
+time allsat to find the solutions: 0.534964084625
+total time: 2.40762400627
+
+uf100-0784.cnf
+number of variables: 100
+number of solutions: 24
+time allsat to find the solutions: 0.0593030452728
+total time: 0.0603170394897
+
+uf100-0785.cnf
+number of variables: 100
+number of solutions: 6544
+time allsat to find the solutions: 0.0903558731079
+total time: 0.238911867142
+
+uf100-0786.cnf
+number of variables: 100
+number of solutions: 492
+time allsat to find the solutions: 0.0635039806366
+total time: 0.0763430595398
+
+uf100-0787.cnf
+number of variables: 100
+number of solutions: 22902
+time allsat to find the solutions: 0.156981945038
+total time: 0.646627902985
+
+uf100-0788.cnf
+number of variables: 100
+number of solutions: 46463
+time allsat to find the solutions: 0.320071935654
+total time: 1.30141282082
+
+uf100-0789.cnf
+number of variables: 100
+number of solutions: 216
+time allsat to find the solutions: 0.0533981323242
+total time: 0.061408996582
+
+uf100-0790.cnf
+number of variables: 100
+number of solutions: 22930
+time allsat to find the solutions: 0.167977809906
+total time: 0.650538921356
+
+uf100-0791.cnf
+number of variables: 100
+number of solutions: 93278
+time allsat to find the solutions: 0.788022994995
+total time: 2.79195404053
+
+uf100-0792.cnf
+number of variables: 100
+number of solutions: 195430
+time allsat to find the solutions: 1.03484582901
+total time: 5.37023591995
+
+uf100-0794.cnf
+number of variables: 100
+number of solutions: 1648
+time allsat to find the solutions: 0.29816699028
+total time: 0.339814901352
+
+uf100-0795.cnf
+number of variables: 100
+number of solutions: 1776
+time allsat to find the solutions: 0.0251579284668
+total time: 0.0730700492859
+
+uf100-0796.cnf
+number of variables: 100
+number of solutions: 44
+time allsat to find the solutions: 0.0150530338287
+total time: 0.0168268680573
+
+uf100-0797.cnf
+number of variables: 100
+number of solutions: 39128
+time allsat to find the solutions: 0.263370037079
+total time: 1.0663061142
+
+uf100-0798.cnf
+number of variables: 100
+number of solutions: 2496
+time allsat to find the solutions: 0.0371310710907
+total time: 0.0996859073639
+
+uf100-0799.cnf
+number of variables: 100
+number of solutions: 20306
+time allsat to find the solutions: 0.16596698761
+total time: 0.609096050262
+
+uf100-0800.cnf
+number of variables: 100
+number of solutions: 28488
+time allsat to find the solutions: 0.169462919235
+total time: 0.782953023911
+
+uf100-0801.cnf
+number of variables: 100
+number of solutions: 3504
+time allsat to find the solutions: 0.0377659797668
+total time: 0.121363162994
+
+uf100-0802.cnf
+number of variables: 100
+number of solutions: 204
+time allsat to find the solutions: 0.0315730571747
+total time: 0.03919506073
+
+uf100-0803.cnf
+number of variables: 100
+number of solutions: 968
+time allsat to find the solutions: 0.0559070110321
+total time: 0.0818650722504
+
+uf100-0804.cnf
+number of variables: 100
+number of solutions: 936
+time allsat to find the solutions: 0.0247049331665
+total time: 0.0510010719299
+
+uf100-0805.cnf
+number of variables: 100
+number of solutions: 314499
+time allsat to find the solutions: 1.22243618965
+total time: 8.01411700249
+
+uf100-0806.cnf
+number of variables: 100
+number of solutions: 309590
+time allsat to find the solutions: 1.62229299545
+total time: 8.4862370491
+
+uf100-0807.cnf
+number of variables: 100
+number of solutions: 15664
+time allsat to find the solutions: 0.133151054382
+total time: 0.463561058044
+
+uf100-0808.cnf
+number of variables: 100
+number of solutions: 6
+time allsat to find the solutions: 0.0433921813965
+total time: 0.0439941883087
+
+uf100-0809.cnf
+number of variables: 100
+number of solutions: 49688
+time allsat to find the solutions: 0.277885198593
+total time: 1.30019211769
+
+uf100-0810.cnf
+number of variables: 100
+number of solutions: 4770
+time allsat to find the solutions: 0.0937838554382
+total time: 0.197423934937
+
+uf100-0811.cnf
+number of variables: 100
+number of solutions: 1079
+time allsat to find the solutions: 0.0499229431152
+total time: 0.0821270942688
+
+uf100-0812.cnf
+number of variables: 100
+number of solutions: 246
+time allsat to find the solutions: 0.0526900291443
+total time: 0.0611171722412
+
+uf100-0813.cnf
+number of variables: 100
+number of solutions: 36
+time allsat to find the solutions: 0.0371339321136
+total time: 0.0391318798065
+
+uf100-0814.cnf
+number of variables: 100
+number of solutions: 1088
+time allsat to find the solutions: 0.0515921115875
+total time: 0.0813870429993
+
+uf100-0815.cnf
+number of variables: 100
+number of solutions: 129742
+time allsat to find the solutions: 0.608721971512
+total time: 3.48486399651
+
+uf100-0816.cnf
+number of variables: 100
+number of solutions: 33633
+time allsat to find the solutions: 0.199476003647
+total time: 0.925217866898
+
+uf100-0817.cnf
+number of variables: 100
+number of solutions: 5002
+time allsat to find the solutions: 0.0746848583221
+total time: 0.184916973114
+
+uf100-0818.cnf
+number of variables: 100
+number of solutions: 1945
+time allsat to find the solutions: 0.0597720146179
+total time: 0.106284856796
+
+uf100-0819.cnf
+number of variables: 100
+number of solutions: 212
+time allsat to find the solutions: 0.0619301795959
+total time: 0.0702891349792
+
+uf100-0820.cnf
+number of variables: 100
+number of solutions: 550990
+time allsat to find the solutions: 2.90423893929
+total time: 15.3860430717
+
+uf100-0821.cnf
+number of variables: 100
+number of solutions: 1408
+time allsat to find the solutions: 0.108426094055
+total time: 0.141894102097
+
+uf100-0822.cnf
+number of variables: 100
+number of solutions: 1548472
+time allsat to find the solutions: 8.97164607048
+total time: 44.0554680824
+
+uf100-0823.cnf
+number of variables: 100
+number of solutions: 509011
+time allsat to find the solutions: 2.41960382462
+total time: 13.7074329853
+
+uf100-0824.cnf
+number of variables: 100
+number of solutions: 132
+time allsat to find the solutions: 0.113990068436
+total time: 0.117228031158
+
+uf100-0825.cnf
+number of variables: 100
+number of solutions: 1788
+time allsat to find the solutions: 0.0975761413574
+total time: 0.144575119019
+
+uf100-0826.cnf
+number of variables: 100
+number of solutions: 2464
+time allsat to find the solutions: 0.104811906815
+total time: 0.164119958878
+
+uf100-0827.cnf
+number of variables: 100
+number of solutions: 96
+time allsat to find the solutions: 0.0995540618896
+total time: 0.102710008621
+
+uf100-0828.cnf
+number of variables: 100
+number of solutions: 4822
+time allsat to find the solutions: 0.131045818329
+total time: 0.243297815323
+
+uf100-0829.cnf
+number of variables: 100
+number of solutions: 79024
+time allsat to find the solutions: 0.371608018875
+total time: 2.05204200745
+
+uf100-0830.cnf
+number of variables: 100
+number of solutions: 435916
+time allsat to find the solutions: 2.04667210579
+total time: 12.1450870037
+
+uf100-0831.cnf
+number of variables: 100
+number of solutions: 12
+time allsat to find the solutions: 0.101027965546
+total time: 0.102134943008
+
+uf100-0832.cnf
+number of variables: 100
+number of solutions: 14498
+time allsat to find the solutions: 0.167276144028
+total time: 0.482111930847
+
+uf100-0833.cnf
+number of variables: 100
+number of solutions: 22428
+time allsat to find the solutions: 0.200732946396
+total time: 0.681652069092
+
+uf100-0835.cnf
+number of variables: 100
+number of solutions: 3360
+time allsat to find the solutions: 0.180598974228
+total time: 0.257881879807
+
+uf100-0838.cnf
+number of variables: 100
+number of solutions: 3667
+time allsat to find the solutions: 0.169997930527
+total time: 0.25758099556
+
+uf100-0839.cnf
+number of variables: 100
+number of solutions: 1440
+time allsat to find the solutions: 0.0264401435852
+total time: 0.0627861022949
+
+uf100-0840.cnf
+number of variables: 100
+number of solutions: 24224
+time allsat to find the solutions: 0.115099191666
+total time: 0.666125059128
+
+uf100-0841.cnf
+number of variables: 100
+number of solutions: 291004
+time allsat to find the solutions: 1.22185397148
+total time: 7.5765068531
+
+uf100-0842.cnf
+number of variables: 100
+number of solutions: 149392
+time allsat to find the solutions: 0.978670835495
+total time: 4.1930308342
+
+uf100-0843.cnf
+number of variables: 100
+number of solutions: 142012
+time allsat to find the solutions: 0.649636983871
+total time: 3.69725894928
+
+uf100-0844.cnf
+number of variables: 100
+number of solutions: 224
+time allsat to find the solutions: 0.0596289634705
+total time: 0.0685539245605
+
+uf100-0845.cnf
+number of variables: 100
+number of solutions: 7962
+time allsat to find the solutions: 0.0875079631805
+total time: 0.259248971939
+
+uf100-0846.cnf
+number of variables: 100
+number of solutions: 1152
+time allsat to find the solutions: 0.0551090240479
+total time: 0.0873420238495
+
+uf100-0847.cnf
+number of variables: 100
+number of solutions: 762
+time allsat to find the solutions: 0.0634908676147
+total time: 0.0842068195343
+
+uf100-0848.cnf
+number of variables: 100
+number of solutions: 1648
+time allsat to find the solutions: 0.0459380149841
+total time: 0.0903680324554
+
+uf100-0849.cnf
+number of variables: 100
+number of solutions: 10276
+time allsat to find the solutions: 0.0925800800323
+total time: 0.325845956802
+
+uf100-0850.cnf
+number of variables: 100
+number of solutions: 80
+time allsat to find the solutions: 0.0373811721802
+total time: 0.0403280258179
+
+uf100-0851.cnf
+number of variables: 100
+number of solutions: 28370
+time allsat to find the solutions: 0.153857946396
+total time: 0.783485889435
+
+uf100-0852.cnf
+number of variables: 100
+number of solutions: 136
+time allsat to find the solutions: 0.0205011367798
+total time: 0.0266480445862
+
+uf100-0853.cnf
+number of variables: 100
+number of solutions: 80
+time allsat to find the solutions: 0.0366539955139
+total time: 0.0395469665527
+
+uf100-0854.cnf
+number of variables: 100
+number of solutions: 73536
+time allsat to find the solutions: 0.405084848404
+total time: 1.98089289665
+
+uf100-0855.cnf
+number of variables: 100
+number of solutions: 32
+time allsat to find the solutions: 0.0351688861847
+total time: 0.0361878871918
+
+uf100-0856.cnf
+number of variables: 100
+number of solutions: 2328
+time allsat to find the solutions: 0.0531899929047
+total time: 0.110393047333
+
+uf100-0857.cnf
+number of variables: 100
+number of solutions: 1016
+time allsat to find the solutions: 0.0357849597931
+total time: 0.0651741027832
+
+uf100-0858.cnf
+number of variables: 100
+number of solutions: 482752
+time allsat to find the solutions: 1.93072009087
+total time: 12.872934103
+
+uf100-0859.cnf
+number of variables: 100
+number of solutions: 136
+time allsat to find the solutions: 0.0537180900574
+total time: 0.0581312179565
+
+uf100-0860.cnf
+number of variables: 100
+number of solutions: 6948
+time allsat to find the solutions: 0.095755815506
+total time: 0.248184919357
+
+uf100-0861.cnf
+number of variables: 100
+number of solutions: 13272
+time allsat to find the solutions: 0.112850904465
+total time: 0.395060777664
+
+uf100-0862.cnf
+number of variables: 100
+number of solutions: 49804
+time allsat to find the solutions: 0.246842861176
+total time: 1.30692601204
+
+uf100-0863.cnf
+number of variables: 100
+number of solutions: 121125
+time allsat to find the solutions: 0.623907804489
+total time: 3.22383189201
+
+uf100-0864.cnf
+number of variables: 100
+number of solutions: 32
+time allsat to find the solutions: 0.0437920093536
+total time: 0.0451531410217
+
+uf100-0865.cnf
+number of variables: 100
+number of solutions: 35
+time allsat to find the solutions: 0.0649411678314
+total time: 0.0659811496735
+
+uf100-0866.cnf
+number of variables: 100
+number of solutions: 31896
+time allsat to find the solutions: 0.193228960037
+total time: 0.87008190155
+
+uf100-0867.cnf
+number of variables: 100
+number of solutions: 14
+time allsat to find the solutions: 0.0750410556793
+total time: 0.0759048461914
+
+uf100-0868.cnf
+number of variables: 100
+number of solutions: 220521
+time allsat to find the solutions: 0.946101903915
+total time: 5.69932198524
+
+uf100-0869.cnf
+number of variables: 100
+number of solutions: 148083
+time allsat to find the solutions: 0.706922054291
+total time: 3.94178414345
+
+uf100-0870.cnf
+number of variables: 100
+number of solutions: 588
+time allsat to find the solutions: 0.0823750495911
+total time: 0.102254152298
+
+uf100-0871.cnf
+number of variables: 100
+number of solutions: 13640
+time allsat to find the solutions: 0.113889932632
+total time: 0.410186052322
+
+uf100-0872.cnf
+number of variables: 100
+number of solutions: 81424
+time allsat to find the solutions: 0.366856098175
+total time: 2.18520712852
+
+uf100-0873.cnf
+number of variables: 100
+number of solutions: 10004
+time allsat to find the solutions: 0.106785058975
+total time: 0.32849407196
+
+uf100-0874.cnf
+number of variables: 100
+number of solutions: 21736
+time allsat to find the solutions: 0.156821966171
+total time: 0.636248111725
+
+uf100-0875.cnf
+number of variables: 100
+number of solutions: 66778
+time allsat to find the solutions: 0.470127820969
+total time: 1.94204592705
+
+uf100-0876.cnf
+number of variables: 100
+number of solutions: 28386
+time allsat to find the solutions: 0.190374851227
+total time: 0.799098968506
+
+uf100-0877.cnf
+number of variables: 100
+number of solutions: 83088
+time allsat to find the solutions: 0.656339168549
+total time: 2.40738606453
+
+uf100-0878.cnf
+number of variables: 100
+number of solutions: 720
+time allsat to find the solutions: 0.0610048770905
+total time: 0.0824809074402
+
+uf100-0879.cnf
+number of variables: 100
+number of solutions: 168
+time allsat to find the solutions: 0.0834488868713
+total time: 0.0887050628662
+
+uf100-0880.cnf
+number of variables: 100
+number of solutions: 2688
+time allsat to find the solutions: 0.0671980381012
+total time: 0.12899184227
+
+uf100-0881.cnf
+number of variables: 100
+number of solutions: 85368
+time allsat to find the solutions: 0.41535615921
+total time: 2.20313715935
+
+uf100-0882.cnf
+number of variables: 100
+number of solutions: 17324
+time allsat to find the solutions: 0.166512966156
+total time: 0.537742853165
+
+uf100-0883.cnf
+number of variables: 100
+number of solutions: 11160
+time allsat to find the solutions: 0.141809940338
+total time: 0.40494799614
+
+uf100-0884.cnf
+number of variables: 100
+number of solutions: 2656
+time allsat to find the solutions: 0.0759620666504
+total time: 0.141306877136
+
+uf100-0885.cnf
+number of variables: 100
+number of solutions: 219168
+time allsat to find the solutions: 1.5497739315
+total time: 6.28368496895
+
+uf100-0886.cnf
+number of variables: 100
+number of solutions: 7252
+time allsat to find the solutions: 0.104523897171
+total time: 0.261383056641
+
+uf100-0887.cnf
+number of variables: 100
+number of solutions: 4532
+time allsat to find the solutions: 0.0865411758423
+total time: 0.191022157669
+
+uf100-0888.cnf
+number of variables: 100
+number of solutions: 684
+time allsat to find the solutions: 0.078996181488
+total time: 0.0971131324768
+
+uf100-0889.cnf
+number of variables: 100
+number of solutions: 36
+time allsat to find the solutions: 0.0843389034271
+total time: 0.0857400894165
+
+uf100-0890.cnf
+number of variables: 100
+number of solutions: 8114
+time allsat to find the solutions: 0.110137939453
+total time: 0.28456902504
+
+uf100-0891.cnf
+number of variables: 100
+number of solutions: 125314
+time allsat to find the solutions: 0.58281993866
+total time: 3.23976397514
+
+uf100-0892.cnf
+number of variables: 100
+number of solutions: 820813
+time allsat to find the solutions: 3.73232316971
+total time: 22.4959900379
+
+uf100-0893.cnf
+number of variables: 100
+number of solutions: 128
+time allsat to find the solutions: 0.0993359088898
+total time: 0.104467868805
+
+uf100-0894.cnf
+number of variables: 100
+number of solutions: 20460
+time allsat to find the solutions: 0.185590028763
+total time: 0.622830867767
+
+uf100-0895.cnf
+number of variables: 100
+number of solutions: 83919
+time allsat to find the solutions: 0.525954961777
+total time: 2.26388096809
+
+uf100-0896.cnf
+number of variables: 100
+number of solutions: 4756
+time allsat to find the solutions: 0.126279115677
+total time: 0.229397058487
+
+uf100-0897.cnf
+number of variables: 100
+number of solutions: 28464
+time allsat to find the solutions: 0.208256006241
+total time: 0.803179979324
+
+uf100-0898.cnf
+number of variables: 100
+number of solutions: 212575
+time allsat to find the solutions: 1.00379180908
+total time: 5.66924500465
+
+uf100-0899.cnf
+number of variables: 100
+number of solutions: 320
+time allsat to find the solutions: 0.0901300907135
+total time: 0.100764036179
+
+uf100-0900.cnf
+number of variables: 100
+number of solutions: 220
+time allsat to find the solutions: 0.0812799930573
+total time: 0.0892400741577
+
+uf100-0901.cnf
+number of variables: 100
+number of solutions: 2304
+time allsat to find the solutions: 0.0276789665222
+total time: 0.0837590694427
+
+uf100-0902.cnf
+number of variables: 100
+number of solutions: 3040
+time allsat to find the solutions: 0.0425040721893
+total time: 0.107511997223
+
+uf100-0903.cnf
+number of variables: 100
+number of solutions: 1032
+time allsat to find the solutions: 0.025945186615
+total time: 0.0532460212708
+
+uf100-0904.cnf
+number of variables: 100
+number of solutions: 216
+time allsat to find the solutions: 0.0257530212402
+total time: 0.0346961021423
+
+uf100-0905.cnf
+number of variables: 100
+number of solutions: 106188
+time allsat to find the solutions: 0.550421953201
+total time: 2.8122549057
+
+uf100-0906.cnf
+number of variables: 100
+number of solutions: 1104
+time allsat to find the solutions: 0.0501980781555
+total time: 0.0775721073151
+
+uf100-0907.cnf
+number of variables: 100
+number of solutions: 241040
+time allsat to find the solutions: 1.08741617203
+total time: 6.34863400459
+
+uf100-0908.cnf
+number of variables: 100
+number of solutions: 301168
+time allsat to find the solutions: 1.19059705734
+total time: 7.78341913223
+
+uf100-0909.cnf
+number of variables: 100
+number of solutions: 41993
+time allsat to find the solutions: 0.433272838593
+total time: 1.31085681915
+
+uf100-0910.cnf
+number of variables: 100
+number of solutions: 32531
+time allsat to find the solutions: 0.222648859024
+total time: 0.928892850876
+
+uf100-0911.cnf
+number of variables: 100
+number of solutions: 45032
+time allsat to find the solutions: 0.241930961609
+total time: 1.20679712296
+
+uf100-0912.cnf
+number of variables: 100
+number of solutions: 4117
+time allsat to find the solutions: 0.0735549926758
+total time: 0.166743993759
+
+uf100-0913.cnf
+number of variables: 100
+number of solutions: 3590
+time allsat to find the solutions: 0.0854249000549
+total time: 0.170660018921
+
+uf100-0914.cnf
+number of variables: 100
+number of solutions: 320
+time allsat to find the solutions: 0.0781757831573
+total time: 0.0914359092712
+
+uf100-0915.cnf
+number of variables: 100
+number of solutions: 1080
+time allsat to find the solutions: 0.0520341396332
+total time: 0.0828189849854
+
+uf100-0916.cnf
+number of variables: 100
+number of solutions: 172
+time allsat to find the solutions: 0.0464069843292
+total time: 0.0518989562988
+
+uf100-0917.cnf
+number of variables: 100
+number of solutions: 136599
+time allsat to find the solutions: 0.70414686203
+total time: 3.70256686211
+
+uf100-0918.cnf
+number of variables: 100
+number of solutions: 4690
+time allsat to find the solutions: 0.0810790061951
+total time: 0.187398910522
+
+uf100-0919.cnf
+number of variables: 100
+number of solutions: 22892
+time allsat to find the solutions: 0.208165884018
+total time: 0.694156885147
+
+uf100-0920.cnf
+number of variables: 100
+number of solutions: 1060
+time allsat to find the solutions: 0.0705790519714
+total time: 0.101039886475
+
+uf100-0921.cnf
+number of variables: 100
+number of solutions: 97400
+time allsat to find the solutions: 0.413660049438
+total time: 2.52976608276
+
+uf100-0922.cnf
+number of variables: 100
+number of solutions: 106562
+time allsat to find the solutions: 0.461342096329
+total time: 2.72436213493
+
+uf100-0923.cnf
+number of variables: 100
+number of solutions: 52
+time allsat to find the solutions: 0.0872859954834
+total time: 0.0891301631927
+
+uf100-0924.cnf
+number of variables: 100
+number of solutions: 60
+time allsat to find the solutions: 0.046441078186
+total time: 0.0492289066315
+
+uf100-0925.cnf
+number of variables: 100
+number of solutions: 50
+time allsat to find the solutions: 0.0505878925323
+total time: 0.0528240203857
+
+uf100-0926.cnf
+number of variables: 100
+number of solutions: 18712
+time allsat to find the solutions: 0.130310058594
+total time: 0.526169061661
+
+uf100-0927.cnf
+number of variables: 100
+number of solutions: 3668
+time allsat to find the solutions: 0.093936920166
+total time: 0.177978038788
+
+uf100-0928.cnf
+number of variables: 100
+number of solutions: 45477
+time allsat to find the solutions: 0.245177030563
+total time: 1.23640799522
+
+uf100-0929.cnf
+number of variables: 100
+number of solutions: 302940
+time allsat to find the solutions: 1.33989691734
+total time: 7.88906097412
+
+uf100-0930.cnf
+number of variables: 100
+number of solutions: 9580
+time allsat to find the solutions: 0.0983309745789
+total time: 0.31269288063
+
+uf100-0931.cnf
+number of variables: 100
+number of solutions: 16744
+time allsat to find the solutions: 0.141307115555
+total time: 0.498126029968
+
+uf100-0932.cnf
+number of variables: 100
+number of solutions: 6452
+time allsat to find the solutions: 0.129420995712
+total time: 0.269850969315
+
+uf100-0933.cnf
+number of variables: 100
+number of solutions: 1104
+time allsat to find the solutions: 0.0753531455994
+total time: 0.103880167007
+
+uf100-0934.cnf
+number of variables: 100
+number of solutions: 354
+time allsat to find the solutions: 0.067902803421
+total time: 0.0793399810791
+
+uf100-0935.cnf
+number of variables: 100
+number of solutions: 564
+time allsat to find the solutions: 0.0739750862122
+total time: 0.0925350189209
+
+uf100-0936.cnf
+number of variables: 100
+number of solutions: 3579478
+time allsat to find the solutions: 22.9106740952
+total time: 137.123550892
+
+uf100-0937.cnf
+number of variables: 100
+number of solutions: 808
+time allsat to find the solutions: 0.0722551345825
+total time: 0.169324159622
+
+uf100-0938.cnf
+number of variables: 100
+number of solutions: 10398
+time allsat to find the solutions: 0.0781700611115
+total time: 0.301622152328
+
+uf100-0939.cnf
+number of variables: 100
+number of solutions: 117408
+time allsat to find the solutions: 0.483180046082
+total time: 3.03506398201
+
+uf100-0940.cnf
+number of variables: 100
+number of solutions: 2944
+time allsat to find the solutions: 0.0483849048615
+total time: 0.113585948944
+
+uf100-0941.cnf
+number of variables: 100
+number of solutions: 170464
+time allsat to find the solutions: 0.92512512207
+total time: 4.53873705864
+
+uf100-0942.cnf
+number of variables: 100
+number of solutions: 105
+time allsat to find the solutions: 0.038834810257
+total time: 0.0436630249023
+
+uf100-0943.cnf
+number of variables: 100
+number of solutions: 160
+time allsat to find the solutions: 0.0364491939545
+total time: 0.0436980724335
+
+uf100-0944.cnf
+number of variables: 100
+number of solutions: 672
+time allsat to find the solutions: 0.0401439666748
+total time: 0.061094045639
+
+uf100-0945.cnf
+number of variables: 100
+number of solutions: 68
+time allsat to find the solutions: 0.0521821975708
+total time: 0.0546569824219
+
+uf100-0946.cnf
+number of variables: 100
+number of solutions: 9702
+time allsat to find the solutions: 0.0805549621582
+total time: 0.292788028717
+
+uf100-0947.cnf
+number of variables: 100
+number of solutions: 116514
+time allsat to find the solutions: 0.503108978271
+total time: 2.99633789062
+
+uf100-0948.cnf
+number of variables: 100
+number of solutions: 21184
+time allsat to find the solutions: 0.165149927139
+total time: 0.623690128326
+
+uf100-0949.cnf
+number of variables: 100
+number of solutions: 320
+time allsat to find the solutions: 0.0324590206146
+total time: 0.0432829856873
+
+uf100-0950.cnf
+number of variables: 100
+number of solutions: 192
+time allsat to find the solutions: 0.029217004776
+total time: 0.0360651016235
+
+uf100-0951.cnf
+number of variables: 100
+number of solutions: 1842
+time allsat to find the solutions: 0.0396230220795
+total time: 0.0824379920959
+
+uf100-0952.cnf
+number of variables: 100
+number of solutions: 132
+time allsat to find the solutions: 0.0201508998871
+total time: 0.0246839523315
+
+uf100-0953.cnf
+number of variables: 100
+number of solutions: 2
+time allsat to find the solutions: 0.0257079601288
+total time: 0.0261509418488
+
+uf100-0954.cnf
+number of variables: 100
+number of solutions: 2389378
+time allsat to find the solutions: 15.2915410995
+total time: 71.4161860943
+
+uf100-0955.cnf
+number of variables: 100
+number of solutions: 1934
+time allsat to find the solutions: 0.14822602272
+total time: 0.195113897324
+
+uf100-0956.cnf
+number of variables: 100
+number of solutions: 3520
+time allsat to find the solutions: 0.14221405983
+total time: 0.217371940613
+
+uf100-0957.cnf
+number of variables: 100
+number of solutions: 904731
+time allsat to find the solutions: 4.85957193375
+total time: 25.3175609112
+
+uf100-0958.cnf
+number of variables: 100
+number of solutions: 27826
+time allsat to find the solutions: 0.220751047134
+total time: 0.808037996292
+
+uf100-0959.cnf
+number of variables: 100
+number of solutions: 392
+time allsat to find the solutions: 0.0894999504089
+total time: 0.103199005127
+
+uf100-0960.cnf
+number of variables: 100
+number of solutions: 61044
+time allsat to find the solutions: 0.349835157394
+total time: 1.65159797668
+
+uf100-0961.cnf
+number of variables: 100
+number of solutions: 815379
+time allsat to find the solutions: 4.40257501602
+total time: 23.3671071529
+
+uf100-0962.cnf
+number of variables: 100
+number of solutions: 7584
+time allsat to find the solutions: 0.146042108536
+total time: 0.310222148895
+
+uf100-0963.cnf
+number of variables: 100
+number of solutions: 141902
+time allsat to find the solutions: 0.631920099258
+total time: 3.72460412979
+
+uf100-0964.cnf
+number of variables: 100
+number of solutions: 2960
+time allsat to find the solutions: 0.129853010178
+total time: 0.202782154083
+
+uf100-0965.cnf
+number of variables: 100
+number of solutions: 4650
+time allsat to find the solutions: 0.120127916336
+total time: 0.225961923599
+
+uf100-0966.cnf
+number of variables: 100
+number of solutions: 256
+time allsat to find the solutions: 0.107728004456
+total time: 0.117733955383
+
+uf100-0967.cnf
+number of variables: 100
+number of solutions: 127371
+time allsat to find the solutions: 0.643265008926
+total time: 3.52073287964
+
+uf100-0968.cnf
+number of variables: 100
+number of solutions: 832
+time allsat to find the solutions: 0.0977611541748
+total time: 0.121492147446
+
+uf100-0969.cnf
+number of variables: 100
+number of solutions: 227409
+time allsat to find the solutions: 1.13913106918
+total time: 6.22743320465
+
+uf100-0971.cnf
+number of variables: 100
+number of solutions: 12012
+time allsat to find the solutions: 0.1202480793
+total time: 0.38120007515
+
+uf100-0972.cnf
+number of variables: 100
+number of solutions: 1136
+time allsat to find the solutions: 0.018856048584
+total time: 0.0487079620361
+
+uf100-0973.cnf
+number of variables: 100
+number of solutions: 42998
+time allsat to find the solutions: 0.225885868073
+total time: 1.22179198265
+
+uf100-0974.cnf
+number of variables: 100
+number of solutions: 6400
+time allsat to find the solutions: 0.0572102069855
+total time: 0.226096153259
+
+uf100-0975.cnf
+number of variables: 100
+number of solutions: 264
+time allsat to find the solutions: 0.0128910541534
+total time: 0.0196149349213
+
+uf100-0976.cnf
+number of variables: 100
+number of solutions: 1071
+time allsat to find the solutions: 0.0435979366302
+total time: 0.0804278850555
+
+uf100-0977.cnf
+number of variables: 100
+number of solutions: 792
+time allsat to find the solutions: 0.0344729423523
+total time: 0.0587310791016
+
+uf100-0978.cnf
+number of variables: 100
+number of solutions: 292794
+time allsat to find the solutions: 1.37665915489
+total time: 7.84586405754
+
+uf100-0979.cnf
+number of variables: 100
+number of solutions: 970
+time allsat to find the solutions: 0.049232006073
+total time: 0.0729398727417
+
+uf100-0980.cnf
+number of variables: 100
+number of solutions: 1792
+time allsat to find the solutions: 0.0489490032196
+total time: 0.0936279296875
+
+uf100-0981.cnf
+number of variables: 100
+number of solutions: 32
+time allsat to find the solutions: 0.0363750457764
+total time: 0.0380520820618
+
+uf100-0982.cnf
+number of variables: 100
+number of solutions: 69168
+time allsat to find the solutions: 0.32190990448
+total time: 1.77118992805
+
+uf100-0983.cnf
+number of variables: 100
+number of solutions: 2568
+time allsat to find the solutions: 0.0466058254242
+total time: 0.106195926666
+
+uf100-0984.cnf
+number of variables: 100
+number of solutions: 1168
+time allsat to find the solutions: 0.0483720302582
+total time: 0.0799679756165
+
+uf100-0985.cnf
+number of variables: 100
+number of solutions: 40
+time allsat to find the solutions: 0.0352811813354
+total time: 0.0370869636536
+
+uf100-0986.cnf
+number of variables: 100
+number of solutions: 1476
+time allsat to find the solutions: 0.0485370159149
+total time: 0.0917119979858
+
+uf100-0987.cnf
+number of variables: 100
+number of solutions: 245444
+time allsat to find the solutions: 1.02073502541
+total time: 6.3398411274
+
+uf100-0988.cnf
+number of variables: 100
+number of solutions: 984
+time allsat to find the solutions: 0.0426239967346
+total time: 0.0714869499207
+
+uf100-0989.cnf
+number of variables: 100
+number of solutions: 24
+time allsat to find the solutions: 0.0401620864868
+total time: 0.0412249565125
+
+uf100-0990.cnf
+number of variables: 100
+number of solutions: 19024
+time allsat to find the solutions: 0.146384000778
+total time: 0.552144050598
+
+uf100-0991.cnf
+number of variables: 100
+number of solutions: 2416
+time allsat to find the solutions: 0.0918619632721
+total time: 0.147739887238
+
+uf100-0992.cnf
+number of variables: 100
+number of solutions: 1686767
+time allsat to find the solutions: 11.6774618626
+total time: 51.3369708061
+
+uf100-0993.cnf
+number of variables: 100
+number of solutions: 273796
+time allsat to find the solutions: 1.49349498749
+total time: 7.12075090408
+
+uf100-0994.cnf
+number of variables: 100
+number of solutions: 402667
+time allsat to find the solutions: 1.91998791695
+total time: 10.7610008717
+
+uf100-0995.cnf
+number of variables: 100
+number of solutions: 144
+time allsat to find the solutions: 0.0971641540527
+total time: 0.101865053177
+
+uf100-0996.cnf
+number of variables: 100
+number of solutions: 1936
+time allsat to find the solutions: 0.0967478752136
+total time: 0.141201019287
+
+uf100-0997.cnf
+number of variables: 100
+number of solutions: 42512
+time allsat to find the solutions: 0.278129816055
+total time: 1.17659187317
+
+uf100-0998.cnf
+number of variables: 100
+number of solutions: 4600
+time allsat to find the solutions: 0.114555120468
+total time: 0.213566064835
+
+uf100-0999.cnf
+number of variables: 100
+number of solutions: 144
+time allsat to find the solutions: 0.096607208252
+total time: 0.101170063019
+
+uf100-01000.cnf
+number of variables: 100
+number of solutions: 16963
+time allsat to find the solutions: 0.19403219223
+total time: 0.553620100021
+
+uf100-02.cnf
+number of variables: 100
+number of solutions: 196
+time allsat to find the solutions: 0.0231370925903
+total time: 0.0322780609131
+
+uf100-02.cnf
+number of variables: 100
+number of solutions: 196
+time allsat to find the solutions: 0.0244159698486
+total time: 0.033194065094
+
+uf100-01.cnf
+number of variables: 100
+number of solutions: 314
+time allsat to find the solutions: 0.115943908691
+total time: 0.13032078743
+
+uf100-0136.cnf
+number of variables: 100
+number of solutions: 5741037
+time allsat to find the solutions: 29.828040123
+total time: 188.203316212
+
+uf100-0516.cnf
+number of variables: 100
+number of solutions: 41157380
+time allsat to find the solutions: 180.553723097
+total time: -10
+
+uf100-0704.cnf
+number of variables: 100
+number of solutions: 35561252
+time allsat to find the solutions: 156.075854063
+total time: -10
+
+uf100-0717.cnf
+number of variables: 100
+number of solutions: 8056924
+time allsat to find the solutions: 40.874186039
+total time: -10
+
+uf100-0766.cnf
+number of variables: 100
+number of solutions: 14374546
+time allsat to find the solutions: 67.8642749786
+total time: -10
+
+uf100-0793.cnf
+number of variables: 100
+number of solutions: 24399077
+time allsat to find the solutions: 109.143841028
+total time: -10
+
+uf100-0834.cnf
+number of variables: 100
+number of solutions: 6463180
+time allsat to find the solutions: 34.3994619846
+total time: 214.714766026
+
+uf100-0836.cnf
+number of variables: 100
+number of solutions: 3935624
+time allsat to find the solutions: 23.7239658833
+total time: 130.056262016
+
+uf100-0837.cnf
+number of variables: 100
+number of solutions: 4899865
+time allsat to find the solutions: 27.6935651302
+total time: 162.353079081
+
+uf100-0936.cnf
+number of variables: 100
+number of solutions: 3579478
+time allsat to find the solutions: 24.053276062
+total time: 122.032623053
+
+uf100-0954.cnf
+number of variables: 100
+number of solutions: 2389378
+time allsat to find the solutions: 15.4606151581
+total time: 82.02343297
+
+uf100-0970.cnf
+number of variables: 100
+number of solutions: 1291119
+time allsat to find the solutions: 9.23324513435
+total time: 44.1702370644
+

@@ -222,7 +222,7 @@ def buildFormula(s):
 return the result matrix and the dictionary that give the index if a variable
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 '''
-def getSolutions(s,stat=0,smatrix=0,name=""):
+def getSolutions(s,stat=0,smatrix=0,name="inputfile"):
 
     start=time.time()
     res=()
@@ -248,15 +248,21 @@ def getSolutions(s,stat=0,smatrix=0,name=""):
 
     startmatrixc=time.time()
     #print startmatrixc
-####read the file row by ow and give them to the c program that will return the int version
+####read the file row by ow and append 0 and 1 to the matrix
     matrix=[]
     i=0
     line=fout.readline()
+    timein1=time.time()
     while line:
-        darrayptr = lib_cpp.create_matrix(str(res[1]),line)
-        intmatrix = [x for x in darrayptr.contents]
-        matrix.append(intmatrix)
-        i=i+1
+        j=0
+        matrix.append([])
+        while j < 2*(res[1]):
+            if line[j]=='0':	
+                matrix[i].append(0)
+            elif line [j]=='1':
+                matrix[i].append(1)            
+            j+=2
+        i+=1 
         line=fout.readline()
     nlines=i
     end=time.time()
@@ -283,7 +289,7 @@ def getSolutions(s,stat=0,smatrix=0,name=""):
         #print("time spend converting in c: "+ str(tottime))
         print("total time: "+str(end-startnormal)+"\n\n")  
     elif stat==3:
-        f3=open("all100",'a')
+        f3=open("all125",'a')
         f3.write(name+"\n")
         f3.write("number of variables: "+str(res[1])+"\n")
         f3.write("number of solutions: "+str(nlines)+"\n")
@@ -297,8 +303,8 @@ def getSolutions(s,stat=0,smatrix=0,name=""):
         del res
     #return (matrix,res[3]) 
     
-
 '''
+
 f=open("prova","r")
 sf=f.readlines()
 i=0
@@ -321,11 +327,13 @@ getSolutions(s,2,0,'')
 
 
 
-j=70
-while j<71:
-    name="uf100-0"+str(j)+".cnf"
-    f=open(os.path.join("cnf",name))
+k=40
+j=k
+while j<k+1:
+    name="uf125-0"+str(j)+".cnf"
+    f=open(os.path.join("cnf125",name))
     print name
+    print 'number of variables: 125'
     sf=f.readlines()
     i=0
     while i>=0:
@@ -335,44 +343,10 @@ while j<71:
         else:
             i=-1
     s=buildFormula(sf)
+    del sf
     getSolutions(s,3,0,name)
+    del s
     j+=1
-
-'''
-    splitted_str=fout.readlines() 
-
-
-    splitted_str=results.split('\n');
-    nlines=long(splitted_str[-1])
-    while i<nlines:
-        #start_conv=time.time()
-        darrayptr = lib_cpp.create_matrix(str(res[1]),splitted_str[i])
-        #end_conv=time.time()
-        #times.append(end_conv-start_conv)
-        intmatrix = [x for x in darrayptr.contents]
-        matrix.append(intmatrix)
-        i=i+1
-for i in range(0,len(times)):
-        tottime+=times[i]
-'''
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
