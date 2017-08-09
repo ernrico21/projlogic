@@ -289,7 +289,7 @@ def getSolutions(s,stat=0,smatrix=0,name="inputfile"):
         #print("time spend converting in c: "+ str(tottime))
         print("total time: "+str(end-startnormal)+"\n\n")  
     elif stat==3:
-        f3=open("all125",'a')
+        f3=open("all150",'a')
         f3.write(name+"\n")
         f3.write("number of variables: "+str(res[1])+"\n")
         f3.write("number of solutions: "+str(nlines)+"\n")
@@ -327,13 +327,13 @@ getSolutions(s,2,0,'')
 
 
 
-k=40
+k=57
 j=k
 while j<k+1:
-    name="uf125-0"+str(j)+".cnf"
-    f=open(os.path.join("cnf125",name))
+    name="uf150-0"+str(j)+".cnf"
+    f=open(os.path.join("cnf150",name))
     print name
-    print 'number of variables: 125'
+    print 'number of variables: 150'
     sf=f.readlines()
     i=0
     while i>=0:
