@@ -1,0 +1,306 @@
+
+'''
+class row_element(Structure):
+    pass
+
+
+row_element._fields_=[("nsol",ctypes.c_long),("value",POINTER(ctypes.c_int *res[1])),("next",POINTER(row_element) )]
+
+
+row_element_pointer=POINTER(row_element)
+
+
+
+#INT=ctypes.c_int
+#ARRAY=ctypes.POINTER(INT*1)
+#MATRIX=ctypes.POINTER(POINTER(c_int))
+
+
+main_cpp = ctypes.CDLL('./dll/main.so')
+main_cpp.solve.restype =row_element_pointer
+
+resmatrix=row_element_pointer()
+
+startext=time.time()
+
+resmatrix = main_cpp.solve(stringadimacs)
+
+endallsat=time.time()
+
+print("time allsat as lib: "+str(endallsat-startext))
+startmatrixext=time.time()
+i=0
+nsol = resmatrix.contents.nsol
+print ("number of solutions: "+str(nsol))
+
+matrix=[]
+while i<nsol:    
+    matrix.append([x for x in resmatrix.contents.value.contents])
+    resmatrix=resmatrix.contents.next
+    i+=1
+endext=time.time()
+print("time building matrix: "+str(endext-startmatrixext))
+print("total time as lib: "+str(endext-startext))
+
+startmatrixpy1=time.time()
+buildMAtrix(results,res[1])
+endmatrixpy1=time.time()
+print("matrix in python with split: "+str(endmatrixpy1-startmatrixpy1))
+
+
+startmatrixpy2=time.time()
+buildMAtrix2(results,res[1])
+endmatrixpy2=time.time()
+print("matrix in python normal: "+str(endmatrixpy2-startmatrixpy2))
+'''
+
+'''
+#create matrix from the result string
+def buildMAtrix(str_results,nvar):
+    matrix=[]
+    splitted_str=str_results.split('\n');
+    nlines=long(splitted_str[-1])
+    i=0
+    while(i<nlines):     
+        matrix.append(map(int,splitted_str[i].split()))#vedere se si riesce a fare meglio dello split
+        i+=1
+   # print("elementi matrice: "+ str(nlines*nvar))
+    #print(matrix)
+
+
+
+def buildMAtrix2(str_results,nvar):
+    matrix=[]
+    splitted_str=str_results.split('\n');
+    nlines=long(splitted_str[-1])
+    i=0
+    j=0
+    k=0
+    while i < nlines:
+        j=0
+        matrix.append([])
+        while j < 2*(nvar):	
+            matrix[i].append(int(splitted_str[i][j]))
+            j+=2
+        i+=1 
+    #print matrix
+'''
+
+
+####using the c library
+    lib_cpp = ctypes.CDLL('./intmtx.so')
+    lib_cpp.create_matrix.restype = ctypes.POINTER(ctypes.c_int * res[1])
+    splitted_str=fout.readlines() 
+
+
+    splitted_str=results.split('\n');
+    nlines=long(splitted_str[-1])
+    while i<nlines:
+        #start_conv=time.time()
+        darrayptr = lib_cpp.create_matrix(str(res[1]),splitted_str[i])
+        #end_conv=time.time()
+        #times.append(end_conv-start_conv)
+        intmatrix = [x for x in darrayptr.contents]
+        matrix.append(intmatrix)
+        i=i+1
+for i in range(0,len(times)):
+        tottime+=times[i]
+
+    while line:
+        darrayptr = lib_cpp.create_matrix(str(res[1]),line)
+        intmatrix = [x for x in darrayptr.contents]
+        matrix.append(intmatrix)
+        i=i+1
+        if i % 1000000 == 0:
+            timein2=time.time()
+            print i
+            print str(timein2-timein1)
+            timein1=time.time()
+
+    while line:
+        matrix.append(map(int,line.split()))#vedere se si riesce a fare meglio dello split
+        i+=1
+        line=fout.readline()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+'''
+
+f=open("prova","r")
+sf=f.readlines()
+i=0
+while i>=0:
+    if sf[0][0]=='c':
+        sf.pop(0)
+        i+=1
+    else:
+        i=-1
+
+s=buildFormula(sf)
+print s
+print(buildDimacsString(s)[0])
+getSolutions(s)
+
+'''
+#print(s)
+#s='And(Or(Not(var1), var3, var2, var5), Or(Not(var2), var1, var3,var5), Or(var1, var2, var4))'
+
+
+'''
+
+k=57
+j=k
+while j<k+1:
+    name="uf150-0"+str(j)+".cnf"
+    f=open(os.path.join("cnf150",name))
+    print name
+    print 'number of variables: 150'
+    sf=f.readlines()
+    i=0
+    while i>=0:
+        if sf[0][0]=='c':
+            sf.pop(0)
+            i+=1
+        else:
+            i=-1
+    s=buildFormula(sf)
+    del sf
+    getSolutions(s,3,0,name)
+    del s
+    j+=1
+
+
+'''
+
+
+elif operations[-1] == 'Not':
+                if variable[0]=='-':
+                    variable=variable[1:len(variable)]
+                if variable not in variables:                         #if is a new variable i add it in the dictionary
+                    variables.update({variable:indexvariable})    
+                    inv_variables.update({indexvariable:variable})                
+                    variable=str(indexvariable)
+                    nVar+=1
+                    variable='-'+variable
+                    indexvariable+=1
+                else:
+                    variable=str(variables[variable])
+                    variable='-'+variable  
+                cnfstring+=(variable+' ') #add the variable of the clause in the row
+                variable=''
+                
+
+
+
+
+
+
+
+
+    
+    if smatrix==1:
+        print(numpy.matrix(matrix))
+    if stat==1:
+        f2=open("res",'a')
+        f2.write("number of variables: "+str(res[1])+"\n")
+        f2.write("number of solutions: "+str(nlines)+"\n")
+        #print("matrix elements: "+ str(nlines*res[1]))
+        f2.write("time allsat to find the solutions: "+str(endallsatnormal-startnormal)+"\n")
+        #print("time building matrix: "+str(end-startmatrixc))
+        #print("time spend converting in c: "+ str(tottime))
+        f2.write("total time: "+str(end-startnormal)+"\n\n")    
+        f2.close()
+    elif stat ==2:
+        print("number of variables: "+str(res[1])+"\n")
+        print("number of solutions: "+str(nlines)+"\n")
+        #print("matrix elements: "+ str(nlines*res[1]))
+        print("time allsat to find the solutions: "+str(endallsatnormal-startnormal)+"\n")
+        #print("time building matrix: "+str(end-startmatrixc))
+        #print("time spend converting in c: "+ str(tottime))
+        print("total time: "+str(end-startnormal)+"\n\n")  
+    elif stat==3:
+        f3=open("all150",'a')
+        f3.write(name+"\n")
+        f3.write("number of variables: "+str(res[1])+"\n")
+        f3.write("number of solutions: "+str(nlines)+"\n")
+        #print("matrix elements: "+ str(nlines*res[1]))
+        f3.write("time allsat to find the solutions: "+str(endallsatnormal-startnormal)+"\n")
+        #print("time building matrix: "+str(end-startmatrixc))
+        #print("time spend converting in c: "+ str(tottime))
+        f3.write("total time: "+str(end-startnormal)+"\n\n")    
+        f3.close()
+        del matrix
+        del res
+    return (matrix,res[3]) 
+    
+
+
+
+
+elif stat==3:
+        f3=open("all150",'a')
+        f3.write(name+"\n")
+        f3.write("number of variables: "+str(res[1])+"\n")
+        f3.write("number of solutions: "+str(nlines)+"\n")
+        f3.write("time allsat to find the solutions: "+str(endallsatnormal-startnormal)+"\n")
+        f3.write("total time: "+str(end-startnormal)+"\n\n")    
+        f3.close()
+        del matrix
+        del res
+
+
+
+
+
+
+'''
+test , tring cut off some variables or some clauses
+'''
+def buildFormulad(s):
+    rs=s[0].split()
+    nvar=int(rs[2])
+    nclause=int(rs[3])
+    res='And('
+    i=1
+    k=1
+    n=0;
+    while k< (nclause+1):
+        n=0
+        ri=s[i].split()
+        if ri[0]!='0':
+            temp="Or("
+            for j in range (0,len(ri)):
+                if(int(ri[j])<0):
+                    inte=int(ri[j])
+                    if inte%2==0:
+                        temp=temp+'Not(Var'+str(abs(inte))+'),'
+                        n+=1
+                elif ri[j]!='0':
+                    inte=int(ri[j])
+                    if inte%2==0:
+                        temp=temp+'Var'+str(inte)+','
+                        n+=1
+            temp=temp[0:-1]+'),'
+            if n==0:
+                temp=temp[0:-4]                
+            res=res+temp
+            k+=1
+        i+=1
+    res=res[0:-1]+')'
+    return res 

@@ -328,7 +328,7 @@ static uintptr_t obdd_decompose_main(FILE *out, int n, obdd_t* p, uintptr_t (*fu
     p = p->hi;
   }
   free(b); free(a);
-  printf("number of solutions: %lu\n",total);
+  printf("%lu\n",total);
   return total;
 }
 

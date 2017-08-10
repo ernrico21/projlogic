@@ -1,5 +1,4 @@
 #function for building the matrix where every line is a clause
-import ctypes
 import time
 import subprocess
 import sys
@@ -40,41 +39,38 @@ def findNot(c,i):
 build the dimacs formula from a And(OR(....)) one
 '''
 def buildDimacsString(c):
-    first=1 #if is the first line
-    #matrix=[[]]
     cnfstring='';
     variables={}
     inv_variables={}
     nVar=0
     nRow=0 #number of clause
     buff=[]; #for buffering the letter for the variables
-    end=0;
-    i,i2=0,0 #iterator of the clause
+    i=0 #iterator of the formula
+    #i2=0
     j=-1 #need to chek if i found a key word
     leng=len(c)
     operations=[] #operation's stack
     variable="";
     indexvariable=1 #index for variables
-    minus=0 #ven writing variabile if is negated
+    minus=0 #when writing variabile if is negated
 
     while i<leng:
         j=-1
-        i2=i
         if c[i]=='A':
             j=findAnd(c,i)
             if j!=-1 :
                 operations.append('And')   #put the operations in the stack 
-                i2=i+2              
+                i=i+2        
         elif c[i] == 'O':
             j=findOr(c,i)
             if j!=-1:
-                operations.append('Or')
-                i2=i+1               
+                operations.append('Or')      
+                i=i+2             
         elif c[i] == 'N':        
             j= findNot(c,i)
             if j!=-1:
-                operations.append('Not')
-                i2=i+2               
+                operations.append('Not')      
+                i=i+2                
         elif c[i] == ',':                 
             if len(buff) != 0:
                 k=0
@@ -82,31 +78,33 @@ def buildDimacsString(c):
                 while k<lengbuff :
                     variable += buff.pop(0)          #when "," means that if i was reading a variable the variable is finished so i pop it off the buff
                     k+=1
-
             if operations[-1] == 'Or':               #if "or" i just add the variable
-                if variable[0]=='-':
-                    variable=variable[1:len(variable)]
-                    minus=1
+#                if variable[0]=='-':
+#                    variable=variable[1:len(variable)]
+#                    minus=1
                 if variable not in variables:                         #if is a new variable i add it in the dictionary
                     variables.update({variable:indexvariable})    
                     inv_variables.update({indexvariable:variable})                
-                    variable=str(indexvariable)
-                    nVar+=1
-                    if minus == 1:
-                        variable='-'+variable
-                        minus=0
+                    variable=str(indexvariable)     
+                    nVar+=1 
                     indexvariable+=1
                 else:
-                    variable=str(variables[variable])
-		    if minus ==1:                                #if the variable was inside a not i have di put "-" in front of it
-                        variable='-'+variable    
-                        minus=0                
+                    variable=str(variables[variable])       #set the index of the variabile as variable name
+#                if minus ==1:                                #if the variable was inside a not i have di put "-" in front of it
+#                    variable='-'+variable    
+#                    minus-=1  
+                if minus > 0:
+                    if minus % 2 == 1:
+                        variable='-'+variable
+                    minus=0
+
+
                 cnfstring+=(variable+' ') #add the variable of the clause in the row
                 variable=''
             
             elif operations[-1] == 'And':   #"and"means that this clause is finished so i start another one
                 cnfstring+='0\n' 
-                nRow+=1
+                
         elif c[i] == ')':    #when i see ')' means an operation is finished, so after doing the opesations i pop the operations off the stack
             if len(buff) != 0:     #same as the "," for the variables
                 k=0
@@ -115,29 +113,32 @@ def buildDimacsString(c):
                     variable += buff.pop(0)
                     k+=1
             if operations[-1] == 'Not' :  #set the controller to 1 for the not
-                variable='-'+variable
+#                variable='-'+variable
+                minus+=1
                 operations.pop()
             elif operations[-1] == 'Or' :  
-                if variable[0]=='-':
-                    variable=variable[1:len(variable)]
-                    minus=1
-
-                if variable not in variables:
-                    variables.update({variable:indexvariable})
-                    inv_variables.update({indexvariable:variable})
-                    variable=str(indexvariable)
-                    nVar+=1
-                    if minus == 1:
-                        variable='-'+variable
+                if len(variable)!=0:         
+#                    if variable[0]=='-':
+#                        variable=variable[1:len(variable)]
+#                        minus=1    
+                    if variable not in variables:
+                        variables.update({variable:indexvariable})
+                        inv_variables.update({indexvariable:variable})
+                        variable=str(indexvariable)
+                        nVar+=1
+                        indexvariable+=1                        
+                    else:
+                        variable=str(variables[variable])
+#                    if minus ==1:
+#                        variable='-'+variable    
+#                        minus-=1
+                    if minus > 0:
+                        if minus % 2 == 1:
+                            variable='-'+variable
                         minus=0
-                    indexvariable+=1
-                else:
-                    variable=str(variables[variable])
-                if minus ==1:
-                    variable='-'+variable    
-                    minus=0                    
-                cnfstring+=(variable+' ')
-                variable=''
+    
+                    cnfstring+=(variable+' ')
+                    variable=''
                 operations.pop()
             elif operations[-1]== 'And' :
                  cnfstring+='0\n'
@@ -145,48 +146,10 @@ def buildDimacsString(c):
         else:
             if c[i]!='('  and j== -1 and c[i]!=' ':              #put the char in the buff for creating the variable name
                 buff.append(c[i])
-        i=i2
         i+=1  
     return (cnfstring,nVar,nRow+1,inv_variables,variables)
 
         
-'''
-test , tring cut off some variables or some clauses
-'''
-def buildFormulad(s):
-    rs=s[0].split()
-    nvar=int(rs[2])
-    nclause=int(rs[3])
-    res='And('
-    i=1
-    k=1
-    #k=nclause/10
-    n=0;
-    while k< (nclause+1):
-        n=0
-        ri=s[i].split()
-        if ri[0]!='0':
-            temp="Or("
-            for j in range (0,len(ri)):
-                if(int(ri[j])<0):
-                    inte=int(ri[j])
-                    if inte%2==0:
-                        temp=temp+'Not(Var'+str(abs(inte))+'),'
-                        n+=1
-                elif ri[j]!='0':
-                    inte=int(ri[j])
-                    if inte%2==0:
-                        temp=temp+'Var'+str(inte)+','
-                        n+=1
-            temp=temp[0:-1]+'),'
-            if n==0:
-                temp=temp[0:-4]                
-            res=res+temp
-            k+=1
-        i+=1
-    res=res[0:-1]+')'
-    return res 
-
 
 
 '''
@@ -205,9 +168,9 @@ def buildFormula(s):
             temp="Or("
             for j in range (0,len(ri)):
                 if(int(ri[j])<0):
-                    temp=temp+'Not(Var'+str(abs(int(ri[j])))+'),'
+                    temp=temp+'Not('+str(abs(int(ri[j])))+'),'
                 elif ri[j]!='0':
-                    temp=temp+'Var'+ri[j]+','
+                    temp=temp+ri[j]+','
             temp=temp[0:-1]+'),'
             res=res+temp
             k+=1
@@ -218,12 +181,14 @@ def buildFormula(s):
 
 
 '''
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-return the result matrix and the dictionary that give the index if a variable
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+Return the result matrix and the dictionary that give the index if a variable
+Printing the matrix with numpy call getSolutions with 2nd parameter =1
+Printing time stats in fie 3rd parameter =1 if 4th parameter not specified filename=outputfile
+Printing time stats in shell 3rd parameter =2
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 '''
-def getSolutions(s,stat=0,smatrix=0,name="inputfile"):
-
+def getSolutions(s,smatrix=0,stat=0,name="outputfile"):
     start=time.time()
     res=()
     res = buildDimacsString(s)  
@@ -237,17 +202,17 @@ def getSolutions(s,stat=0,smatrix=0,name="inputfile"):
 
 ####getting results from bdd_allsat
 
-    p=subprocess.call(args)
+    p=subprocess.check_output(args)
+    nres=p.split()
+    nsol=0
+    for i in range (0,len(nres)):
+        nsol+=long(nres[i])
+    
     endallsatnormal=time.time()
-    print("time allsat to find the solutions: "+str(endallsatnormal-startnormal)+"\n")
-    fout=open("out","r")  
-
-####using the c library
-    lib_cpp = ctypes.CDLL('./intmtx.so')
-    lib_cpp.create_matrix.restype = ctypes.POINTER(ctypes.c_int * res[1])
-
+    fout=open("out","r") 
+    
     startmatrixc=time.time()
-    #print startmatrixc
+
 ####read the file row by ow and append 0 and 1 to the matrix
     matrix=[]
     i=0
@@ -267,43 +232,38 @@ def getSolutions(s,stat=0,smatrix=0,name="inputfile"):
     nlines=i
     end=time.time()
     fout.close()
-    
+###print some timing informations or the matrix    
     if smatrix==1:
+        numpy.set_printoptions(threshold=numpy.nan)
         print(numpy.matrix(matrix))
     if stat==1:
-        f2=open("res",'a')
+        f2=open(name,'a')
         f2.write("number of variables: "+str(res[1])+"\n")
         f2.write("number of solutions: "+str(nlines)+"\n")
-        #print("matrix elements: "+ str(nlines*res[1]))
         f2.write("time allsat to find the solutions: "+str(endallsatnormal-startnormal)+"\n")
-        #print("time building matrix: "+str(end-startmatrixc))
-        #print("time spend converting in c: "+ str(tottime))
         f2.write("total time: "+str(end-startnormal)+"\n\n")    
         f2.close()
     elif stat ==2:
         print("number of variables: "+str(res[1])+"\n")
         print("number of solutions: "+str(nlines)+"\n")
-        #print("matrix elements: "+ str(nlines*res[1]))
         print("time allsat to find the solutions: "+str(endallsatnormal-startnormal)+"\n")
-        #print("time building matrix: "+str(end-startmatrixc))
-        #print("time spend converting in c: "+ str(tottime))
         print("total time: "+str(end-startnormal)+"\n\n")  
-    elif stat==3:
-        f3=open("all150",'a')
-        f3.write(name+"\n")
-        f3.write("number of variables: "+str(res[1])+"\n")
-        f3.write("number of solutions: "+str(nlines)+"\n")
-        #print("matrix elements: "+ str(nlines*res[1]))
-        f3.write("time allsat to find the solutions: "+str(endallsatnormal-startnormal)+"\n")
-        #print("time building matrix: "+str(end-startmatrixc))
-        #print("time spend converting in c: "+ str(tottime))
-        f3.write("total time: "+str(end-startnormal)+"\n\n")    
-        f3.close()
-        del matrix
-        del res
-    #return (matrix,res[3]) 
+    return (matrix,res[3]) 
     
-'''
+
+
+
+s1='And(Or(Not(var1), var2, Not(Not(Not(var3))), Not(Not(var4))), Or(Not(var2), var1, var3,var5))And(Or(var1, var2, var4))'
+s2='And(Or(Not(var1), var2, Not(Not(Not(var3))), Not(Not(var4))), Or(Not(var2), var1, var3,var5), Or(var1, var2, var4))'
+s3='And(Or(Not(var1),Or(var2,Or(Not(Not(Not(var3))), Not(Not(var4))))),Or(Not(var2),Or(var1,Or(var3,var5))))And(Or(var1, Or(var2, var4)))'
+
+dims1=buildDimacsString(s1)
+dims2=buildDimacsString(s2)
+dims3=buildDimacsString(s3)
+
+print dims1[0]
+print dims2[0]
+print dims3[0]
 
 f=open("prova","r")
 sf=f.readlines()
@@ -317,48 +277,8 @@ while i>=0:
 
 s=buildFormula(sf)
 #print s
-#print(buildDimacsString(s)[0])
-getSolutions(s,2,0,'')
-'''
-
-#print(s)
-#s='And(Or(Not(var1), var3, var2, var5), Or(Not(var2), var1, var3,var5), Or(var1, var2, var4))'
-
-
-
-
-k=57
-j=k
-while j<k+1:
-    name="uf150-0"+str(j)+".cnf"
-    f=open(os.path.join("cnf150",name))
-    print name
-    print 'number of variables: 150'
-    sf=f.readlines()
-    i=0
-    while i>=0:
-        if sf[0][0]=='c':
-            sf.pop(0)
-            i+=1
-        else:
-            i=-1
-    s=buildFormula(sf)
-    del sf
-    getSolutions(s,3,0,name)
-    del s
-    j+=1
-
-
-
-
-
-
-
-
-
-
-
-
+print(buildDimacsString(s)[0])
+getSolutions(s,1)
 
 
  

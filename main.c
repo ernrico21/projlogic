@@ -357,5 +357,5 @@ int main(int argc, char** argv)
     }
 #endif
     solver_delete(s);
-    return 1;
+    return 0;
 }
